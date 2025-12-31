@@ -7,7 +7,7 @@ import DeveloperPage from './pages/DeveloperPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/openlog">
       <div className="app">
         <Navbar />
         <main>

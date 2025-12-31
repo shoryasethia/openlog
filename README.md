@@ -19,7 +19,7 @@ OpenLog is a static web application that monitors uptime and incident reports fr
 ## Live Demo
 
 When deployed to GitHub Pages, the application will be available at:
-`https://username.github.io/openlog/`
+`https://shoryasethia.github.io/openlog/`
 
 ## Architecture
 
@@ -43,7 +43,7 @@ OpenLog uses GitHub Actions to periodically fetch RSS feeds from AI provider sta
 
 Clone the repository:
 ```bash
-git clone https://github.com/username/openlog.git
+git clone https://github.com/shoryasethia/openlog.git
 cd openlog
 ```
 
@@ -61,7 +61,7 @@ npm install
    
    Update `frontend/vite.config.js`:
    ```javascript
-   base: '/repository-name/',
+   base: '/openlog/',
    ```
 
 2. **Enable GitHub Pages**
@@ -80,7 +80,7 @@ GitHub Actions will automatically:
 - Generate static JSON data files
 - Build and deploy the frontend
 
-Site will be available at `https://username.github.io/repository-name/`
+Site will be available at `https://shoryasethia.github.io/openlog/`
 
 ### Local Development
 
