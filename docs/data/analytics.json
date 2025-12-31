@@ -10,7 +10,13 @@
         "cohere": 0,
         "perplexity": 0,
         "mistral": 0,
-        "together": 0
+        "together": 0,
+        "xai": 0,
+        "cartesia": 0,
+        "deepgram": 0,
+        "stability": 0,
+        "huggingface": 0,
+        "replicate": 0
       },
       "uptime": {
         "openai": {
@@ -44,6 +50,30 @@
         "together": {
           "uptime_percentage": 100.0,
           "incident_count": 0
+        },
+        "xai": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "cartesia": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "deepgram": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "stability": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "huggingface": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "replicate": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
         }
       },
       "mttr": {}
@@ -54,11 +84,17 @@
         "google": 1,
         "openai": 20,
         "anthropic": 20,
+        "cartesia": 1,
+        "deepgram": 1,
         "groq": 0,
         "cohere": 0,
         "perplexity": 0,
         "mistral": 0,
-        "together": 0
+        "together": 0,
+        "xai": 0,
+        "stability": 0,
+        "huggingface": 0,
+        "replicate": 0
       },
       "uptime": {
         "openai": {
@@ -92,6 +128,30 @@
         "together": {
           "uptime_percentage": 100.0,
           "incident_count": 0
+        },
+        "xai": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "cartesia": {
+          "uptime_percentage": 99.86,
+          "incident_count": 1
+        },
+        "deepgram": {
+          "uptime_percentage": 99.86,
+          "incident_count": 1
+        },
+        "stability": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "huggingface": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "replicate": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
         }
       },
       "mttr": {}
@@ -102,11 +162,17 @@
         "google": 1,
         "openai": 20,
         "anthropic": 20,
+        "cartesia": 7,
+        "deepgram": 10,
+        "stability": 1,
         "cohere": 1,
         "groq": 0,
         "perplexity": 0,
         "mistral": 0,
-        "together": 0
+        "together": 0,
+        "xai": 0,
+        "huggingface": 0,
+        "replicate": 0
       },
       "uptime": {
         "openai": {
@@ -140,10 +206,34 @@
         "together": {
           "uptime_percentage": 100.0,
           "incident_count": 0
+        },
+        "xai": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "cartesia": {
+          "uptime_percentage": 99.68,
+          "incident_count": 7
+        },
+        "deepgram": {
+          "uptime_percentage": 99.54,
+          "incident_count": 10
+        },
+        "stability": {
+          "uptime_percentage": 99.95,
+          "incident_count": 1
+        },
+        "huggingface": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "replicate": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
         }
       },
       "mttr": {}
     }
   },
-  "last_updated": "2025-12-31T11:32:03.586222"
+  "last_updated": "2025-12-31T11:47:33.388222"
 }

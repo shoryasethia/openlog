@@ -9,7 +9,7 @@ const API_BASE = import.meta.env.DEV ? 'http://localhost:5000/api' : DATA_BASE;
 function DeveloperPage() {
   const [templates, setTemplates] = useState({});
   const [selectedTemplate, setSelectedTemplate] = useState('javascript');
-  const [copied, setCopied] = useState(false);
+  const [copiedId, setCopiedId] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -34,10 +34,10 @@ function DeveloperPage() {
     }
   };
 
-  const copyToClipboard = (text) => {
+  const copyToClipboard = (text, id) => {
     navigator.clipboard.writeText(text);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+    setCopiedId(id);
+    setTimeout(() => setCopiedId(null), 2000);
   };
 
   const currentTemplate = templates[selectedTemplate];
@@ -111,10 +111,10 @@ function DeveloperPage() {
                 <div className="code-block">
                   <button
                     className="copy-button"
-                    onClick={() => copyToClipboard(doc.example)}
+                    onClick={() => copyToClipboard(doc.example, `doc-${index}`)}
                   >
-                    {copied ? <Check size={14} /> : <Copy size={14} />}
-                    {copied ? 'Copied!' : 'Copy'}
+                    {copiedId === `doc-${index}` ? <Check size={14} /> : <Copy size={14} />}
+                    {copiedId === `doc-${index}` ? 'Copied!' : 'Copy'}
                   </button>
                   <pre>{doc.example}</pre>
                 </div>
@@ -154,10 +154,10 @@ function DeveloperPage() {
                 </div>
                 <button
                   className="btn-primary"
-                  onClick={() => copyToClipboard(currentTemplate.code)}
+                  onClick={() => copyToClipboard(currentTemplate.code, 'template')}
                 >
-                  {copied ? <Check size={18} /> : <Copy size={18} />}
-                  {copied ? 'Copied!' : 'Copy Code'}
+                  {copiedId === 'template' ? <Check size={18} /> : <Copy size={18} />}
+                  {copiedId === 'template' ? 'Copied!' : 'Copy Code'}
                 </button>
               </div>
 
@@ -193,9 +193,9 @@ function DeveloperPage() {
         console.log(\`⚠️ \${provider.display_name}: \${provider.current_status}\`);
       }
     });
-  });`)}
+  });`, 'example-1')}
                 >
-                  {copied ? <Check size={14} /> : <Copy size={14} />}
+                  {copiedId === 'example-1' ? <Check size={14} /> : <Copy size={14} />}
                 </button>
                 <pre>{`fetch('${API_BASE}/status')
   .then(res => res.json())
@@ -221,9 +221,9 @@ function DeveloperPage() {
     data.incidents.forEach(inc => {
       console.log(\`[\${inc.provider}] \${inc.title} - \${inc.status}\`);
     });
-  });`)}
+  });`, 'example-2')}
                 >
-                  {copied ? <Check size={14} /> : <Copy size={14} />}
+                  {copiedId === 'example-2' ? <Check size={14} /> : <Copy size={14} />}
                 </button>
                 <pre>{`fetch('${API_BASE}/incidents?limit=5')
   .then(res => res.json())
@@ -247,9 +247,9 @@ function DeveloperPage() {
     Object.entries(data.uptime).forEach(([provider, stats]) => {
       console.log(\`\${provider}: \${stats.uptime_percentage.toFixed(2)}% uptime\`);
     });
-  });`)}
+  });`, 'example-3')}
                 >
-                  {copied ? <Check size={14} /> : <Copy size={14} />}
+                  {copiedId === 'example-3' ? <Check size={14} /> : <Copy size={14} />}
                 </button>
                 <pre>{`fetch('${API_BASE}/analytics?days=30')
   .then(res => res.json())

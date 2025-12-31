@@ -71,7 +71,61 @@
       "logo_url": "https://www.together.ai/favicon.ico",
       "color": "#7c3aed",
       "description": "Leading Open Source AI"
+    },
+    {
+      "name": "xai",
+      "display_name": "xAI (Grok)",
+      "status_page": "https://status.x.ai",
+      "rss_feed": "https://status.x.ai/history.rss",
+      "logo_url": "https://x.ai/favicon.ico",
+      "color": "#000000",
+      "description": "Grok AI Assistant"
+    },
+    {
+      "name": "cartesia",
+      "display_name": "Cartesia",
+      "status_page": "https://status.cartesia.ai",
+      "rss_feed": "https://status.cartesia.ai/history.rss",
+      "logo_url": "https://cartesia.ai/favicon.ico",
+      "color": "#ff3366",
+      "description": "Real-time Voice AI"
+    },
+    {
+      "name": "deepgram",
+      "display_name": "Deepgram",
+      "status_page": "https://status.deepgram.com",
+      "rss_feed": "https://status.deepgram.com/history.rss",
+      "logo_url": "https://deepgram.com/favicon.ico",
+      "color": "#38bdf8",
+      "description": "Voice AI Platform"
+    },
+    {
+      "name": "stability",
+      "display_name": "Stability AI",
+      "status_page": "https://status.stability.ai",
+      "rss_feed": "https://status.stability.ai/history.rss",
+      "logo_url": "https://stability.ai/favicon.ico",
+      "color": "#4c1d95",
+      "description": "Stable Diffusion & Audio"
+    },
+    {
+      "name": "huggingface",
+      "display_name": "Hugging Face",
+      "status_page": "https://status.huggingface.co",
+      "rss_feed": "https://status.huggingface.co/rss",
+      "logo_url": "https://huggingface.co/favicon.ico",
+      "color": "#fbbf24",
+      "description": "The AI Community"
+    },
+    {
+      "name": "replicate",
+      "display_name": "Replicate",
+      "status_page": "https://replicatestatus.com",
+      "rss_feed": "https://replicatestatus.com/feed",
+      "logo_url": "https://replicate.com/favicon.ico",
+      "color": "#000000",
+      "description": "Run AI with an API"
     }
   ],
-  "count": 8
+  "count": 14
 }
