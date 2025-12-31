@@ -22,12 +22,13 @@ function StatusPage() {
 
   const fetchData = async () => {
     try {
+      const timestamp = new Date().getTime();
       const statusUrl = import.meta.env.DEV
         ? `${API_BASE}/status`
-        : `${API_BASE}/status.json`;
+        : `${API_BASE}/status.json?t=${timestamp}`;
       const incidentsUrl = import.meta.env.DEV
         ? `${API_BASE}/incidents?limit=20`
-        : `${API_BASE}/incidents.json`;
+        : `${API_BASE}/incidents.json?t=${timestamp}`;
 
       const [statusRes, incidentsRes] = await Promise.all([
         axios.get(statusUrl),

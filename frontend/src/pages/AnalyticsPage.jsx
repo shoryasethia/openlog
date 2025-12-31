@@ -21,12 +21,13 @@ function AnalyticsPage() {
 
   const fetchAnalytics = async () => {
     try {
+      const timestamp = new Date().getTime();
       const providersUrl = import.meta.env.DEV
         ? `${API_BASE}/providers`
-        : `${API_BASE}/providers.json`;
+        : `${API_BASE}/providers.json?t=${timestamp}`;
       const analyticsUrl = import.meta.env.DEV
         ? `${API_BASE}/analytics?days=${period}`
-        : `${API_BASE}/analytics.json`;
+        : `${API_BASE}/analytics.json?t=${timestamp}`;
 
       const [providersRes, analyticsRes] = await Promise.all([
         axios.get(providersUrl),

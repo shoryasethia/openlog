@@ -13,7 +13,7 @@ function Navbar() {
       <div className="container">
         <div className="nav-content">
           <Link to="/" className="nav-brand">
-            <img src="/favicon.png" alt="OpenLog" className="nav-logo" />
+            <img src={`${import.meta.env.BASE_URL}favicon.png`} alt="OpenLog" className="nav-logo" />
             <span className="nav-title">OpenLog</span>
           </Link>
 
