@@ -53,51 +53,6 @@ cd frontend
 npm install
 ```
 
-## Deployment
-
-### GitHub Pages
-
-1. **Configure Repository**
-   
-   Update `frontend/vite.config.js`:
-   ```javascript
-   base: '/openlog/',
-   ```
-
-2. **Enable GitHub Pages**
-   
-   Repository Settings → Pages → Source: GitHub Actions
-
-3. **Deploy**
-   ```bash
-   git add .
-   git commit -m "Deploy OpenLog"
-   git push origin main
-   ```
-
-GitHub Actions will automatically:
-- Fetch RSS feeds from all providers
-- Generate static JSON data files
-- Build and deploy the frontend
-
-Site will be available at `https://shoryasethia.github.io/openlog/`
-
-### Local Development
-
-Run backend (optional, for development):
-```bash
-cd backend
-python api.py
-```
-
-Run frontend:
-```bash
-cd frontend
-npm run dev
-```
-
-Access at `http://localhost:5173`
-
 ## Project Structure
 
 ```
@@ -121,19 +76,6 @@ GET /data/status.json       # Current status
 GET /data/incidents.json    # Recent incidents
 GET /data/analytics.json    # Uptime statistics
 ```
-
-## Monitored Providers
-
-| Provider | Status Page | Data Source |
-|----------|-------------|-------------|
-| OpenAI | status.openai.com | RSS |
-| Anthropic | status.anthropic.com | RSS |
-| Google Gemini | status.cloud.google.com | Atom |
-| Groq | status.groq.com | RSS |
-| Cohere | status.cohere.com | RSS |
-| Perplexity | status.perplexity.ai | RSS |
-| Mistral AI | status.mistral.ai | RSS |
-| Together AI | status.together.ai | RSS |
 
 ## Configuration
 
