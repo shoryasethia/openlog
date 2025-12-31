@@ -1,257 +1,207 @@
 # OpenLog - Multi-Provider AI Status Dashboard
 
-> Real-time status monitoring for major AI service providers • Deployable on GitHub Pages
+> Real-time status monitoring for major AI service providers
 
 [![Deploy to GitHub Pages](https://img.shields.io/badge/deploy-github%20pages-blue)](https://pages.github.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-OpenLog tracks **uptime and incidents** for 8 major AI platforms: OpenAI, Claude (Anthropic), Gemini (Google), Groq, Cohere, Perplexity, Mistral AI, and Together AI.
+OpenLog is a static web application that monitors uptime and incident reports from major AI platforms including OpenAI, Claude (Anthropic), Gemini (Google), Groq, Cohere, Perplexity, Mistral AI, and Together AI.
 
-## ✨ Features
+## Features
 
-- 🎯 **8 AI Providers** tracked simultaneously
-- 📊 **Analytics Dashboard** with uptime comparisons
-- 👨‍💻 **Developer Tools** with API documentation
-- 🌙 **Dark Theme** with modern glass morphism design
-- 📱 **Fully Responsive** - works on all devices
-- 🚀 **Static Deployment** - no backend required!
+- **Multi-Provider Tracking** - Monitors 8+ major AI service providers
+- **Analytics Dashboard** - Comparative uptime analysis and incident metrics
+- **Developer Tools** - REST API documentation and integration examples
+- **Real-Time Updates** - Automated hourly data refresh via GitHub Actions
+- **Dark Theme** - Modern interface with responsive design
+- **Static Deployment** - Serverless architecture hosted on GitHub Pages
 
-## 🌐 Live Demo
+## Live Demo
 
-**GitHub Pages:** `https://yourusername.github.io/openlog/`
+When deployed to GitHub Pages, the application will be available at:
+`https://username.github.io/openlog/`
 
-## 🚀 Quick Start
+## Architecture
 
-### Option 1: Static GitHub Pages Deployment (Recommended)
+### Static Deployment
+OpenLog uses GitHub Actions to periodically fetch RSS feeds from AI provider status pages, parse incidents, and generate static JSON files. The frontend consumes these JSON files, eliminating the need for a backend server or database.
 
-#### Prerequisites
-- GitHub account
-- Git installed
+### Components
+- **GitHub Actions** - Scheduled workflows for data updates and deployment
+- **Python Scripts** - RSS feed parsing and JSON generation
+- **React Frontend** - Status dashboard, analytics, and developer documentation
+- **Static Data** - JSON files stored in repository
 
-#### Setup
+## Installation
 
-1. **Fork/Clone this repository**
-   ```bash
-   git clone https://github.com/yourusername/openlog.git
-   cd openlog
-   ```
+### Prerequisites
+- Git
+- Node.js 16+
+- Python 3.8+ (for local development)
 
-2. **Update Vite config**
+### Setup
+
+Clone the repository:
+```bash
+git clone https://github.com/username/openlog.git
+cd openlog
+```
+
+Install frontend dependencies:
+```bash
+cd frontend
+npm install
+```
+
+## Deployment
+
+### GitHub Pages
+
+1. **Configure Repository**
    
-   Edit `frontend/vite.config.js` and change the `base` to your repository name:
+   Update `frontend/vite.config.js`:
    ```javascript
-   base: '/your-repo-name/',  // e.g., '/openlog/'
+   base: '/repository-name/',
    ```
 
-3. **Enable GitHub Pages**
-   - Go to your repository Settings → Pages
-   - Source: **GitHub Actions**
+2. **Enable GitHub Pages**
+   
+   Repository Settings → Pages → Source: GitHub Actions
 
-4. **Push to GitHub**
+3. **Deploy**
    ```bash
    git add .
-   git commit -m "Initial deployment"
+   git commit -m "Deploy OpenLog"
    git push origin main
    ```
 
-5. **GitHub Actions will automatically:**
-   - Fetch RSS feeds from all providers (runs hourly)
-   - Generate static JSON data files
-   - Build and deploy the frontend
+GitHub Actions will automatically:
+- Fetch RSS feeds from all providers
+- Generate static JSON data files
+- Build and deploy the frontend
 
-Your site will be live at `https://yourusername.github.io/openlog/` 🎉
+Site will be available at `https://username.github.io/repository-name/`
 
-### Option 2: Local Development
+### Local Development
 
-Run both backend and frontend for full development experience:
+Run backend (optional, for development):
+```bash
+cd backend
+python api.py
+```
 
-#### Prerequisites
-- Python 3.8+
-- Node.js 16+
+Run frontend:
+```bash
+cd frontend
+npm run dev
+```
 
-#### Installation
+Access at `http://localhost:5173`
 
-1. **Install backend dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. **Install frontend dependencies**
-   ```bash
-   cd frontend
-   npm install
-   cd ..
-   ```
-
-#### Running Locally
-
-1. **Terminal 1 - Backend API**
-   ```bash
-   cd backend
-   python api.py
-   ```
-   Backend runs on `http://localhost:5000`
-
-2. **Terminal 2 - Frontend**
-   ```bash
-   cd frontend
-   npm run dev
-   ```
-   Frontend runs on `http://localhost:5173`
-
-## 📂 Project Structure
+## Project Structure
 
 ```
 openlog/
-├── .github/workflows/
-│   ├── update-status.yml  # Hourly RSS feed fetching
-│   └── deploy.yml         # GitHub Pages deployment
-├── backend/               # Flask API (dev only)
-├── frontend/              # React + Vite frontend
-│   ├── src/
-│   │   ├── pages/        # StatusPage, AnalyticsPage, DeveloperPage
-│   │   ├── components/   # Navbar, etc.
-│   │   └── index.css     # Dark theme design system
-│   └── vite.config.js    # GitHub Pages config
-├── public/data/           # Generated static JSON files
-│   ├── providers.json
-│   ├── status.json
-│   ├── incidents.json
-│   └── analytics.json
-├── scripts/
-│   └── fetch_status.py   # RSS feed parser & JSON generator
-└── docs/                  # Built frontend (auto-generated)
+├── .github/workflows/    # GitHub Actions workflows
+├── backend/              # Development-only Flask API
+├── frontend/             # React application
+│   ├── public/data/     # Static JSON data files
+│   └── src/             # React components
+├── scripts/             # Data generation scripts
+└── docs/                # Built static site
 ```
 
-## 🔧 How It Works
+## API Endpoints
 
-### Static Deployment Architecture
+The application provides read-only access to status data:
 
-1. **GitHub Actions Workflow** (`.github/workflows/update-status.yml`):
-   - Runs every hour (cron: `0 * * * *`)
-   - Executes `scripts/fetch_status.py`
-   - Commits updated JSON files to `public/data/`
-
-2. **Data Generation** (`scripts/fetch_status.py`):
-   - Fetches RSS feeds from all 8 providers
-   - Parses incidents and calculates analytics
-   - Generates static JSON files
-
-3. **Frontend** (React + Vite):
-   - Reads from static `public/data/*.json` files
-   - Displays provider status, incidents, and analytics
-   - No backend required in production!
-
-### Development vs Production
-
-The frontend automatically detects the environment:
-
-```javascript
-// Development: uses Flask backend API
-const API_BASE = import.meta.env.DEV ? 'http://localhost:5000/api' : DATA_BASE;
-
-// Production: uses static JSON files
-const DATA_BASE = import.meta.env.BASE_URL + 'data';
+```
+GET /data/providers.json    # Provider configurations
+GET /data/status.json       # Current status
+GET /data/incidents.json    # Recent incidents
+GET /data/analytics.json    # Uptime statistics
 ```
 
-## 📊 Monitored Providers
+## Monitored Providers
 
-| Provider | Status Page | Feed Type |
-|----------|-------------|-----------|
+| Provider | Status Page | Data Source |
+|----------|-------------|-------------|
 | OpenAI | status.openai.com | RSS |
-| Anthropic (Claude) | status.anthropic.com | RSS |
-| Google (Gemini) | status.cloud.google.com | Atom |
+| Anthropic | status.anthropic.com | RSS |
+| Google Gemini | status.cloud.google.com | Atom |
 | Groq | status.groq.com | RSS |
 | Cohere | status.cohere.com | RSS |
 | Perplexity | status.perplexity.ai | RSS |
 | Mistral AI | status.mistral.ai | RSS |
 | Together AI | status.together.ai | RSS |
 
-## ⚙️ Configuration
+## Configuration
 
-### Adding New Providers
+### Adding Providers
 
-Edit `scripts/fetch_status.py` and add to the `PROVIDERS` dictionary:
+Edit `scripts/fetch_status.py` and add provider configuration:
 
 ```python
 PROVIDERS = {
-    "newprovider": {
-        "name": "newprovider",
-        "display_name": "New AI Provider",
-        "status_page": "https://status.newprovider.com",
-        "rss_feed": "https://status.newprovider.com/history.rss",
-        "logo_url": "https://newprovider.com/favicon.ico",
-        "color": "#yourcolor",
-        "description": "Provider description",
-    },
+    "provider_id": {
+        "name": "provider_id",
+        "display_name": "Provider Name",
+        "status_page": "https://status.provider.com",
+        "rss_feed": "https://status.provider.com/history.rss",
+        "color": "#hexcolor",
+        "description": "Service description",
+    }
 }
 ```
 
-### Changing Update Frequency
+### Update Frequency
 
-Edit `.github/workflows/update-status.yml`:
+Modify `.github/workflows/update-status.yml`:
 
 ```yaml
 schedule:
-  - cron: '0 * * * *'  # Every hour
-  # - cron: '*/30 * * * *'  # Every 30 minutes
-  # - cron: '0 */6 * * *'  # Every 6 hours
+  - cron: '0 * * * *'  # Hourly (default)
 ```
 
-## 🎨 Customization
+## Development
 
-### Update Base Path
-
-In `frontend/vite.config.js`:
-
-```javascript
-base: '/your-custom-path/',
-```
-
-### Customize Theme
-
-Edit `frontend/src/index.css` CSS variables:
-
-```css
-:root {
-  --accent-primary: #6366f1;  /* Change accent color */
-  --bg-primary: #0a0a0f;      /* Change background */
-}
-```
-
-## 📝 API Endpoints (Development Only)
-
-When running locally with the backend:
+### Building for Production
 
 ```bash
-GET /api/providers          # List all providers
-GET /api/status             # Current status
-GET /api/incidents          # Recent incidents
-GET /api/analytics?days=30  # Analytics data
+cd frontend
+npm run build
 ```
 
-## 🤝 Contributing
+Output will be in `docs/` directory.
 
-Contributions welcome! Please:
+### Data Generation
+
+```bash
+python scripts/fetch_status.py
+```
+
+Generates JSON files in `frontend/public/data/`
+
+## Contributing
+
+Contributions are welcome. Please:
 
 1. Fork the repository
 2. Create a feature branch
-3. Make your changes
-4. Test locally
-5. Submit a pull request
+3. Commit changes
+4. Submit a pull request
 
-## 📄 License
+## License
 
-MIT License - see [LICENSE](LICENSE) file
+MIT License - see LICENSE file
 
-## 🙏 Acknowledgments
+## Technical Stack
 
-- Built for the AI developer community
-- Thanks to all AI providers for public status pages
-- Inspired by the need for centralized monitoring
+- **Frontend:** React, Vite, Recharts, Axios
+- **Backend (dev only):** Flask, feedparser
+- **Deployment:** GitHub Actions, GitHub Pages
+- **Data Storage:** Static JSON files
 
 ---
 
-**Deploy once, monitor forever** 🚀
-
-Made with ❤️ for tracking AI service reliability
+Built for the AI developer community to track service reliability across major providers.
