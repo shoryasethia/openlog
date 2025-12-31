@@ -12,6 +12,7 @@ function StatusPage() {
   const [providers, setProviders] = useState([]);
   const [incidents, setIncidents] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [lastUpdated, setLastUpdated] = useState(null);
   const [selectedProvider, setSelectedProvider] = useState(null);
 
   useEffect(() => {
@@ -36,6 +37,8 @@ function StatusPage() {
       ]);
 
       setProviders(Object.values(statusRes.data.providers));
+      setLastUpdated(statusRes.data.last_updated);
+
       // For static files, incidents are already in the response
       const incidents = incidentsRes.data.incidents || incidentsRes.data;
       setIncidents(incidents.slice(0, 20));
@@ -84,6 +87,12 @@ function StatusPage() {
           <div>
             <h1>AI Provider Status</h1>
             <p>Real-time monitoring of major AI service providers</p>
+            {lastUpdated && (
+              <p className="last-updated">
+                <Clock size={14} />
+                Data updated: {new Date(lastUpdated).toLocaleString()} (refreshes hourly)
+              </p>
+            )}
           </div>
           <button className="btn-secondary" onClick={fetchData}>
             <RefreshCw size={18} />
