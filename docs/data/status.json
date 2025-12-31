@@ -1,0 +1,110 @@
+{
+  "providers": {
+    "openai": {
+      "name": "openai",
+      "display_name": "OpenAI",
+      "status_page": "https://status.openai.com",
+      "rss_feed": "https://status.openai.com/history.rss",
+      "logo_url": "https://openai.com/favicon.ico",
+      "color": "#10a37f",
+      "description": "ChatGPT, GPT-4, DALL-E, Whisper",
+      "current_status": "resolved",
+      "last_checked": "2025-12-31T11:19:23.660407",
+      "total_incidents": 20,
+      "last_incident_at": "2025-12-25T09:41:27"
+    },
+    "anthropic": {
+      "name": "anthropic",
+      "display_name": "Anthropic (Claude)",
+      "status_page": "https://status.anthropic.com",
+      "rss_feed": "https://status.anthropic.com/history.rss",
+      "logo_url": "https://www.anthropic.com/favicon.ico",
+      "color": "#d4a27f",
+      "description": "Claude AI Assistant",
+      "current_status": "operational",
+      "last_checked": "2025-12-31T11:19:23.987247",
+      "total_incidents": 20,
+      "last_incident_at": "2025-12-23T10:51:24"
+    },
+    "google": {
+      "name": "google",
+      "display_name": "Google (Gemini)",
+      "status_page": "https://status.cloud.google.com/products/ai-platform/gemini-api",
+      "rss_feed": "https://status.cloud.google.com/feed.atom",
+      "logo_url": "https://www.gstatic.com/lamda/images/favicon_v1_150160cddff7f294ce30.svg",
+      "color": "#4285f4",
+      "description": "Gemini AI, Google AI Studio",
+      "current_status": "operational",
+      "last_checked": "2025-12-31T11:19:24.091372",
+      "total_incidents": 1,
+      "last_incident_at": "2025-12-31T11:19:24.091063"
+    },
+    "groq": {
+      "name": "groq",
+      "display_name": "Groq",
+      "status_page": "https://status.groq.com",
+      "rss_feed": "https://status.groq.com/history.rss",
+      "logo_url": "https://groq.com/favicon.ico",
+      "color": "#f55036",
+      "description": "Ultra-fast AI Inference",
+      "current_status": "operational",
+      "last_checked": "2025-12-31T11:19:24.967532",
+      "total_incidents": 0,
+      "last_incident_at": null
+    },
+    "cohere": {
+      "name": "cohere",
+      "display_name": "Cohere",
+      "status_page": "https://status.cohere.com",
+      "rss_feed": "https://status.cohere.com/history.rss",
+      "logo_url": "https://cohere.com/favicon.ico",
+      "color": "#39594d",
+      "description": "Enterprise AI Platform",
+      "current_status": "resolved",
+      "last_checked": "2025-12-31T11:19:25.318695",
+      "total_incidents": 1,
+      "last_incident_at": "2025-10-18T22:23:24"
+    },
+    "perplexity": {
+      "name": "perplexity",
+      "display_name": "Perplexity",
+      "status_page": "https://status.perplexity.ai",
+      "rss_feed": "https://status.perplexity.ai/history.rss",
+      "logo_url": "https://www.perplexity.ai/favicon.svg",
+      "color": "#20808d",
+      "description": "AI-Powered Search",
+      "current_status": "operational",
+      "last_checked": "2025-12-31T11:19:25.797694",
+      "total_incidents": 0,
+      "last_incident_at": null
+    },
+    "mistral": {
+      "name": "mistral",
+      "display_name": "Mistral AI",
+      "status_page": "https://status.mistral.ai",
+      "rss_feed": "https://status.mistral.ai/history.rss",
+      "logo_url": "https://mistral.ai/favicon.ico",
+      "color": "#f2a73b",
+      "description": "Open and Portable AI",
+      "current_status": "operational",
+      "last_checked": "2025-12-31T11:19:26.235347",
+      "total_incidents": 0,
+      "last_incident_at": null
+    },
+    "together": {
+      "name": "together",
+      "display_name": "Together AI",
+      "status_page": "https://status.together.ai",
+      "rss_feed": "https://status.together.ai/history.rss",
+      "logo_url": "https://www.together.ai/favicon.ico",
+      "color": "#7c3aed",
+      "description": "Leading Open Source AI",
+      "current_status": "operational",
+      "last_checked": "2025-12-31T11:19:30.766913",
+      "total_incidents": 0,
+      "last_incident_at": null
+    }
+  },
+  "count": 8,
+  "last_updated": "2025-12-31T11:19:30.767390"
+}

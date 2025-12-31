@@ -1,0 +1,539 @@
+{
+  "incidents": [
+    {
+      "id": 1,
+      "incident_id": "tag:status.cloud.google.com,2025:feed:8cY8jdUpEGGbsSMSQk7J.k1VxeGGvFncMpBCv2T7r",
+      "provider": "google",
+      "title": "RESOLVED: We are investigating elevated error rates with multiple products in us-east1",
+      "status": "operational",
+      "message": "Incident began at 2025-07-18 07:42 and ended at 2025-07-18 09:47 (all times are US/Pacific ). # Incident Report ## Summary On Friday, 18 July 2025 07:50 US/Pacific, several Google Cloud Platform (GCP) and Google Workspace (GWS) products experienced elevated latencies and error rates in the us-east1 region for a duration of up to 1 hour and 57 minutes. GCP Impact Duration: 18 July 2025 07:50 - 09:47 US/Pacific : 1 hour 57 minutes GWS Impact Duration: 18 July 2025 07:50 - 08:40 US/Pacific : 50 min",
+      "affected_products": [
+        "Pause non-critical workflows until safety controls are implemented (complete).",
+        "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
+        "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
+      ],
+      "timestamp": "2025-12-31T11:19:24.091063",
+      "resolved_at": null
+    },
+    {
+      "id": 1,
+      "incident_id": "https://status.openai.com//incidents/01KD9TAC2AVM41E7FSGE3X0B9J",
+      "provider": "openai",
+      "title": "Some User May Experience Issues Loading Conversation History and Downloading Files from Custom GPTs",
+      "status": "resolved",
+      "message": "Status: Resolved All impacted services have now fully recovered.",
+      "affected_products": [
+        "Conversations",
+        "GPTs"
+      ],
+      "timestamp": "2025-12-25T09:41:27",
+      "resolved_at": null
+    },
+    {
+      "id": 1,
+      "incident_id": "https://status.claude.com/incidents/f9zwsv7f87wl",
+      "provider": "anthropic",
+      "title": "Elevated error rates on Opus 4.5",
+      "status": "operational",
+      "message": "Dec 23 , 10:51 UTC Resolved - This incident has been resolved. Dec 23 , 09:55 UTC Investigating - We are currently investigating this issue.",
+      "affected_products": [],
+      "timestamp": "2025-12-23T10:51:24",
+      "resolved_at": null
+    },
+    {
+      "id": 2,
+      "incident_id": "https://status.claude.com/incidents/8f0x9qxn6bvf",
+      "provider": "anthropic",
+      "title": "Elevated error rates on Opus 4.5",
+      "status": "operational",
+      "message": "Dec 22 , 09:32 UTC Resolved - This incident has been resolved. Dec 22 , 08:40 UTC Monitoring - A fix has been implemented and we are monitoring the results. Dec 22 , 07:18 UTC Investigating - We are currently investigating this issue.",
+      "affected_products": [],
+      "timestamp": "2025-12-22T09:32:23",
+      "resolved_at": null
+    },
+    {
+      "id": 2,
+      "incident_id": "https://status.openai.com//incidents/01KD19S888P8SGB2TFB82DWCW8",
+      "provider": "openai",
+      "title": "Some Android users are experiencing elevated errors while using ChatGPT.",
+      "status": "resolved",
+      "message": "Status: Resolved All impacted services have now fully recovered.",
+      "affected_products": [
+        "File uploads",
+        "Voice mode",
+        "Search",
+        "Compliance API",
+        "Image Generation",
+        "Deep Research",
+        "Codex",
+        "ChatGPT Atlas",
+        "Login",
+        "Conversations",
+        "GPTs",
+        "Agent",
+        "Connectors"
+      ],
+      "timestamp": "2025-12-21T21:33:27",
+      "resolved_at": null
+    },
+    {
+      "id": 3,
+      "incident_id": "https://status.claude.com/incidents/d2w4wfsd7fq6",
+      "provider": "anthropic",
+      "title": "Elevated error rates on Opus 4.5",
+      "status": "operational",
+      "message": "Dec 21 , 14:34 UTC Resolved - This incident has been resolved. Dec 21 , 13:57 UTC Monitoring - A fix has been implemented and we are monitoring the results. Dec 21 , 13:16 UTC Identified - The issue has been identified and a fix is being implemented.",
+      "affected_products": [],
+      "timestamp": "2025-12-21T14:34:41",
+      "resolved_at": null
+    },
+    {
+      "id": 4,
+      "incident_id": "https://status.claude.com/incidents/3gvzshr7mqtr",
+      "provider": "anthropic",
+      "title": "Research unavailable for some teams orgs",
+      "status": "operational",
+      "message": "Dec 20 , 01:35 UTC Resolved - This incident has been resolved. Dec 20 , 00:51 UTC Investigating - We are currently investigating this issue.",
+      "affected_products": [],
+      "timestamp": "2025-12-20T01:35:00",
+      "resolved_at": null
+    },
+    {
+      "id": 5,
+      "incident_id": "https://status.claude.com/incidents/8rwc17y9kmqz",
+      "provider": "anthropic",
+      "title": "Claude Code on Windows rendering improperly",
+      "status": "operational",
+      "message": "Dec 19 , 22:14 UTC Resolved - This incident has been resolved in Claude Code 2.0.74. Dec 19 , 20:30 UTC Identified - The issue has been identified and a fix is being implemented.",
+      "affected_products": [],
+      "timestamp": "2025-12-19T22:14:20",
+      "resolved_at": null
+    },
+    {
+      "id": 6,
+      "incident_id": "https://status.claude.com/incidents/8d87293jq0mk",
+      "provider": "anthropic",
+      "title": "Elevated error rates on Sonnet 4.5",
+      "status": "operational",
+      "message": "Dec 19 , 13:52 UTC Resolved - This incident has been resolved. Dec 19 , 07:48 UTC Monitoring - A fix has been implemented and we are monitoring the results. Dec 19 , 06:59 UTC Identified - The issue has been identified and a fix is being implemented. Dec 19 , 04:34 UTC Investigating - We are currently investigating this issue.",
+      "affected_products": [],
+      "timestamp": "2025-12-19T13:52:32",
+      "resolved_at": null
+    },
+    {
+      "id": 3,
+      "incident_id": "https://status.openai.com//incidents/01KCTM1YZ1AW72M9JVW48TNJES",
+      "provider": "openai",
+      "title": "Increased error rates for Sora API",
+      "status": "resolved",
+      "message": "Status: Resolved All impacted services have now fully recovered.",
+      "affected_products": [
+        "Sora"
+      ],
+      "timestamp": "2025-12-19T06:58:21",
+      "resolved_at": null
+    },
+    {
+      "id": 4,
+      "incident_id": "https://status.openai.com//incidents/01KCT3221DKSNWZ6QABP6V2ZE6",
+      "provider": "openai",
+      "title": "Degraded latency and increased error rates for Sora API",
+      "status": "resolved",
+      "message": "Status: Resolved All impacted services have now fully recovered.",
+      "affected_products": [
+        "Sora"
+      ],
+      "timestamp": "2025-12-19T01:25:31",
+      "resolved_at": null
+    },
+    {
+      "id": 5,
+      "incident_id": "https://status.openai.com//incidents/01KCQ4D84M0KCBPNCENAV6B8GZ",
+      "provider": "openai",
+      "title": "ChatGPT intermittently not loading successfully after SSO authentication",
+      "status": "resolved",
+      "message": "Status: Resolved All impacted services have now fully recovered.",
+      "affected_products": [
+        "Login"
+      ],
+      "timestamp": "2025-12-18T22:46:43",
+      "resolved_at": null
+    },
+    {
+      "id": 6,
+      "incident_id": "https://status.openai.com//incidents/01KCSQV59E8XZETJ89JTXME2AZ",
+      "provider": "openai",
+      "title": "Unable to Login on Sora Web",
+      "status": "resolved",
+      "message": "Status: Resolved All impacted services have now fully recovered. Please try logging in again.",
+      "affected_products": [
+        "Login"
+      ],
+      "timestamp": "2025-12-18T22:34:58",
+      "resolved_at": null
+    },
+    {
+      "id": 7,
+      "incident_id": "https://status.openai.com//incidents/01KCQ5FA8SEDPNZSZEH27V2H5X",
+      "provider": "openai",
+      "title": "Finetuning jobs are intermittently failing",
+      "status": "resolved",
+      "message": "Status: Resolved All impacted services have now fully recovered.",
+      "affected_products": [
+        "Fine-tuning"
+      ],
+      "timestamp": "2025-12-18T09:29:21",
+      "resolved_at": null
+    },
+    {
+      "id": 7,
+      "incident_id": "https://status.claude.com/incidents/4pw74ts6z930",
+      "provider": "anthropic",
+      "title": "Elevated error rates on Sonnet 4",
+      "status": "operational",
+      "message": "Dec 17 , 11:20 UTC Resolved - This incident has been resolved. Dec 17 , 11:13 UTC Monitoring - A fix has been implemented and we are monitoring the results. Dec 17 , 11:09 UTC Identified - The issue has been identified and a fix is being implemented. Dec 17 , 10:49 UTC Update - We have identified that this affects only free tier claude.ai users. Dec 17 , 10:45 UTC Investigating - We are currently investigating this issue.",
+      "affected_products": [],
+      "timestamp": "2025-12-17T11:20:56",
+      "resolved_at": null
+    },
+    {
+      "id": 8,
+      "incident_id": "https://status.openai.com//incidents/01KCM7PAMQMCM8KAB6ZCWPKNK1",
+      "provider": "openai",
+      "title": "Codex & Responses API Experiencing Elevated Errors",
+      "status": "resolved",
+      "message": "Status: Resolved All impacted services have now fully recovered.",
+      "affected_products": [
+        "Codex",
+        "Responses"
+      ],
+      "timestamp": "2025-12-17T04:12:31",
+      "resolved_at": null
+    },
+    {
+      "id": 8,
+      "incident_id": "https://status.claude.com/incidents/z9kwvvpg0hy0",
+      "provider": "anthropic",
+      "title": "New chats defaulting to Claude Opus",
+      "status": "operational",
+      "message": "Dec 16 , 20:52 UTC Resolved - This incident has been resolved. Dec 16 , 20:44 UTC Update - We are continuing to monitor for any further issues. Dec 16 , 20:44 UTC Monitoring - A fix has been implemented and we are monitoring the results. Dec 16 , 20:24 UTC Identified - The issue has been identified and a fix is being implemented. Dec 16 , 19:30 UTC Investigating - We are currently investigating this issue.",
+      "affected_products": [],
+      "timestamp": "2025-12-16T20:52:56",
+      "resolved_at": null
+    },
+    {
+      "id": 9,
+      "incident_id": "https://status.claude.com/incidents/2f7kwfs03p6v",
+      "provider": "anthropic",
+      "title": "Cannot create new conversations on Claude.ai",
+      "status": "operational",
+      "message": "Dec 16 , 16:43 UTC Resolved - This incident has been resolved. Dec 16 , 16:36 UTC Update - We are continuing to monitor for any further issues. Dec 16 , 16:36 UTC Monitoring - A fix has been implemented and we are monitoring the results. Dec 16 , 16:23 UTC Investigating - We are currently investigating this issue.",
+      "affected_products": [],
+      "timestamp": "2025-12-16T16:43:33",
+      "resolved_at": null
+    },
+    {
+      "id": 9,
+      "incident_id": "https://status.openai.com//incidents/01KCJNVGXP42TJC4GXA17GMGXY",
+      "provider": "openai",
+      "title": "High Error Rate in Image API",
+      "status": "resolved",
+      "message": "Status: Resolved All impacted services have now fully recovered.",
+      "affected_products": [
+        "Images"
+      ],
+      "timestamp": "2025-12-16T05:23:17",
+      "resolved_at": null
+    },
+    {
+      "id": 10,
+      "incident_id": "https://status.claude.com/incidents/9x1dk1mmlkd3",
+      "provider": "anthropic",
+      "title": "Unable to view shared chats on claude.ai",
+      "status": "operational",
+      "message": "Dec 15 , 19:29 UTC Resolved - This incident has been resolved. Dec 15 , 19:24 UTC Monitoring - A fix has been implemented and we are monitoring the results. Dec 15 , 19:16 UTC Identified - The issue has been identified and a fix is being implemented. Dec 15 , 18:39 UTC Investigating - We are currently investigating this issue.",
+      "affected_products": [],
+      "timestamp": "2025-12-15T19:29:58",
+      "resolved_at": null
+    },
+    {
+      "id": 11,
+      "incident_id": "https://status.claude.com/incidents/9g6qpr72ttbr",
+      "provider": "anthropic",
+      "title": "Elevated errors across many models",
+      "status": "operational",
+      "message": "Dec 14 , 22:51 UTC Resolved - As of 14:43 PT / 22:43 UTC we have seen full recovery across all models. Dec 14 , 22:46 UTC Identified - The issue has been identified and a fix is being implemented. Dec 14 , 22:36 UTC Update - We are continuing to investigate the issue. Dec 14 , 21:46 UTC Update - We have identified that the outage is related to Sonnet 4.0, Sonnet 4.5, and Opus 4.5. Dec 14 , 21:31 UTC Investigating - We are currently investigating this issue.",
+      "affected_products": [],
+      "timestamp": "2025-12-14T22:51:48",
+      "resolved_at": null
+    },
+    {
+      "id": 10,
+      "incident_id": "https://status.openai.com//incidents/01KC2MV5CHD4DX8A76FT4QEZEV",
+      "provider": "openai",
+      "title": "ChatGPT connectors have disconnected unexpectedly",
+      "status": "resolved",
+      "message": "Status: Resolved The issue is now resolved. For the vast majority of affected connectors have been reconnected successfully. For a small fraction of users, manually reconnecting connectors will be required.",
+      "affected_products": [
+        "Connectors"
+      ],
+      "timestamp": "2025-12-12T23:11:55",
+      "resolved_at": null
+    },
+    {
+      "id": 11,
+      "incident_id": "https://status.openai.com//incidents/01KC6WSFM4ECT1Y5XBPF2AMXV9",
+      "provider": "openai",
+      "title": "Github Connector Errors for ChatGPT Web and Codex",
+      "status": "resolved",
+      "message": "Status: Resolved The affected Github connectors should now be fully restored. Users should be able to use Codex (including code reviews) and ChatGPT with the Github connector without issue.",
+      "affected_products": [
+        "Codex",
+        "Connectors"
+      ],
+      "timestamp": "2025-12-12T19:52:11",
+      "resolved_at": null
+    },
+    {
+      "id": 12,
+      "incident_id": "https://status.claude.com/incidents/vdvhnlkdx045",
+      "provider": "anthropic",
+      "title": "Elevated errors on documentation site in Europe",
+      "status": "operational",
+      "message": "Dec 12 , 18:59 UTC Resolved - This incident has been resolved. Dec 12 , 17:10 UTC Investigating - We are currently investigating this issue.",
+      "affected_products": [],
+      "timestamp": "2025-12-12T18:59:22",
+      "resolved_at": null
+    },
+    {
+      "id": 13,
+      "incident_id": "https://status.claude.com/incidents/h140lstlzbw7",
+      "provider": "anthropic",
+      "title": "Unable to start chats on claude.ai",
+      "status": "operational",
+      "message": "Dec 12 , 08:00 UTC Resolved - This incident has been resolved.",
+      "affected_products": [],
+      "timestamp": "2025-12-12T08:00:00",
+      "resolved_at": null
+    },
+    {
+      "id": 14,
+      "incident_id": "https://status.claude.com/incidents/6rrnsb1y0kbn",
+      "provider": "anthropic",
+      "title": "iOS Subscription Access Issues",
+      "status": "operational",
+      "message": "Dec 12 , 00:04 UTC Resolved - The issue has been resolved. We are working on compensation for impacted users. Dec 9 , 23:37 UTC Monitoring - A fix has been implemented and we are monitoring the results. Dec 8 , 01:00 UTC Identified - Due to a bug introduced in Claude iOS app version 1.251117.1 (November 18), some Apple App Store users who purchased Pro and Max plans on or after November 24 did not receive proper access to their plans. The mobile purchasing bug has been resolved. New purchases go",
+      "affected_products": [],
+      "timestamp": "2025-12-12T00:04:21",
+      "resolved_at": null
+    },
+    {
+      "id": 12,
+      "incident_id": "https://status.openai.com//incidents/01KC7JXZX3G02HQVS9AHYT86J8",
+      "provider": "openai",
+      "title": "Elevated error rate for 5.2 Auto and 5.2 Instant",
+      "status": "resolved",
+      "message": "Status: Resolved The issue has been resolved.",
+      "affected_products": [
+        "Conversations"
+      ],
+      "timestamp": "2025-12-11T23:11:30",
+      "resolved_at": null
+    },
+    {
+      "id": 13,
+      "incident_id": "https://status.openai.com//incidents/01KC56SP6M152HGWAF6EAFQR2E",
+      "provider": "openai",
+      "title": "Increased Errors On Android Devices",
+      "status": "resolved",
+      "message": "Status: Resolved All impacted services have now fully recovered.",
+      "affected_products": [
+        "Codex",
+        "Voice mode",
+        "Search",
+        "Compliance API",
+        "Image Generation",
+        "GPTs",
+        "Deep Research",
+        "Connectors",
+        "ChatGPT Atlas",
+        "Login",
+        "File uploads",
+        "Conversations",
+        "Agent"
+      ],
+      "timestamp": "2025-12-10T23:27:08",
+      "resolved_at": null
+    },
+    {
+      "id": 15,
+      "incident_id": "https://status.claude.com/incidents/fmck9hh84rgf",
+      "provider": "anthropic",
+      "title": "Research on claude.ai down",
+      "status": "operational",
+      "message": "Dec 10 , 20:21 UTC Resolved - This incident has been resolved. Dec 10 , 19:50 UTC Identified - The issue has been identified and a fix is being implemented. Dec 10 , 19:44 UTC Investigating - We are currently investigating this issue.",
+      "affected_products": [],
+      "timestamp": "2025-12-10T20:21:53",
+      "resolved_at": null
+    },
+    {
+      "id": 14,
+      "incident_id": "https://status.openai.com//incidents/01KC2CJTQMDW8ZX3S4S4Q8PPNQ",
+      "provider": "openai",
+      "title": "Issues related to Codex Web, Code Reviews",
+      "status": "resolved",
+      "message": "Status: Resolved All impacted services have now fully recovered.",
+      "affected_products": [
+        "Codex"
+      ],
+      "timestamp": "2025-12-09T21:21:03",
+      "resolved_at": null
+    },
+    {
+      "id": 15,
+      "incident_id": "https://status.openai.com//incidents/01KC29PD396379J8W4GRZ3F185",
+      "provider": "openai",
+      "title": "ChatGPT advanced voice mode issues",
+      "status": "resolved",
+      "message": "Status: Resolved All impacted services have now fully recovered.",
+      "affected_products": [
+        "Voice mode"
+      ],
+      "timestamp": "2025-12-09T20:09:59",
+      "resolved_at": null
+    },
+    {
+      "id": 16,
+      "incident_id": "https://status.openai.com//incidents/01KBZQFTJVFKP90HA3QJ7Q3WBY",
+      "provider": "openai",
+      "title": "Github Authentication errors with Codex Web",
+      "status": "resolved",
+      "message": "Status: Resolved All impacted services have now fully recovered.",
+      "affected_products": [
+        "Codex"
+      ],
+      "timestamp": "2025-12-09T05:55:32",
+      "resolved_at": null
+    },
+    {
+      "id": 16,
+      "incident_id": "https://status.claude.com/incidents/h183k7hqb9lk",
+      "provider": "anthropic",
+      "title": "Claude.ai is unavailable",
+      "status": "operational",
+      "message": "Dec 5 , 11:27 UTC Resolved - This incident has been resolved. Dec 5 , 11:18 UTC Monitoring - A fix has been implemented and we are monitoring the results. Dec 5 , 10:49 UTC Identified - We have identified the issue and are working on remediating it Dec 5 , 10:47 UTC Update - We are continuing to investigate this issue. Dec 5 , 10:47 UTC Update - We are continuing to investigate this issue. Dec 5 , 10:47 UTC Investigating - We are currently investigating this issue.",
+      "affected_products": [],
+      "timestamp": "2025-12-05T11:27:55",
+      "resolved_at": null
+    },
+    {
+      "id": 17,
+      "incident_id": "https://status.claude.com/incidents/49cmvxrrk228",
+      "provider": "anthropic",
+      "title": "Claude.ai is unavailable",
+      "status": "operational",
+      "message": "Dec 5 , 09:33 UTC Resolved - This incident has been resolved. Dec 5 , 09:18 UTC Monitoring - An upstream provider has implemented a fix, we are monitoring the results Dec 5 , 09:02 UTC Investigating - We are currently investigating this issue.",
+      "affected_products": [],
+      "timestamp": "2025-12-05T09:33:54",
+      "resolved_at": null
+    },
+    {
+      "id": 17,
+      "incident_id": "https://status.openai.com//incidents/01KBP2P87WZ8SS9KWJ8YBWYZAG",
+      "provider": "openai",
+      "title": "ChatGPT Slack Connector cannot be installed",
+      "status": "resolved",
+      "message": "Status: Resolved All impacted services have now fully recovered.",
+      "affected_products": [
+        "Connectors"
+      ],
+      "timestamp": "2025-12-05T04:26:19",
+      "resolved_at": null
+    },
+    {
+      "id": 18,
+      "incident_id": "https://status.openai.com//incidents/01KBP4P84R3ZVWYDG6DNY7MHYA",
+      "provider": "openai",
+      "title": "CustomGPT Allow/Deny button not appeared",
+      "status": "resolved",
+      "message": "Status: Resolved All impacted services have now fully recovered.",
+      "affected_products": [
+        "GPTs"
+      ],
+      "timestamp": "2025-12-05T04:23:59",
+      "resolved_at": null
+    },
+    {
+      "id": 18,
+      "incident_id": "https://status.claude.com/incidents/s8vj5mn9wvzf",
+      "provider": "anthropic",
+      "title": "Elevated Error Rates on Claude API Code Execution and Advanced File Analysis Tools",
+      "status": "operational",
+      "message": "Dec 5 , 01:09 UTC Resolved - From 22:01 UTC to 00:48 UTC, the Code Execution tool on the Claude API and Advanced File Analysis tool on claude.ai experienced elevated error rates. This incident has been resolved.",
+      "affected_products": [],
+      "timestamp": "2025-12-05T01:09:57",
+      "resolved_at": null
+    },
+    {
+      "id": 19,
+      "incident_id": "https://status.claude.com/incidents/47tkhrwf5pl5",
+      "provider": "anthropic",
+      "title": "Elevated errors on Claude Haiku 4.5 and Opus 4.5",
+      "status": "operational",
+      "message": "Dec 3 , 12:29 UTC Resolved - The incident started at 12:11 UTC and was fully mitigated at 12:18 UTC. Dec 3 , 12:20 UTC Investigating - We are currently investigating this issue.",
+      "affected_products": [],
+      "timestamp": "2025-12-03T12:29:15",
+      "resolved_at": null
+    },
+    {
+      "id": 19,
+      "incident_id": "https://status.openai.com//incidents/01KBHVXKVF77A6CB8CX96BY4R6",
+      "provider": "openai",
+      "title": "ChatGPT Conversation Errors for Business and Enterprise",
+      "status": "resolved",
+      "message": "Status: Resolved All impacted services have now fully recovered.",
+      "affected_products": [
+        "Conversations"
+      ],
+      "timestamp": "2025-12-03T10:53:43",
+      "resolved_at": null
+    },
+    {
+      "id": 20,
+      "incident_id": "https://status.openai.com//incidents/01KBGV0B1KYJAGHRD705NWNZXE",
+      "provider": "openai",
+      "title": "Increased errors when creating new Codex tasks",
+      "status": "resolved",
+      "message": "Status: Resolved All impacted services have now fully recovered.",
+      "affected_products": [
+        "Codex"
+      ],
+      "timestamp": "2025-12-03T01:46:36",
+      "resolved_at": null
+    },
+    {
+      "id": 20,
+      "incident_id": "https://status.claude.com/incidents/qj71q3gqvvlk",
+      "provider": "anthropic",
+      "title": "Elevated errors on claude.ai",
+      "status": "operational",
+      "message": "Dec 2 , 18:07 UTC Resolved - This incident has been resolved. Dec 2 , 17:52 UTC Monitoring - A fix has been implemented and we are monitoring the results. Dec 2 , 17:21 UTC Update - We are continuing to investigate this issue. Dec 2 , 16:34 UTC Investigating - We are currently investigating this issue.",
+      "affected_products": [],
+      "timestamp": "2025-12-02T18:07:12",
+      "resolved_at": null
+    },
+    {
+      "id": 1,
+      "incident_id": "https://status.cohere.com//incidents/01K7WMKZTGGPADA69MEAE9P4TY",
+      "provider": "cohere",
+      "title": "Chat models return 503 service error when /v1/chat requests omit message and chat_history while providing tool_results",
+      "status": "resolved",
+      "message": "Status: Resolved \ud83c\udf89 The issue has been resolved and we are back to normal.",
+      "affected_products": [],
+      "timestamp": "2025-10-18T22:23:24",
+      "resolved_at": null
+    }
+  ],
+  "count": 42,
+  "last_updated": "2025-12-31T11:19:30.767614"
+}

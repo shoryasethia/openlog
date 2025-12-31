@@ -23,9 +23,6 @@ env/
 node_modules/
 frontend/dist/
 
-# Build output
-docs/
-
 # Development config
 config.py
 status-tracker.py
