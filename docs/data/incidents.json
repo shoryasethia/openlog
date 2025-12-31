@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2025-12-31T11:19:24.091063",
+      "timestamp": "2025-12-31T11:23:31.987502",
       "resolved_at": null
     },
     {
@@ -59,19 +59,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "File uploads",
-        "Voice mode",
-        "Search",
-        "Compliance API",
-        "Image Generation",
-        "Deep Research",
-        "Codex",
-        "ChatGPT Atlas",
         "Login",
+        "File uploads",
+        "Search",
         "Conversations",
+        "Compliance API",
+        "Deep Research",
+        "Connectors",
+        "Voice mode",
+        "Image Generation",
         "GPTs",
         "Agent",
-        "Connectors"
+        "Codex",
+        "ChatGPT Atlas"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -348,19 +348,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Codex",
-        "Voice mode",
-        "Search",
-        "Compliance API",
-        "Image Generation",
-        "GPTs",
-        "Deep Research",
-        "Connectors",
-        "ChatGPT Atlas",
         "Login",
         "File uploads",
+        "Voice mode",
+        "Search",
         "Conversations",
-        "Agent"
+        "Image Generation",
+        "GPTs",
+        "Agent",
+        "Compliance API",
+        "Deep Research",
+        "Codex",
+        "Connectors",
+        "ChatGPT Atlas"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -535,5 +535,5 @@
     }
   ],
   "count": 42,
-  "last_updated": "2025-12-31T11:19:30.767614"
+  "last_updated": "2025-12-31T11:23:39.086424"
 }
