@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2025-12-31T16:35:45.038189",
+      "timestamp": "2025-12-31T11:19:24.091063",
       "resolved_at": null
     },
     {
@@ -59,19 +59,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Agent",
+        "File uploads",
+        "Voice mode",
+        "Search",
+        "Compliance API",
+        "Image Generation",
         "Deep Research",
         "Codex",
         "ChatGPT Atlas",
-        "Voice mode",
-        "Search",
-        "Conversations",
-        "Image Generation",
-        "Connectors",
         "Login",
-        "File uploads",
-        "Compliance API",
-        "GPTs"
+        "Conversations",
+        "GPTs",
+        "Agent",
+        "Connectors"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -204,8 +204,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Responses",
-        "Codex"
+        "Codex",
+        "Responses"
       ],
       "timestamp": "2025-12-17T04:12:31",
       "resolved_at": null
@@ -348,18 +348,18 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "File uploads",
-        "Deep Research",
         "Codex",
-        "Connectors",
-        "ChatGPT Atlas",
-        "Login",
         "Voice mode",
         "Search",
-        "Conversations",
         "Compliance API",
         "Image Generation",
         "GPTs",
+        "Deep Research",
+        "Connectors",
+        "ChatGPT Atlas",
+        "Login",
+        "File uploads",
+        "Conversations",
         "Agent"
       ],
       "timestamp": "2025-12-10T23:27:08",
@@ -535,5 +535,5 @@
     }
   ],
   "count": 42,
-  "last_updated": "2025-12-31T16:35:51.262588"
+  "last_updated": "2025-12-31T11:19:30.767614"
 }
