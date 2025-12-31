@@ -4,6 +4,7 @@
 
 [![Deploy to GitHub Pages](https://img.shields.io/badge/deploy-github%20pages-blue)](https://pages.github.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=shoryasethia.openlog)
 
 OpenLog is a static web application that monitors uptime and incident reports from major AI platforms including OpenAI, Claude (Anthropic), Gemini (Google), Groq, Cohere, Perplexity, Mistral AI, and Together AI.
 
