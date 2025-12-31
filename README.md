@@ -19,8 +19,7 @@ OpenLog is a static web application that monitors uptime and incident reports fr
 
 ## Live Demo
 
-When deployed to GitHub Pages, the application will be available at:
-`https://shoryasethia.github.io/openlog/`
+The application is available at: `https://shoryasethia.github.io/openlog/`
 
 ## Architecture
 
