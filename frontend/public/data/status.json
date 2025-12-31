@@ -9,7 +9,7 @@
       "color": "#10a37f",
       "description": "ChatGPT, GPT-4, DALL-E, Whisper",
       "current_status": "resolved",
-      "last_checked": "2025-12-31T11:36:01.183879",
+      "last_checked": "2025-12-31T17:14:44.928902",
       "total_incidents": 20,
       "last_incident_at": "2025-12-25T09:41:27"
     },
@@ -22,7 +22,7 @@
       "color": "#d4a27f",
       "description": "Claude AI Assistant",
       "current_status": "operational",
-      "last_checked": "2025-12-31T11:36:01.629260",
+      "last_checked": "2025-12-31T17:14:45.818151",
       "total_incidents": 20,
       "last_incident_at": "2025-12-23T10:51:24"
     },
@@ -35,9 +35,9 @@
       "color": "#4285f4",
       "description": "Gemini AI, Google AI Studio",
       "current_status": "operational",
-      "last_checked": "2025-12-31T11:36:01.708018",
+      "last_checked": "2025-12-31T17:14:46.402286",
       "total_incidents": 1,
-      "last_incident_at": "2025-12-31T11:36:01.707727"
+      "last_incident_at": "2025-12-31T17:14:46.401285"
     },
     "groq": {
       "name": "groq",
@@ -48,7 +48,7 @@
       "color": "#f55036",
       "description": "Ultra-fast AI Inference",
       "current_status": "operational",
-      "last_checked": "2025-12-31T11:36:02.609120",
+      "last_checked": "2025-12-31T17:14:47.503964",
       "total_incidents": 0,
       "last_incident_at": null
     },
@@ -61,7 +61,7 @@
       "color": "#39594d",
       "description": "Enterprise AI Platform",
       "current_status": "resolved",
-      "last_checked": "2025-12-31T11:36:02.700688",
+      "last_checked": "2025-12-31T17:14:47.750184",
       "total_incidents": 1,
       "last_incident_at": "2025-10-18T22:23:24"
     },
@@ -74,7 +74,7 @@
       "color": "#20808d",
       "description": "AI-Powered Search",
       "current_status": "operational",
-      "last_checked": "2025-12-31T11:36:02.962046",
+      "last_checked": "2025-12-31T17:14:48.182799",
       "total_incidents": 0,
       "last_incident_at": null
     },
@@ -87,7 +87,7 @@
       "color": "#f2a73b",
       "description": "Open and Portable AI",
       "current_status": "operational",
-      "last_checked": "2025-12-31T11:36:03.391006",
+      "last_checked": "2025-12-31T17:14:48.775204",
       "total_incidents": 0,
       "last_incident_at": null
     },
@@ -100,11 +100,89 @@
       "color": "#7c3aed",
       "description": "Leading Open Source AI",
       "current_status": "operational",
-      "last_checked": "2025-12-31T11:36:08.281381",
+      "last_checked": "2025-12-31T17:14:55.312188",
+      "total_incidents": 0,
+      "last_incident_at": null
+    },
+    "xai": {
+      "name": "xai",
+      "display_name": "xAI (Grok)",
+      "status_page": "https://status.x.ai",
+      "rss_feed": "https://status.x.ai/history.rss",
+      "logo_url": "https://x.ai/favicon.ico",
+      "color": "#000000",
+      "description": "Grok AI Assistant",
+      "current_status": "operational",
+      "last_checked": "2025-12-31T17:14:55.770502",
+      "total_incidents": 0,
+      "last_incident_at": null
+    },
+    "cartesia": {
+      "name": "cartesia",
+      "display_name": "Cartesia",
+      "status_page": "https://status.cartesia.ai",
+      "rss_feed": "https://status.cartesia.ai/history.rss",
+      "logo_url": "https://cartesia.ai/favicon.ico",
+      "color": "#ff3366",
+      "description": "Real-time Voice AI",
+      "current_status": "operational",
+      "last_checked": "2025-12-31T17:14:56.791339",
+      "total_incidents": 20,
+      "last_incident_at": "2025-12-18T20:10:45"
+    },
+    "deepgram": {
+      "name": "deepgram",
+      "display_name": "Deepgram",
+      "status_page": "https://status.deepgram.com",
+      "rss_feed": "https://status.deepgram.com/history.rss",
+      "logo_url": "https://deepgram.com/favicon.ico",
+      "color": "#38bdf8",
+      "description": "Voice AI Platform",
+      "current_status": "operational",
+      "last_checked": "2025-12-31T17:14:57.782262",
+      "total_incidents": 20,
+      "last_incident_at": "2025-12-10T20:05:05"
+    },
+    "stability": {
+      "name": "stability",
+      "display_name": "Stability AI",
+      "status_page": "https://status.stability.ai",
+      "rss_feed": "https://status.stability.ai/history.rss",
+      "logo_url": "https://stability.ai/favicon.ico",
+      "color": "#4c1d95",
+      "description": "Stable Diffusion & Audio",
+      "current_status": "resolved",
+      "last_checked": "2025-12-31T17:14:58.304475",
+      "total_incidents": 1,
+      "last_incident_at": "2025-11-18T18:15:22"
+    },
+    "huggingface": {
+      "name": "huggingface",
+      "display_name": "Hugging Face",
+      "status_page": "https://status.huggingface.co",
+      "rss_feed": "https://status.huggingface.co/rss",
+      "logo_url": "https://huggingface.co/favicon.ico",
+      "color": "#fbbf24",
+      "description": "The AI Community",
+      "current_status": "operational",
+      "last_checked": "2025-12-31T17:15:00.747353",
+      "total_incidents": 0,
+      "last_incident_at": null
+    },
+    "replicate": {
+      "name": "replicate",
+      "display_name": "Replicate",
+      "status_page": "https://replicatestatus.com",
+      "rss_feed": "https://replicatestatus.com/feed",
+      "logo_url": "https://replicate.com/favicon.ico",
+      "color": "#000000",
+      "description": "Run AI with an API",
+      "current_status": "operational",
+      "last_checked": "2025-12-31T17:15:03.169299",
       "total_incidents": 0,
       "last_incident_at": null
     }
   },
-  "count": 8,
-  "last_updated": "2025-12-31T11:36:08.281866"
+  "count": 14,
+  "last_updated": "2025-12-31T17:15:03.172390"
 }

@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2025-12-31T11:36:01.707727",
+      "timestamp": "2025-12-31T17:14:46.401285",
       "resolved_at": null
     },
     {
@@ -23,8 +23,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "GPTs",
-        "Conversations"
+        "Conversations",
+        "GPTs"
       ],
       "timestamp": "2025-12-25T09:41:27",
       "resolved_at": null
@@ -59,19 +59,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Agent",
-        "Connectors",
-        "Login",
+        "ChatGPT Atlas",
         "Voice mode",
         "Search",
         "Conversations",
+        "Compliance API",
         "GPTs",
+        "Login",
+        "File uploads",
+        "Image Generation",
+        "Agent",
         "Deep Research",
         "Codex",
-        "ChatGPT Atlas",
-        "File uploads",
-        "Compliance API",
-        "Image Generation"
+        "Connectors"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -170,6 +170,17 @@
         "Login"
       ],
       "timestamp": "2025-12-18T22:34:58",
+      "resolved_at": null
+    },
+    {
+      "id": 1,
+      "incident_id": "https://status.cartesia.ai/incidents/0pl77pr3m5fl",
+      "provider": "cartesia",
+      "title": "TTS API - US",
+      "status": "operational",
+      "message": "Dec 18 , 20:10 UTC Resolved - Confirmed there are no longer any issues. Users likely saw a brief spike in 503s, and then elevated TTFAs (backup cluster) for a few minutes, entire incident would have resolved in a few minutes. Will have an RCA shortly Dec 18 , 19:49 UTC Monitoring - Healthchecks indicate this is currently working as intended, will continue to monitor for a bit before closing Dec 18 , 19:48 UTC Identified - A faulty deploy temporarily took down our TTS on the US cluster. Traffic r",
+      "affected_products": [],
+      "timestamp": "2025-12-18T20:10:45",
       "resolved_at": null
     },
     {
@@ -288,8 +299,8 @@
       "status": "resolved",
       "message": "Status: Resolved The affected Github connectors should now be fully restored. Users should be able to use Codex (including code reviews) and ChatGPT with the Github connector without issue.",
       "affected_products": [
-        "Codex",
-        "Connectors"
+        "Connectors",
+        "Codex"
       ],
       "timestamp": "2025-12-12T19:52:11",
       "resolved_at": null
@@ -348,19 +359,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
+        "Voice mode",
+        "Conversations",
+        "Codex",
+        "ChatGPT Atlas",
+        "Login",
+        "Search",
         "Compliance API",
         "Image Generation",
         "GPTs",
-        "Deep Research",
-        "Codex",
-        "File uploads",
-        "Voice mode",
-        "Conversations",
         "Agent",
+        "Deep Research",
         "Connectors",
-        "ChatGPT Atlas",
-        "Login",
-        "Search"
+        "File uploads"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -374,6 +385,17 @@
       "message": "Dec 10 , 20:21 UTC Resolved - This incident has been resolved. Dec 10 , 19:50 UTC Identified - The issue has been identified and a fix is being implemented. Dec 10 , 19:44 UTC Investigating - We are currently investigating this issue.",
       "affected_products": [],
       "timestamp": "2025-12-10T20:21:53",
+      "resolved_at": null
+    },
+    {
+      "id": 1,
+      "incident_id": "https://status.deepgram.com/incidents/bnf9kbtqkk0q",
+      "provider": "deepgram",
+      "title": "[Deepgram API] Elevated Streaming Error Rates: 400 error code responses",
+      "status": "operational",
+      "message": "Dec 10 , 20:05 UTC Resolved - This incident has been resolved. Dec 10 , 20:04 UTC Monitoring - A fix has been implemented and we are monitoring the results. Dec 10 , 19:35 UTC Identified - The issue has been identified and is being actively resolved.",
+      "affected_products": [],
+      "timestamp": "2025-12-10T20:05:05",
       "resolved_at": null
     },
     {
@@ -523,6 +545,127 @@
       "resolved_at": null
     },
     {
+      "id": 2,
+      "incident_id": "https://status.deepgram.com/incidents/8xny9m4v24sr",
+      "provider": "deepgram",
+      "title": "Shai-Hulud 2.0 Supply Chain Incident \u2013 No Customer Impact",
+      "status": "operational",
+      "message": "Nov 26 , 00:00 UTC Resolved - Informational (No Customer Action Required) Deepgram identified that our internal development environment was affected as part of the industry-wide Shai-Hulud 2.0 NPM supply chain attack. The attack used compromised NPM packages to inject malicious CI/CD workflows and attempt to exfiltrate internal development credentials. Our investigation confirms: - No access to customer data or databases - No impact to production API infrastructure or service availability - No m",
+      "affected_products": [],
+      "timestamp": "2025-11-26T00:00:14",
+      "resolved_at": null
+    },
+    {
+      "id": 1,
+      "incident_id": "https://status.stability.ai//incidents/01KAC2HDFQQMJE0G0E5GT1KS7K",
+      "provider": "stability",
+      "title": "Public REST API outage",
+      "status": "resolved",
+      "message": "Status: Resolved The Cloudflare outage issue has been resolved. All our services and APIs are operating normally. We apologize for any inconvenience this may have caused and thank you for your patience.",
+      "affected_products": [],
+      "timestamp": "2025-11-18T18:15:22",
+      "resolved_at": null
+    },
+    {
+      "id": 3,
+      "incident_id": "https://status.deepgram.com/incidents/jcgy2zk77ctf",
+      "provider": "deepgram",
+      "title": "Elevated API Errors",
+      "status": "operational",
+      "message": "Nov 18 , 16:33 UTC Resolved - This incident has been resolved. Nov 18 , 16:28 UTC Update - We are continuing to monitor for any further issues. Nov 15 , 01:42 UTC Update - We are continuing to monitor for any further issues. Nov 15 , 01:33 UTC Monitoring - A fix has been implemented and we are monitoring the results. Nov 15 , 00:28 UTC Identified - The issue has been identified and a fix is being implemented. Nov 14 , 23:44 UTC Update - We are still investigating the issue. Nov 14 , 20:21 UTC Up",
+      "affected_products": [],
+      "timestamp": "2025-11-18T16:33:09",
+      "resolved_at": null
+    },
+    {
+      "id": 2,
+      "incident_id": "https://status.cartesia.ai/incidents/rk8g4xqpzkyd",
+      "provider": "cartesia",
+      "title": "CRUD endpoint outage",
+      "status": "operational",
+      "message": "Nov 14 , 03:03 UTC Resolved - The playground should be back up. The playground outage was downstream of a more general outage on CRUD endpoints caused by a database issue which is now resolved. Thanks to previous infra hardening efforts, this issue did not affect production traffic on our real-time APIs, including TTS & STT. Nov 14 , 02:29 UTC Investigating - The Cartesia playground is currently down. We are investigating.",
+      "affected_products": [],
+      "timestamp": "2025-11-14T03:03:11",
+      "resolved_at": null
+    },
+    {
+      "id": 4,
+      "incident_id": "https://status.deepgram.com/incidents/vgsyqxkc67by",
+      "provider": "deepgram",
+      "title": "Elevated latency and connection timeouts on Deepgram services",
+      "status": "operational",
+      "message": "Nov 14 , 01:13 UTC Resolved - This incident has been resolved. Nov 13 , 23:35 UTC Monitoring - We have adjusted our networking and are seeing recovery. Nov 13 , 23:16 UTC Investigating - We are investigating an issue causing elevated latency and connection timeouts to Deepgram services.",
+      "affected_products": [],
+      "timestamp": "2025-11-14T01:13:03",
+      "resolved_at": null
+    },
+    {
+      "id": 3,
+      "incident_id": "https://status.cartesia.ai/incidents/nc9szlm61wp2",
+      "provider": "cartesia",
+      "title": "EU Specific Route 404",
+      "status": "operational",
+      "message": "Nov 10 , 08:04 UTC Resolved - Users appear to confirm that this has been resolved since. Will update retroactively with a more thorough RCA. Nov 10 , 07:58 UTC Update - We are continuing to monitor for any further issues. Nov 10 , 07:55 UTC Monitoring - We've deployed a fix for the route. Nov 10 , 07:53 UTC Identified - As part of a scheduled node migration, the EU specific domain was routed to a new node. This appears to not be working as intended, we're deploying a fix shortly.",
+      "affected_products": [],
+      "timestamp": "2025-11-10T08:04:42",
+      "resolved_at": null
+    },
+    {
+      "id": 4,
+      "incident_id": "https://status.cartesia.ai/incidents/r97rscxvn0t7",
+      "provider": "cartesia",
+      "title": "Database connection issue leading to impacted Agents and Narrations",
+      "status": "operational",
+      "message": "Nov 6 , 19:38 UTC Resolved - This incident has been resolved. Nov 6 , 19:38 UTC Monitoring - Root cause was determined to be an unforeseen networking configuration change from an upstream provider. Mitigations have been applied, all errors are resolved, and we\u2019re closely monitoring the system. Nov 6 , 19:16 UTC Investigating - We are experiencing some database connection issues impacting some product service area including Agents and Narrations. These do not impact TTS, Voice or Cloning APIs.",
+      "affected_products": [],
+      "timestamp": "2025-11-06T19:38:44",
+      "resolved_at": null
+    },
+    {
+      "id": 5,
+      "incident_id": "https://status.cartesia.ai/incidents/61mcfs2xmsl0",
+      "provider": "cartesia",
+      "title": "Pro Voice Cloning: Long training times",
+      "status": "operational",
+      "message": "Nov 5 , 20:49 UTC Resolved - This incident has been resolved. Nov 5 , 02:49 UTC Identified - We have identified the root cause. The issue is impacting only a small number of requests and we are providing support for users. The full resolution will be resolved in the next Morning to ensure stability of our other services. Nov 4 , 21:44 UTC Update - We found a serialization issue that is causing uncaught errors in our training pipeline. We are working on a fix for both the serialization bug and im",
+      "affected_products": [],
+      "timestamp": "2025-11-05T20:49:37",
+      "resolved_at": null
+    },
+    {
+      "id": 5,
+      "incident_id": "https://status.deepgram.com/incidents/v8jtxfhv1nsw",
+      "provider": "deepgram",
+      "title": "Outage for non-English batch speech-to-text requests utilizing redaction feature",
+      "status": "operational",
+      "message": "Oct 30 , 01:34 UTC Resolved - This issue has been resolved. Oct 29 , 23:46 UTC Update - We are continuing to monitor for any further issues. Oct 29 , 17:10 UTC Monitoring - We've implemented a fix and are currently monitoring the status of the issue. Oct 29 , 16:15 UTC Investigating - We're experiencing an outage for our non-English batch speech-to-text requests utilizing redaction feature.",
+      "affected_products": [],
+      "timestamp": "2025-10-30T01:34:01",
+      "resolved_at": null
+    },
+    {
+      "id": 6,
+      "incident_id": "https://status.deepgram.com/incidents/btbhfrzzyk39",
+      "provider": "deepgram",
+      "title": "Downstream third-party provider outage (OpenAI LLMs)",
+      "status": "operational",
+      "message": "Oct 29 , 22:02 UTC Resolved - As of 19:28 UTC OpenAI's LLMs are no longer returning 500 errors. We are still in conversation with OpenAI about what happened. Oct 27 , 23:31 UTC Update - We are still continuing to see increased errors using the OpenAI models in the Voice Agent API workflow. We have reached out and communicated with OpenAI to help resolve. Oct 24 , 17:47 UTC Update - We are still continuing to see increased errors using the OpenAI models in the Voice Agent API workflow. We have re",
+      "affected_products": [],
+      "timestamp": "2025-10-29T22:02:45",
+      "resolved_at": null
+    },
+    {
+      "id": 7,
+      "incident_id": "https://status.deepgram.com/incidents/hksc8g0nhr3f",
+      "provider": "deepgram",
+      "title": "Increased Latency Over Streaming STT and Voice Agent API",
+      "status": "operational",
+      "message": "Oct 28 , 16:20 UTC Resolved - This issue has been resolved. Oct 28 , 16:20 UTC Monitoring - The increased latency issue has significantly improved. We will continue to monitor the performance. Oct 28 , 16:00 UTC Update - We identified a potential source of increased latency and are currently monitoring a mitigation step. Oct 28 , 14:02 UTC Investigating - We are currently investigating increased latency over our streaming STT API and Voice Agent API.",
+      "affected_products": [],
+      "timestamp": "2025-10-28T16:20:23",
+      "resolved_at": null
+    },
+    {
       "id": 1,
       "incident_id": "https://status.cohere.com//incidents/01K7WMKZTGGPADA69MEAE9P4TY",
       "provider": "cohere",
@@ -532,8 +675,316 @@
       "affected_products": [],
       "timestamp": "2025-10-18T22:23:24",
       "resolved_at": null
+    },
+    {
+      "id": 8,
+      "incident_id": "https://status.deepgram.com/incidents/8x1c7pgsjj3n",
+      "provider": "deepgram",
+      "title": "Elevated error rates for Voice Agent API when using OpenAI LLMs",
+      "status": "operational",
+      "message": "Oct 16 , 21:00 UTC Resolved - As of 21:00 UTC on October 16th, OpenAI's LLMs are no longer returning 500 errors. Oct 9 , 23:00 UTC Investigating - We're seeing elevated error rates with OpenAI models in the Voice Agent API. Our team is actively investigating and working with OpenAI to find a path to resolution, and a path to mitigation in the short term. Our metrics show degraded service for 4o-mini, 4.1-mini, 4.1 nano, 4.1, and possibly other OpenAI models. A service degradation began at approx",
+      "affected_products": [],
+      "timestamp": "2025-10-16T21:00:33",
+      "resolved_at": null
+    },
+    {
+      "id": 6,
+      "incident_id": "https://status.cartesia.ai/incidents/8bb0366tl7jp",
+      "provider": "cartesia",
+      "title": "Elevated errors on TTS & STT API",
+      "status": "operational",
+      "message": "Oct 14 , 23:17 UTC Resolved - This incident has now been resolved, we'll follow up with an RCA shortly! Oct 14 , 23:16 UTC Update - We've rolled out a fix and US traffic is being routed to our US clusters. Latencies should be within normal ranges now. Oct 14 , 22:32 UTC Update - We are still working with the primary provider to bring the cluster back up, but in the meanwhile traffic is served from our global clusters at about `100-200ms` higher latencies for our US traffic. Oct 14 , 21:34 UTC Up",
+      "affected_products": [],
+      "timestamp": "2025-10-14T23:17:03",
+      "resolved_at": null
+    },
+    {
+      "id": 7,
+      "incident_id": "https://status.cartesia.ai/incidents/k012db7dg2n9",
+      "provider": "cartesia",
+      "title": "TTS Instability",
+      "status": "operational",
+      "message": "Oct 7 , 18:32 UTC Resolved - This incident has been resolved. Oct 7 , 18:03 UTC Update - We are continuing to monitor for any further issues. Oct 7 , 18:03 UTC Update - We've confirmed that this is cloudflare related, they've introduced mitigations (see here https://www.cloudflarestatus.com/incidents/ff4947s38tlb) and this appears to have resolved issues. Monitoring now Oct 7 , 17:54 UTC Monitoring - The timeout errors have recovered, but we're continuing to monitor on our end. The aforementione",
+      "affected_products": [],
+      "timestamp": "2025-10-07T18:32:40",
+      "resolved_at": null
+    },
+    {
+      "id": 9,
+      "incident_id": "https://status.deepgram.com/incidents/rs9y69cftnk9",
+      "provider": "deepgram",
+      "title": "[ISP Network-Related Issue]",
+      "status": "operational",
+      "message": "Oct 7 , 17:18 UTC Resolved - Start: 16:15:00 UTC End: 17:18:00 UTC Streaming connectivity issues from some AWS regions may have caused Websocket failures errors and degraded connectivity",
+      "affected_products": [],
+      "timestamp": "2025-10-07T17:18:50",
+      "resolved_at": null
+    },
+    {
+      "id": 10,
+      "incident_id": "https://status.deepgram.com/incidents/5csks8z85yhb",
+      "provider": "deepgram",
+      "title": "US Network Issues",
+      "status": "operational",
+      "message": "Oct 3 , 04:30 UTC Resolved - This incident has been resolved. Oct 3 , 01:51 UTC Monitoring - The issue has been mitigated after rerouting traffic to avoid upstream network provider failures. Networking errors may have occurred intermittently between 12:08 am UTC and 1:51 am UTC. Oct 3 , 00:08 UTC Identified - We've identified an issue with an upstream network provider across various US regions, and are working to shift traffic to alternative routes.",
+      "affected_products": [],
+      "timestamp": "2025-10-03T04:30:09",
+      "resolved_at": null
+    },
+    {
+      "id": 8,
+      "incident_id": "https://status.cartesia.ai/incidents/m1y1sb324qwd",
+      "provider": "cartesia",
+      "title": "PVC creation outage",
+      "status": "operational",
+      "message": "Oct 1 , 21:05 UTC Resolved - This incident has been resolved. Oct 1 , 20:13 UTC Monitoring - We've implemented a fix to the pipeline, and we're actively monitoring. Users can re-try any failed Pro Voice Clones to re-train them. Oct 1 , 18:42 UTC Identified - We've identified the issue and are currently testing a hotfix. Oct 1 , 18:26 UTC Investigating - We are experiencing an issue where all PVC creations are failing. We are actively looking into this issue.",
+      "affected_products": [],
+      "timestamp": "2025-10-01T21:05:22",
+      "resolved_at": null
+    },
+    {
+      "id": 11,
+      "incident_id": "https://status.deepgram.com/incidents/n1qlwrj1kmdf",
+      "provider": "deepgram",
+      "title": "Elevated API Errors for STT and TTS",
+      "status": "operational",
+      "message": "Sep 24 , 13:02 UTC Resolved - Streaming and batch STT and TTS requests experienced elevated error rates due to connectivity issues in one of our regions that caused services to stop and not restart as expected. The issue has been resolved, and current status of the Deepgram API is operational. Sep 24 , 09:09 UTC Investigating - We're experiencing an elevated level of API errors for streaming and batch STT and batch TTS - are currently looking into the issue.",
+      "affected_products": [],
+      "timestamp": "2025-09-24T13:02:45",
+      "resolved_at": null
+    },
+    {
+      "id": 9,
+      "incident_id": "https://status.cartesia.ai/incidents/5030xtgrw31q",
+      "provider": "cartesia",
+      "title": "Elevated errors on TTS requests for sonic-2",
+      "status": "operational",
+      "message": "Sep 18 , 13:00 UTC Resolved - A recent deployment introduced regressions affecting a subset of text-to-speech (TTS) requests using the latest sonic-2 model ID, including the dated variants sonic-2-2025-05-08 and sonic-2-2025-06-11. Between 1:00\u20131:30 pm UTC, impacted requests experienced elevated API error rates. The issue was isolated to the affected model IDs and did not impact other TTS models. The incident has been resolved.",
+      "affected_products": [],
+      "timestamp": "2025-09-18T13:00:00",
+      "resolved_at": null
+    },
+    {
+      "id": 10,
+      "incident_id": "https://status.cartesia.ai/incidents/l8yxpqrpb95g",
+      "provider": "cartesia",
+      "title": "Exports failing in Narrations",
+      "status": "operational",
+      "message": "Sep 18 , 03:44 UTC Resolved - This incident, which was caused by an inconsistency in how the Bun JS runtime handles multipart file uploads containing JS Blob objects, has been resolved. Sep 17 , 22:06 UTC Investigating - We are currently investigating export failures in Narrations.",
+      "affected_products": [],
+      "timestamp": "2025-09-18T03:44:13",
+      "resolved_at": null
+    },
+    {
+      "id": 11,
+      "incident_id": "https://status.cartesia.ai/incidents/rcq3brs5nmwz",
+      "provider": "cartesia",
+      "title": "Login/sign-up degraded on playground",
+      "status": "operational",
+      "message": "Sep 17 , 20:44 UTC Resolved - This incident has been resolved. Sep 17 , 07:22 UTC Identified - Playground sign-in/sign-up is currently degraded due to an outage in our auth provider, Clerk. For updates, see status.clerk.com.",
+      "affected_products": [],
+      "timestamp": "2025-09-17T20:44:02",
+      "resolved_at": null
+    },
+    {
+      "id": 12,
+      "incident_id": "https://status.deepgram.com/incidents/74jcwty112fd",
+      "provider": "deepgram",
+      "title": "Elevated batch error rates",
+      "status": "operational",
+      "message": "Sep 5 , 07:07 UTC Resolved - Elevated error rates were observed for requests that submitted a URL to an input audio file or used callbacks to collect the response, primarily affecting STT batch requests. Sep 5 , 04:00 UTC Investigating - We are currently investigating elevated error rates returned from STT batch requests.",
+      "affected_products": [],
+      "timestamp": "2025-09-05T07:07:32",
+      "resolved_at": null
+    },
+    {
+      "id": 12,
+      "incident_id": "https://status.cartesia.ai/incidents/8k6zv9zysgs5",
+      "provider": "cartesia",
+      "title": "TTS and STT traffic affected due to NA cluster instability",
+      "status": "operational",
+      "message": "Sep 4 , 20:44 UTC Resolved - This incident has been resolved. Sep 4 , 20:39 UTC Update - All NA cluster traffic has stabilized. We continue to monitor and will share the upstream provider\u2019s RCA on the network instability. We'll put appropriate mitigations in place once we have this update. Sep 4 , 20:21 UTC Update - We've put a mitigation in place and traffic is coming back to the cluster. We're continuing to monitor. Sep 4 , 20:10 UTC Investigating - We are currently investigating this issue.",
+      "affected_products": [],
+      "timestamp": "2025-09-04T20:44:24",
+      "resolved_at": null
+    },
+    {
+      "id": 13,
+      "incident_id": "https://status.deepgram.com/incidents/dgsz3qv3297v",
+      "provider": "deepgram",
+      "title": "[Deepgram API] Aura-2 TTS Performance Degradation",
+      "status": "operational",
+      "message": "Sep 4 , 17:09 UTC Resolved - This incident has been resolved. Sep 4 , 16:22 UTC Investigating - We are investigating an issue where a subset of requests may return elevated rates of 5XX errors or experience significantly higher time to first byte.",
+      "affected_products": [],
+      "timestamp": "2025-09-04T17:09:09",
+      "resolved_at": null
+    },
+    {
+      "id": 14,
+      "incident_id": "https://status.deepgram.com/incidents/rlts8w07fwrr",
+      "provider": "deepgram",
+      "title": "ISP Network-Related Issue",
+      "status": "operational",
+      "message": "Sep 4 , 14:50 UTC Resolved - This incident has been resolved. Sep 4 , 14:43 UTC Investigating - We are investigating an issue that may result in callback failures and timeouts.",
+      "affected_products": [],
+      "timestamp": "2025-09-04T14:50:55",
+      "resolved_at": null
+    },
+    {
+      "id": 15,
+      "incident_id": "https://status.deepgram.com/incidents/sl3zxvhddf1w",
+      "provider": "deepgram",
+      "title": "[Deepgram API] Aura-2 TTS Performance Degradation",
+      "status": "operational",
+      "message": "Aug 27 , 20:50 UTC Resolved - This incident has been resolved. Aug 27 , 19:56 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 27 , 17:50 UTC Investigating - Summary: We are investigating an issue where a subset of requests may return elevated rates of 5XX errors or experience significantly higher time to first byte",
+      "affected_products": [],
+      "timestamp": "2025-08-27T20:50:09",
+      "resolved_at": null
+    },
+    {
+      "id": 16,
+      "incident_id": "https://status.deepgram.com/incidents/zhdshn5wgqqy",
+      "provider": "deepgram",
+      "title": "ISP Network-Related Issue",
+      "status": "operational",
+      "message": "Aug 26 , 18:25 UTC Resolved - Time: ~ 06:30 UTC - 07:00 UTC Summary: Streaming connectivity issues causing 'timed out during opening handshake' errors and degraded connectivity. Service is now stable. This has been resolved and root cause discovered.",
+      "affected_products": [],
+      "timestamp": "2025-08-26T18:25:33",
+      "resolved_at": null
+    },
+    {
+      "id": 13,
+      "incident_id": "https://status.cartesia.ai/incidents/xr6hpdbvz93y",
+      "provider": "cartesia",
+      "title": "503 Errors on TTS/STT traffic in NA",
+      "status": "operational",
+      "message": "Aug 25 , 01:00 UTC Resolved - Between 6:04:56 PM and 6:05:36 PM PDT (40 second period) on Aug 24th 2025, our NA cluster experienced instability due to a networking problem from an upstream provider. This caused 503 errors on new requests and WebSocket connections for TTS and STT traffic in North America.",
+      "affected_products": [],
+      "timestamp": "2025-08-25T01:00:00",
+      "resolved_at": null
+    },
+    {
+      "id": 14,
+      "incident_id": "https://status.cartesia.ai/incidents/11fjkjjbbxmc",
+      "provider": "cartesia",
+      "title": "Cloudflare Outage in IAD",
+      "status": "operational",
+      "message": "Aug 21 , 20:04 UTC Resolved - This incident has been resolved. Aug 21 , 20:04 UTC Update - We are continuing to work on a fix for this issue. Aug 21 , 19:07 UTC Identified - https://www.cloudflarestatus.com/ Cloudflare is experiencing an outage in IAD that has impacted network performance leading to instability with requests in our US East region. We're continuing to monitor.",
+      "affected_products": [],
+      "timestamp": "2025-08-21T20:04:52",
+      "resolved_at": null
+    },
+    {
+      "id": 15,
+      "incident_id": "https://status.cartesia.ai/incidents/73m39sjxhvdj",
+      "provider": "cartesia",
+      "title": "Degraded performance in US",
+      "status": "operational",
+      "message": "Aug 15 , 13:59 UTC Resolved - This incident has been resolved. Our cluster provider had a network outage and has recovered. We are monitoring the cluster and working with the provider to RCA the issue. Aug 15 , 13:57 UTC Monitoring - Between 6:40 am PT -> 6:43 am PT, we observed degraded performance in the US cluster. All systems are operational now. We are monitoring.",
+      "affected_products": [],
+      "timestamp": "2025-08-15T13:59:02",
+      "resolved_at": null
+    },
+    {
+      "id": 17,
+      "incident_id": "https://status.deepgram.com/incidents/6m9bfwn67988",
+      "provider": "deepgram",
+      "title": "[Voice Agent API] Connections Rejected",
+      "status": "operational",
+      "message": "Aug 14 , 15:13 UTC Resolved - Between 2025-08-14 21:13 UTC and 2025-08-14 21:37 UTC, the Voice Agent API experienced a 20-minute outage that prevented all new connections from being established. Existing active connections were not impacted. The issue has been resolved, and current status of the Voice Agent API is operational.",
+      "affected_products": [],
+      "timestamp": "2025-08-14T15:13:00",
+      "resolved_at": null
+    },
+    {
+      "id": 16,
+      "incident_id": "https://status.cartesia.ai/incidents/dq5dzl6kbx61",
+      "provider": "cartesia",
+      "title": "Degraded performance in EU",
+      "status": "operational",
+      "message": "Aug 11 , 17:45 UTC Resolved - We noticed a spike in load in the EU, which may have caused elevated latencies briefly. Our alerting system flagged this spike and we scaled our EU cluster to handle it. Latencies should be back to normal.",
+      "affected_products": [],
+      "timestamp": "2025-08-11T17:45:40",
+      "resolved_at": null
+    },
+    {
+      "id": 17,
+      "incident_id": "https://status.cartesia.ai/incidents/zj68396rdkh2",
+      "provider": "cartesia",
+      "title": "NA Cluster Instability",
+      "status": "operational",
+      "message": "Jul 24 , 21:32 UTC Resolved - Seems we've been fine for an hour, closing. RCA coming shortly Jul 24 , 20:34 UTC Monitoring - We've rolled over 100% of traffic to the new cluster. Monitoring now Jul 24 , 18:44 UTC Identified - We haven't had a latency spike in a while but we're sporadically seeing workers be unavailable, reducing our capacity. Spinning up a new cluster to swap over to in order to reset the state of our nodes. Jul 24 , 18:03 UTC Investigating - We're seeing reports of latency spik",
+      "affected_products": [],
+      "timestamp": "2025-07-24T21:32:36",
+      "resolved_at": null
+    },
+    {
+      "id": 18,
+      "incident_id": "https://status.deepgram.com/incidents/g7l5rnym2pl4",
+      "provider": "deepgram",
+      "title": "[Deepgram Engine] High Rate of Closed Connections",
+      "status": "operational",
+      "message": "Jul 24 , 12:50 UTC Resolved - - Service degradation in inference infrastructure - High rate of premature streaming text-to-speech",
+      "affected_products": [],
+      "timestamp": "2025-07-24T12:50:00",
+      "resolved_at": null
+    },
+    {
+      "id": 19,
+      "incident_id": "https://status.deepgram.com/incidents/xtzy1lzrryvv",
+      "provider": "deepgram",
+      "title": "[ISP] Network-Related Issue",
+      "status": "operational",
+      "message": "Jul 23 , 09:26 UTC Resolved - - High rate of callback failures",
+      "affected_products": [],
+      "timestamp": "2025-07-23T09:26:00",
+      "resolved_at": null
+    },
+    {
+      "id": 18,
+      "incident_id": "https://status.cartesia.ai/incidents/7ns8yrllms9t",
+      "provider": "cartesia",
+      "title": "EU + NA Cluster Instability",
+      "status": "operational",
+      "message": "Jul 21 , 21:44 UTC Resolved - The primary NA cluster has been rolled back and traffic has been rerouted to the primary cluster. Confirmed the stability after some period of time. RCA will come shortly Jul 21 , 18:59 UTC Update - NA traffic is 100% on the new NA cluster. Will monitor for the next hour before resolving Jul 21 , 18:53 UTC Update - NA traffic is rolling out to backup cluster. Jul 21 , 17:07 UTC Update - Currently attempting the same type of rollback on NA Jul 21 , 16:45 UTC Monitori",
+      "affected_products": [],
+      "timestamp": "2025-07-21T21:44:49",
+      "resolved_at": null
+    },
+    {
+      "id": 19,
+      "incident_id": "https://status.cartesia.ai/incidents/xf8clpfrnzfq",
+      "provider": "cartesia",
+      "title": "EU Instability",
+      "status": "operational",
+      "message": "Jul 21 , 08:33 UTC Resolved - EU Cluster is stabilized. Jul 21 , 08:21 UTC Update - We are continuing to monitor for any further issues. Jul 21 , 08:21 UTC Monitoring - We've completed the full rollback and routed EU traffic back to the EU cluster. Will continue monitoring Jul 21 , 07:21 UTC Identified - It seems the mitigation we put in place for the EU cluster didn't hold. We're going to be rerouting EU traffic back to NA for the time being while we do a full rollback. Jul 21 , 06:28 UTC Monit",
+      "affected_products": [],
+      "timestamp": "2025-07-21T08:33:56",
+      "resolved_at": null
+    },
+    {
+      "id": 20,
+      "incident_id": "https://status.cartesia.ai/incidents/tx6m4fkcx2z5",
+      "provider": "cartesia",
+      "title": "APAC Temporarily Degraded",
+      "status": "operational",
+      "message": "Jul 18 , 05:07 UTC Resolved - This incident has been resolved. Jul 18 , 04:12 UTC Update - We are continuing to monitor for any further issues. Jul 18 , 04:12 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 18 , 03:24 UTC Identified - A few bad workers have introduced some temporary latency to our APAC cluster. We are rolling them back now.",
+      "affected_products": [],
+      "timestamp": "2025-07-18T05:07:19",
+      "resolved_at": null
+    },
+    {
+      "id": 20,
+      "incident_id": "https://status.deepgram.com/incidents/gxg5p9rczrvr",
+      "provider": "deepgram",
+      "title": "[Deepgram Engine] High Rate of Closed Connections",
+      "status": "operational",
+      "message": "Jul 16 , 16:20 UTC Resolved - - Service degradation in inference infrastructure - High rate of premature streaming text-to-speech",
+      "affected_products": [],
+      "timestamp": "2025-07-16T16:20:00",
+      "resolved_at": null
     }
   ],
-  "count": 42,
-  "last_updated": "2025-12-31T11:36:08.282081"
+  "count": 83,
+  "last_updated": "2025-12-31T17:15:03.176388"
 }
