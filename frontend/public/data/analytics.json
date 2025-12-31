@@ -1,0 +1,149 @@
+{
+  "periods": {
+    "7d": {
+      "period_days": 7,
+      "incident_counts": {
+        "google": 1,
+        "openai": 1,
+        "anthropic": 0,
+        "groq": 0,
+        "cohere": 0,
+        "perplexity": 0,
+        "mistral": 0,
+        "together": 0
+      },
+      "uptime": {
+        "openai": {
+          "uptime_percentage": 99.4,
+          "incident_count": 1
+        },
+        "anthropic": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "google": {
+          "uptime_percentage": 99.4,
+          "incident_count": 1
+        },
+        "groq": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "cohere": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "perplexity": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "mistral": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "together": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        }
+      },
+      "mttr": {}
+    },
+    "30d": {
+      "period_days": 30,
+      "incident_counts": {
+        "google": 1,
+        "openai": 20,
+        "anthropic": 20,
+        "groq": 0,
+        "cohere": 0,
+        "perplexity": 0,
+        "mistral": 0,
+        "together": 0
+      },
+      "uptime": {
+        "openai": {
+          "uptime_percentage": 97.22,
+          "incident_count": 20
+        },
+        "anthropic": {
+          "uptime_percentage": 97.22,
+          "incident_count": 20
+        },
+        "google": {
+          "uptime_percentage": 99.86,
+          "incident_count": 1
+        },
+        "groq": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "cohere": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "perplexity": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "mistral": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "together": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        }
+      },
+      "mttr": {}
+    },
+    "90d": {
+      "period_days": 90,
+      "incident_counts": {
+        "google": 1,
+        "openai": 20,
+        "anthropic": 20,
+        "cohere": 1,
+        "groq": 0,
+        "perplexity": 0,
+        "mistral": 0,
+        "together": 0
+      },
+      "uptime": {
+        "openai": {
+          "uptime_percentage": 99.07,
+          "incident_count": 20
+        },
+        "anthropic": {
+          "uptime_percentage": 99.07,
+          "incident_count": 20
+        },
+        "google": {
+          "uptime_percentage": 99.95,
+          "incident_count": 1
+        },
+        "groq": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "cohere": {
+          "uptime_percentage": 99.95,
+          "incident_count": 1
+        },
+        "perplexity": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "mistral": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        },
+        "together": {
+          "uptime_percentage": 100.0,
+          "incident_count": 0
+        }
+      },
+      "mttr": {}
+    }
+  },
+  "last_updated": "2025-12-31T16:35:51.264093"
+}

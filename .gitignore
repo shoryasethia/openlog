@@ -1,1 +1,47 @@
-__pycache__
+# Temporary deployment notes
+READY_TO_DEPLOY.md
+DEPLOYMENT.md
+
+# Keep backend for local development only
+# This folder is not needed for GitHub Pages deployment
+backend/
+
+# Database - only for development
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+myenv/
+venv/
+env/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Build output
+docs/
+
+# Development config
+config.py
+status-tracker.py
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
