@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2025-12-31T23:14:11.913097",
+      "timestamp": "2026-01-01T01:15:18.254046",
       "resolved_at": null
     },
     {
@@ -23,8 +23,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Conversations",
-        "GPTs"
+        "GPTs",
+        "Conversations"
       ],
       "timestamp": "2025-12-25T09:41:27",
       "resolved_at": null
@@ -59,18 +59,18 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Login",
-        "Voice mode",
         "Search",
-        "Conversations",
-        "Agent",
+        "Compliance API",
         "Deep Research",
         "Codex",
+        "Connectors",
+        "Login",
         "File uploads",
-        "Compliance API",
+        "Voice mode",
+        "Conversations",
         "Image Generation",
         "GPTs",
-        "Connectors",
+        "Agent",
         "ChatGPT Atlas"
       ],
       "timestamp": "2025-12-21T21:33:27",
@@ -359,19 +359,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Search",
-        "GPTs",
+        "Codex",
         "Connectors",
         "ChatGPT Atlas",
+        "Login",
+        "Search",
+        "Compliance API",
+        "GPTs",
+        "Agent",
         "File uploads",
         "Voice mode",
         "Conversations",
-        "Compliance API",
         "Image Generation",
-        "Agent",
-        "Deep Research",
-        "Codex",
-        "Login"
+        "Deep Research"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -986,5 +986,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2025-12-31T23:14:24.152712"
+  "last_updated": "2026-01-01T01:15:28.659066"
 }
