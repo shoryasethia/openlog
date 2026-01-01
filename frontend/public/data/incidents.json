@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-01T21:13:51.393325",
+      "timestamp": "2026-01-01T22:14:05.265231",
       "resolved_at": null
     },
     {
@@ -23,8 +23,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Conversations",
-        "GPTs"
+        "GPTs",
+        "Conversations"
       ],
       "timestamp": "2025-12-25T09:41:27",
       "resolved_at": null
@@ -59,19 +59,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Codex",
-        "Login",
-        "File uploads",
+        "ChatGPT Atlas",
         "Search",
         "Conversations",
         "Compliance API",
-        "Image Generation",
-        "Connectors",
-        "ChatGPT Atlas",
-        "Voice mode",
         "GPTs",
+        "Codex",
+        "Login",
+        "File uploads",
+        "Voice mode",
+        "Image Generation",
         "Agent",
-        "Deep Research"
+        "Deep Research",
+        "Connectors"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -359,19 +359,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Deep Research",
+        "Codex",
         "Connectors",
-        "ChatGPT Atlas",
+        "Login",
         "File uploads",
-        "Voice mode",
-        "Search",
+        "Conversations",
         "Image Generation",
         "GPTs",
-        "Agent",
-        "Codex",
-        "Login",
-        "Conversations",
-        "Compliance API"
+        "Deep Research",
+        "ChatGPT Atlas",
+        "Voice mode",
+        "Search",
+        "Compliance API",
+        "Agent"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -986,5 +986,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-01T21:14:01.286025"
+  "last_updated": "2026-01-01T22:14:17.220942"
 }
