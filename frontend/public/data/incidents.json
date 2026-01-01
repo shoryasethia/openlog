@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-01T03:44:39.952777",
+      "timestamp": "2026-01-01T04:42:01.436496",
       "resolved_at": null
     },
     {
@@ -23,8 +23,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Conversations",
-        "GPTs"
+        "GPTs",
+        "Conversations"
       ],
       "timestamp": "2025-12-25T09:41:27",
       "resolved_at": null
@@ -59,19 +59,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Image Generation",
-        "Deep Research",
-        "Codex",
-        "ChatGPT Atlas",
-        "Login",
         "File uploads",
+        "Conversations",
+        "Compliance API",
+        "Image Generation",
+        "Codex",
+        "Login",
         "Voice mode",
         "Search",
-        "Compliance API",
         "GPTs",
         "Agent",
+        "Deep Research",
         "Connectors",
-        "Conversations"
+        "ChatGPT Atlas"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -359,19 +359,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Image Generation",
-        "GPTs",
-        "Agent",
-        "ChatGPT Atlas",
         "Login",
         "File uploads",
-        "Voice mode",
-        "Search",
+        "Conversations",
         "Compliance API",
+        "Agent",
         "Deep Research",
         "Codex",
         "Connectors",
-        "Conversations"
+        "Voice mode",
+        "Search",
+        "Image Generation",
+        "GPTs",
+        "ChatGPT Atlas"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -986,5 +986,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-01T03:44:49.000051"
+  "last_updated": "2026-01-01T04:42:12.569780"
 }
