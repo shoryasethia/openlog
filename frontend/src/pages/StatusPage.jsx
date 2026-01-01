@@ -91,17 +91,6 @@ function StatusPage() {
     return `${Math.floor(diff / 86400)}d ago`;
   };
 
-  const formatTime = (timestamp) => {
-    const date = new Date(timestamp);
-    const now = new Date();
-    const diff = Math.floor((now - date) / 1000);
-
-    if (diff < 60) return `${diff}s ago`;
-    if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
-    if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
-    return `${Math.floor(diff / 86400)}d ago`;
-  };
-
   const filteredIncidents = selectedProvider
     ? incidents.filter(inc => inc.provider === selectedProvider)
     : incidents;
@@ -131,14 +120,7 @@ function StatusPage() {
               </p>
             )}
             {isDataStale && (
-              <p className="stale-warning" style={{ 
-                color: '#f59e0b', 
-                fontSize: '0.9rem',
-                marginTop: '0.5rem',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '0.5rem'
-              }}>
+              <p className="stale-warning">
                 ⚠️ Data may be outdated - refresh to get latest status
               </p>
             )}
@@ -184,7 +166,7 @@ function StatusPage() {
                 <div className="provider-meta">
                   <div className="meta-item">
                     <Clock size={14} />
-                    <span>Last checked: {provider.last_checked ? formatTime(provider.last_checked) : 'Never'}</span>
+                    <span>Last checked: {provider.last_checked ? getRelativeTime(provider.last_checked) : 'Never'}</span>
                   </div>
                   <a
                     href={provider.status_page}
@@ -242,7 +224,7 @@ function StatusPage() {
                       {providers.find(p => p.name === incident.provider)?.display_name || incident.provider}
                     </div>
                     <div className="incident-time">
-                      {formatTime(incident.timestamp)}
+                      {getRelativeTime(incident.timestamp)}
                     </div>
                   </div>
 

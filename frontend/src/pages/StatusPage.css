@@ -37,6 +37,15 @@
   margin-top: var(--space-2);
 }
 
+.stale-warning {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem !important;
+  color: #f59e0b !important;
+  margin-top: 0.5rem;
+}
+
 .section-title {
   margin-bottom: var(--space-6);
   font-size: 1.75rem;
