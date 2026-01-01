@@ -14,6 +14,8 @@ function StatusPage() {
   const [loading, setLoading] = useState(true);
   const [lastUpdated, setLastUpdated] = useState(null);
   const [selectedProvider, setSelectedProvider] = useState(null);
+  const [isDataStale, setIsDataStale] = useState(false);
+  const [isRefreshing, setIsRefreshing] = useState(false);
 
   useEffect(() => {
     fetchData();
@@ -21,9 +23,28 @@ function StatusPage() {
     return () => clearInterval(interval);
   }, []);
 
-  const fetchData = async () => {
+  useEffect(() => {
+    if (lastUpdated) {
+      const dataAge = Date.now() - new Date(lastUpdated).getTime();
+      setIsDataStale(dataAge > 2 * 60 * 60 * 1000); // 2 hours
+    }
+  }, [lastUpdated]);
+
+  const fetchData = async (isManualRefresh = false) => {
+    if (isManualRefresh) {
+      setIsRefreshing(true);
+    }
+    
     try {
-      const timestamp = new Date().getTime();
+      const timestamp = Date.now();
+      
+      // Add aggressive cache bypass headers
+      const headers = {
+        'Cache-Control': 'no-cache, no-store, must-revalidate',
+        'Pragma': 'no-cache',
+        'Expires': '0'
+      };
+      
       const statusUrl = import.meta.env.DEV
         ? `${API_BASE}/status`
         : `${API_BASE}/status.json?t=${timestamp}`;
@@ -32,8 +53,8 @@ function StatusPage() {
         : `${API_BASE}/incidents.json?t=${timestamp}`;
 
       const [statusRes, incidentsRes] = await Promise.all([
-        axios.get(statusUrl),
-        axios.get(incidentsUrl)
+        axios.get(statusUrl, { headers }),
+        axios.get(incidentsUrl, { headers })
       ]);
 
       setProviders(Object.values(statusRes.data.providers));
@@ -46,6 +67,10 @@ function StatusPage() {
     } catch (error) {
       console.error('Error fetching data:', error);
       setLoading(false);
+    } finally {
+      if (isManualRefresh) {
+        setIsRefreshing(false);
+      }
     }
   };
 
@@ -56,11 +81,10 @@ function StatusPage() {
     return 'unknown';
   };
 
-  const formatTime = (timestamp) => {
-    const date = new Date(timestamp);
-    const now = new Date();
-    const diff = Math.floor((now - date) / 1000);
-
+  const getRelativeTime = (timestamp) => {
+    if (!timestamp) return '';
+    const diff = Math.floor((Date.now() - new Date(timestamp).getTime()) / 1000);
+    
     if (diff < 60) return `${diff}s ago`;
     if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
     if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
@@ -90,13 +114,24 @@ function StatusPage() {
             {lastUpdated && (
               <p className="last-updated">
                 <Clock size={14} />
-                Data updated: {new Date(lastUpdated).toLocaleString()} (refreshes hourly)
+                Last updated: {getRelativeTime(lastUpdated)} 
+                ({new Date(lastUpdated).toLocaleString()})
+                {' • '}Refreshes hourly
+              </p>
+            )}
+            {isDataStale && (
+              <p className="stale-warning">
+                ⚠️ Data may be outdated - refresh to get latest status
               </p>
             )}
           </div>
-          <button className="btn-secondary" onClick={fetchData}>
-            <RefreshCw size={18} />
-            Refresh
+          <button 
+            className="btn-secondary" 
+            onClick={() => fetchData(true)}
+            disabled={isRefreshing}
+          >
+            <RefreshCw size={18} className={isRefreshing ? 'spinning' : ''} />
+            {isRefreshing ? 'Refreshing...' : 'Refresh'}
           </button>
         </header>
 
@@ -131,7 +166,7 @@ function StatusPage() {
                 <div className="provider-meta">
                   <div className="meta-item">
                     <Clock size={14} />
-                    <span>Last checked: {provider.last_checked ? formatTime(provider.last_checked) : 'Never'}</span>
+                    <span>Last checked: {provider.last_checked ? getRelativeTime(provider.last_checked) : 'Never'}</span>
                   </div>
                   <a
                     href={provider.status_page}
@@ -189,7 +224,7 @@ function StatusPage() {
                       {providers.find(p => p.name === incident.provider)?.display_name || incident.provider}
                     </div>
                     <div className="incident-time">
-                      {formatTime(incident.timestamp)}
+                      {getRelativeTime(incident.timestamp)}
                     </div>
                   </div>
 
