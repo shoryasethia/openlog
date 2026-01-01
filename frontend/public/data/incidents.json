@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-01T18:21:01.497554",
+      "timestamp": "2026-01-01T19:12:00.387671",
       "resolved_at": null
     },
     {
@@ -23,8 +23,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "GPTs",
-        "Conversations"
+        "Conversations",
+        "GPTs"
       ],
       "timestamp": "2025-12-25T09:41:27",
       "resolved_at": null
@@ -59,19 +59,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "ChatGPT Atlas",
         "Login",
         "File uploads",
+        "Search",
         "Conversations",
+        "Image Generation",
+        "Codex",
+        "Voice mode",
         "Compliance API",
         "GPTs",
+        "Agent",
         "Deep Research",
         "Connectors",
-        "Voice mode",
-        "Search",
-        "Image Generation",
-        "Agent",
-        "Codex"
+        "ChatGPT Atlas"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -359,19 +359,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
+        "Codex",
+        "Connectors",
         "ChatGPT Atlas",
-        "File uploads",
+        "Login",
+        "Conversations",
         "Compliance API",
         "Image Generation",
-        "GPTs",
-        "Deep Research",
-        "Codex",
-        "Login",
+        "Agent",
+        "File uploads",
         "Voice mode",
         "Search",
-        "Conversations",
-        "Agent",
-        "Connectors"
+        "GPTs",
+        "Deep Research"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -986,5 +986,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-01T18:21:11.268881"
+  "last_updated": "2026-01-01T19:12:12.296391"
 }
