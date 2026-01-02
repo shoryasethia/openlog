@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-02T17:13:25.147277",
+      "timestamp": "2026-01-02T18:21:13.376116",
       "resolved_at": null
     },
     {
@@ -23,8 +23,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "GPTs",
-        "Conversations"
+        "Conversations",
+        "GPTs"
       ],
       "timestamp": "2025-12-25T09:41:27",
       "resolved_at": null
@@ -59,19 +59,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Codex",
-        "Connectors",
         "Login",
-        "Search",
-        "Conversations",
-        "Image Generation",
-        "ChatGPT Atlas",
         "File uploads",
-        "Voice mode",
+        "Search",
         "Compliance API",
-        "GPTs",
+        "Image Generation",
         "Agent",
-        "Deep Research"
+        "Connectors",
+        "ChatGPT Atlas",
+        "Voice mode",
+        "Conversations",
+        "GPTs",
+        "Deep Research",
+        "Codex"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -359,19 +359,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Voice mode",
-        "Search",
         "Compliance API",
         "GPTs",
         "Agent",
-        "Deep Research",
         "Codex",
-        "File uploads",
-        "Conversations",
-        "Image Generation",
         "Connectors",
         "ChatGPT Atlas",
-        "Login"
+        "Login",
+        "File uploads",
+        "Voice mode",
+        "Search",
+        "Conversations",
+        "Image Generation",
+        "Deep Research"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -986,5 +986,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-02T17:13:35.332528"
+  "last_updated": "2026-01-02T18:21:24.036794"
 }
