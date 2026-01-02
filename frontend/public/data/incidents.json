@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-02T10:15:14.228548",
+      "timestamp": "2026-01-02T11:13:26.704363",
       "resolved_at": null
     },
     {
@@ -59,14 +59,14 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Agent",
-        "Deep Research",
-        "File uploads",
         "GPTs",
+        "Agent",
+        "Login",
+        "Deep Research",
         "Codex",
         "Connectors",
         "ChatGPT Atlas",
-        "Login",
+        "File uploads",
         "Voice mode",
         "Search",
         "Conversations",
@@ -215,8 +215,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Codex",
-        "Responses"
+        "Responses",
+        "Codex"
       ],
       "timestamp": "2025-12-17T04:12:31",
       "resolved_at": null
@@ -359,19 +359,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Login",
         "File uploads",
+        "Voice mode",
         "Conversations",
-        "Compliance API",
         "Image Generation",
         "GPTs",
         "Agent",
-        "Deep Research",
-        "Voice mode",
-        "Search",
-        "Codex",
         "Connectors",
-        "ChatGPT Atlas"
+        "ChatGPT Atlas",
+        "Login",
+        "Search",
+        "Compliance API",
+        "Deep Research",
+        "Codex"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -986,5 +986,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-02T10:15:26.412572"
+  "last_updated": "2026-01-02T11:13:37.771642"
 }
