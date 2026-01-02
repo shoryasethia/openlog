@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-02T04:34:33.769240",
+      "timestamp": "2026-01-02T05:19:49.696699",
       "resolved_at": null
     },
     {
@@ -23,8 +23,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Conversations",
-        "GPTs"
+        "GPTs",
+        "Conversations"
       ],
       "timestamp": "2025-12-25T09:41:27",
       "resolved_at": null
@@ -61,16 +61,16 @@
       "affected_products": [
         "Login",
         "File uploads",
-        "Voice mode",
         "Search",
         "Conversations",
-        "Image Generation",
-        "GPTs",
-        "Connectors",
         "Compliance API",
+        "GPTs",
         "Agent",
-        "Deep Research",
         "Codex",
+        "Voice mode",
+        "Image Generation",
+        "Deep Research",
+        "Connectors",
         "ChatGPT Atlas"
       ],
       "timestamp": "2025-12-21T21:33:27",
@@ -359,19 +359,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Voice mode",
-        "Image Generation",
-        "GPTs",
-        "Agent",
-        "Deep Research",
         "ChatGPT Atlas",
-        "File uploads",
+        "Login",
+        "Voice mode",
         "Search",
         "Conversations",
         "Compliance API",
-        "Codex",
+        "Agent",
+        "Deep Research",
         "Connectors",
-        "Login"
+        "File uploads",
+        "Image Generation",
+        "GPTs",
+        "Codex"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -986,5 +986,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-02T04:34:42.883614"
+  "last_updated": "2026-01-02T05:20:00.147896"
 }
