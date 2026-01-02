@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-02T22:14:16.231447",
+      "timestamp": "2026-01-02T23:13:35.653976",
       "resolved_at": null
     },
     {
@@ -23,8 +23,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "GPTs",
-        "Conversations"
+        "Conversations",
+        "GPTs"
       ],
       "timestamp": "2025-12-25T09:41:27",
       "resolved_at": null
@@ -59,19 +59,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Conversations",
-        "Image Generation",
-        "Agent",
-        "Deep Research",
         "Codex",
         "Connectors",
-        "Login",
-        "Voice mode",
-        "Compliance API",
-        "GPTs",
-        "ChatGPT Atlas",
         "File uploads",
-        "Search"
+        "Voice mode",
+        "GPTs",
+        "Agent",
+        "Deep Research",
+        "ChatGPT Atlas",
+        "Login",
+        "Search",
+        "Conversations",
+        "Compliance API",
+        "Image Generation"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -360,16 +360,16 @@
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
         "Login",
+        "Voice mode",
+        "Compliance API",
+        "GPTs",
+        "Codex",
+        "ChatGPT Atlas",
         "File uploads",
         "Search",
         "Conversations",
         "Image Generation",
         "Agent",
-        "Codex",
-        "ChatGPT Atlas",
-        "Voice mode",
-        "Compliance API",
-        "GPTs",
         "Deep Research",
         "Connectors"
       ],
@@ -986,5 +986,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-02T22:14:27.307459"
+  "last_updated": "2026-01-02T23:13:44.564479"
 }
