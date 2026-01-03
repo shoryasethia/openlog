@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-03T05:15:53.951362",
+      "timestamp": "2026-01-03T06:21:51.993859",
       "resolved_at": null
     },
     {
@@ -59,19 +59,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Conversations",
-        "Image Generation",
-        "GPTs",
-        "Deep Research",
-        "Codex",
         "Connectors",
-        "Login",
-        "Search",
-        "Compliance API",
-        "Agent",
         "ChatGPT Atlas",
         "File uploads",
-        "Voice mode"
+        "Voice mode",
+        "Search",
+        "Conversations",
+        "Compliance API",
+        "GPTs",
+        "Codex",
+        "Login",
+        "Image Generation",
+        "Agent",
+        "Deep Research"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -359,19 +359,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Compliance API",
-        "Codex",
-        "Connectors",
-        "ChatGPT Atlas",
-        "Login",
-        "File uploads",
-        "Search",
-        "Conversations",
         "Image Generation",
-        "GPTs",
         "Agent",
         "Deep Research",
-        "Voice mode"
+        "Codex",
+        "Login",
+        "Conversations",
+        "GPTs",
+        "Connectors",
+        "ChatGPT Atlas",
+        "File uploads",
+        "Voice mode",
+        "Search",
+        "Compliance API"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -986,5 +986,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-03T05:16:05.360445"
+  "last_updated": "2026-01-03T06:22:01.060080"
 }
