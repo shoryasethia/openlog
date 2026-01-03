@@ -4,7 +4,7 @@
       "period_days": 7,
       "incident_counts": {
         "google": 1,
-        "openai": 1,
+        "openai": 0,
         "anthropic": 0,
         "groq": 0,
         "cohere": 0,
@@ -20,8 +20,8 @@
       },
       "uptime": {
         "openai": {
-          "uptime_percentage": 99.4,
-          "incident_count": 1
+          "uptime_percentage": 100.0,
+          "incident_count": 0
         },
         "anthropic": {
           "uptime_percentage": 100.0,
@@ -82,8 +82,8 @@
       "period_days": 30,
       "incident_counts": {
         "google": 1,
-        "openai": 20,
-        "anthropic": 20,
+        "openai": 18,
+        "anthropic": 18,
         "cartesia": 1,
         "deepgram": 1,
         "groq": 0,
@@ -98,12 +98,12 @@
       },
       "uptime": {
         "openai": {
-          "uptime_percentage": 97.22,
-          "incident_count": 20
+          "uptime_percentage": 97.5,
+          "incident_count": 18
         },
         "anthropic": {
-          "uptime_percentage": 97.22,
-          "incident_count": 20
+          "uptime_percentage": 97.5,
+          "incident_count": 18
         },
         "google": {
           "uptime_percentage": 99.86,
@@ -235,5 +235,5 @@
       "mttr": {}
     }
   },
-  "last_updated": "2026-01-01T09:18:45.592450"
+  "last_updated": "2026-01-03T18:30:16.961026"
 }
