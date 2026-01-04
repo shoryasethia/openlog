@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-04T14:12:50.027529",
+      "timestamp": "2026-01-04T15:13:31.128587",
       "resolved_at": null
     },
     {
@@ -59,17 +59,17 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Compliance API",
-        "Image Generation",
-        "Codex",
-        "Connectors",
         "File uploads",
         "Voice mode",
-        "Search",
         "Conversations",
-        "GPTs",
+        "Compliance API",
         "Agent",
         "Deep Research",
+        "Codex",
+        "Search",
+        "Image Generation",
+        "GPTs",
+        "Connectors",
         "ChatGPT Atlas",
         "Login"
       ],
@@ -215,8 +215,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Responses",
-        "Codex"
+        "Codex",
+        "Responses"
       ],
       "timestamp": "2025-12-17T04:12:31",
       "resolved_at": null
@@ -359,19 +359,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "File uploads",
-        "Voice mode",
-        "Compliance API",
-        "Agent",
+        "Conversations",
         "Deep Research",
         "Codex",
-        "Login",
+        "Connectors",
+        "Voice mode",
         "Search",
-        "Conversations",
+        "Compliance API",
         "Image Generation",
         "GPTs",
-        "Connectors",
-        "ChatGPT Atlas"
+        "Agent",
+        "ChatGPT Atlas",
+        "Login",
+        "File uploads"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -986,5 +986,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-04T14:13:00.398809"
+  "last_updated": "2026-01-04T15:13:41.871081"
 }
