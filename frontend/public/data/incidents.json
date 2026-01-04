@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-04T01:16:28.238516",
+      "timestamp": "2026-01-04T03:45:04.657204",
       "resolved_at": null
     },
     {
@@ -59,19 +59,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
+        "Login",
+        "File uploads",
         "Search",
-        "Conversations",
-        "Compliance API",
         "Image Generation",
         "GPTs",
-        "Deep Research",
-        "Login",
         "Agent",
+        "Deep Research",
         "Codex",
+        "Voice mode",
+        "Conversations",
+        "Compliance API",
         "Connectors",
-        "ChatGPT Atlas",
-        "File uploads",
-        "Voice mode"
+        "ChatGPT Atlas"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -299,8 +299,8 @@
       "status": "resolved",
       "message": "Status: Resolved The affected Github connectors should now be fully restored. Users should be able to use Codex (including code reviews) and ChatGPT with the Github connector without issue.",
       "affected_products": [
-        "Connectors",
-        "Codex"
+        "Codex",
+        "Connectors"
       ],
       "timestamp": "2025-12-12T19:52:11",
       "resolved_at": null
@@ -359,18 +359,18 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
+        "ChatGPT Atlas",
+        "Login",
         "Voice mode",
         "Search",
         "Conversations",
         "GPTs",
-        "Agent",
-        "Deep Research",
         "Connectors",
-        "ChatGPT Atlas",
-        "Login",
         "File uploads",
         "Compliance API",
         "Image Generation",
+        "Agent",
+        "Deep Research",
         "Codex"
       ],
       "timestamp": "2025-12-10T23:27:08",
@@ -986,5 +986,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-04T01:16:39.088195"
+  "last_updated": "2026-01-04T03:45:15.475355"
 }
