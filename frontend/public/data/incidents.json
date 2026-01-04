@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-04T03:45:04.657204",
+      "timestamp": "2026-01-04T04:42:51.825733",
       "resolved_at": null
     },
     {
@@ -23,8 +23,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Conversations",
-        "GPTs"
+        "GPTs",
+        "Conversations"
       ],
       "timestamp": "2025-12-25T09:41:27",
       "resolved_at": null
@@ -59,19 +59,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Login",
-        "File uploads",
-        "Search",
-        "Image Generation",
-        "GPTs",
         "Agent",
         "Deep Research",
-        "Codex",
+        "ChatGPT Atlas",
+        "File uploads",
         "Voice mode",
         "Conversations",
-        "Compliance API",
+        "GPTs",
+        "Codex",
         "Connectors",
-        "ChatGPT Atlas"
+        "Login",
+        "Search",
+        "Compliance API",
+        "Image Generation"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -359,19 +359,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "ChatGPT Atlas",
-        "Login",
-        "Voice mode",
         "Search",
-        "Conversations",
-        "GPTs",
-        "Connectors",
-        "File uploads",
         "Compliance API",
         "Image Generation",
-        "Agent",
+        "GPTs",
         "Deep Research",
-        "Codex"
+        "Codex",
+        "Login",
+        "Conversations",
+        "Agent",
+        "Connectors",
+        "ChatGPT Atlas",
+        "File uploads",
+        "Voice mode"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -986,5 +986,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-04T03:45:15.475355"
+  "last_updated": "2026-01-04T04:43:02.212214"
 }

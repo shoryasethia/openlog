@@ -82,7 +82,7 @@
       "period_days": 30,
       "incident_counts": {
         "google": 1,
-        "openai": 18,
+        "openai": 16,
         "anthropic": 17,
         "cartesia": 1,
         "deepgram": 1,
@@ -98,8 +98,8 @@
       },
       "uptime": {
         "openai": {
-          "uptime_percentage": 97.5,
-          "incident_count": 18
+          "uptime_percentage": 97.78,
+          "incident_count": 16
         },
         "anthropic": {
           "uptime_percentage": 97.64,
@@ -235,5 +235,5 @@
       "mttr": {}
     }
   },
-  "last_updated": "2026-01-04T03:45:15.476531"
+  "last_updated": "2026-01-04T04:43:02.213417"
 }
