@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-04T11:11:52.141365",
+      "timestamp": "2026-01-04T12:27:19.827518",
       "resolved_at": null
     },
     {
@@ -59,19 +59,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
+        "Compliance API",
+        "Image Generation",
+        "GPTs",
         "Agent",
-        "Deep Research",
         "Connectors",
         "File uploads",
+        "Voice mode",
         "Search",
-        "Conversations",
-        "Compliance API",
-        "GPTs",
+        "Deep Research",
         "Codex",
         "ChatGPT Atlas",
         "Login",
-        "Voice mode",
-        "Image Generation"
+        "Conversations"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -215,8 +215,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Codex",
-        "Responses"
+        "Responses",
+        "Codex"
       ],
       "timestamp": "2025-12-17T04:12:31",
       "resolved_at": null
@@ -359,19 +359,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Login",
-        "Conversations",
-        "Compliance API",
-        "Agent",
+        "GPTs",
+        "Deep Research",
         "Connectors",
+        "Login",
+        "Search",
+        "Conversations",
+        "Agent",
+        "Codex",
         "ChatGPT Atlas",
         "File uploads",
         "Voice mode",
-        "Search",
-        "Image Generation",
-        "GPTs",
-        "Deep Research",
-        "Codex"
+        "Compliance API",
+        "Image Generation"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -986,5 +986,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-04T11:12:01.490244"
+  "last_updated": "2026-01-04T12:27:30.671748"
 }
