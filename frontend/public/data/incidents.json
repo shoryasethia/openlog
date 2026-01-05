@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-05T08:23:31.121845",
+      "timestamp": "2026-01-05T09:25:29.242953",
       "resolved_at": null
     },
     {
@@ -59,19 +59,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "File uploads",
-        "Conversations",
-        "Deep Research",
-        "Codex",
-        "Connectors",
-        "Login",
-        "Voice mode",
         "Search",
         "Compliance API",
         "Image Generation",
-        "GPTs",
         "Agent",
-        "ChatGPT Atlas"
+        "Deep Research",
+        "Login",
+        "Voice mode",
+        "Conversations",
+        "GPTs",
+        "Codex",
+        "Connectors",
+        "ChatGPT Atlas",
+        "File uploads"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -359,19 +359,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "ChatGPT Atlas",
-        "Login",
-        "Conversations",
-        "Compliance API",
-        "Agent",
         "Codex",
-        "File uploads",
+        "Connectors",
+        "Login",
         "Voice mode",
         "Search",
-        "Image Generation",
+        "Conversations",
+        "Compliance API",
         "GPTs",
-        "Deep Research",
-        "Connectors"
+        "Agent",
+        "ChatGPT Atlas",
+        "File uploads",
+        "Image Generation",
+        "Deep Research"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -986,5 +986,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-05T08:23:45.633263"
+  "last_updated": "2026-01-05T09:25:39.722426"
 }
