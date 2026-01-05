@@ -162,7 +162,7 @@
         "google": 1,
         "openai": 20,
         "anthropic": 20,
-        "cartesia": 7,
+        "cartesia": 6,
         "deepgram": 8,
         "stability": 1,
         "cohere": 1,
@@ -212,8 +212,8 @@
           "incident_count": 0
         },
         "cartesia": {
-          "uptime_percentage": 99.68,
-          "incident_count": 7
+          "uptime_percentage": 99.72,
+          "incident_count": 6
         },
         "deepgram": {
           "uptime_percentage": 99.63,
@@ -235,5 +235,5 @@
       "mttr": {}
     }
   },
-  "last_updated": "2026-01-05T18:23:17.621019"
+  "last_updated": "2026-01-05T19:16:26.114646"
 }
