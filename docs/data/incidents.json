@@ -12,7 +12,18 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-05T23:14:14.567882",
+      "timestamp": "2026-01-06T01:08:56.722587",
+      "resolved_at": null
+    },
+    {
+      "id": 1,
+      "incident_id": "https://status.claude.com/incidents/m4bbg9f9lfjk",
+      "provider": "anthropic",
+      "title": "Errors on requests to Haiku 3.5",
+      "status": "operational",
+      "message": "Jan 6 , 00:29 UTC Resolved - This incident has been resolved. Jan 6 , 00:26 UTC Investigating - We are currently investigating this issue.",
+      "affected_products": [],
+      "timestamp": "2026-01-06T00:29:38",
       "resolved_at": null
     },
     {
@@ -30,7 +41,7 @@
       "resolved_at": null
     },
     {
-      "id": 1,
+      "id": 2,
       "incident_id": "https://status.claude.com/incidents/f9zwsv7f87wl",
       "provider": "anthropic",
       "title": "Elevated error rates on Opus 4.5",
@@ -41,7 +52,7 @@
       "resolved_at": null
     },
     {
-      "id": 2,
+      "id": 3,
       "incident_id": "https://status.claude.com/incidents/8f0x9qxn6bvf",
       "provider": "anthropic",
       "title": "Elevated error rates on Opus 4.5",
@@ -59,25 +70,25 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Login",
-        "Voice mode",
-        "Image Generation",
+        "Compliance API",
         "GPTs",
-        "Deep Research",
+        "Agent",
         "Codex",
+        "Search",
+        "Image Generation",
+        "Deep Research",
         "Connectors",
         "ChatGPT Atlas",
+        "Login",
         "File uploads",
-        "Search",
-        "Conversations",
-        "Compliance API",
-        "Agent"
+        "Voice mode",
+        "Conversations"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
     },
     {
-      "id": 3,
+      "id": 4,
       "incident_id": "https://status.claude.com/incidents/d2w4wfsd7fq6",
       "provider": "anthropic",
       "title": "Elevated error rates on Opus 4.5",
@@ -88,7 +99,7 @@
       "resolved_at": null
     },
     {
-      "id": 4,
+      "id": 5,
       "incident_id": "https://status.claude.com/incidents/3gvzshr7mqtr",
       "provider": "anthropic",
       "title": "Research unavailable for some teams orgs",
@@ -99,7 +110,7 @@
       "resolved_at": null
     },
     {
-      "id": 5,
+      "id": 6,
       "incident_id": "https://status.claude.com/incidents/8rwc17y9kmqz",
       "provider": "anthropic",
       "title": "Claude Code on Windows rendering improperly",
@@ -110,7 +121,7 @@
       "resolved_at": null
     },
     {
-      "id": 6,
+      "id": 7,
       "incident_id": "https://status.claude.com/incidents/8d87293jq0mk",
       "provider": "anthropic",
       "title": "Elevated error rates on Sonnet 4.5",
@@ -197,7 +208,7 @@
       "resolved_at": null
     },
     {
-      "id": 7,
+      "id": 8,
       "incident_id": "https://status.claude.com/incidents/4pw74ts6z930",
       "provider": "anthropic",
       "title": "Elevated error rates on Sonnet 4",
@@ -222,7 +233,7 @@
       "resolved_at": null
     },
     {
-      "id": 8,
+      "id": 9,
       "incident_id": "https://status.claude.com/incidents/z9kwvvpg0hy0",
       "provider": "anthropic",
       "title": "New chats defaulting to Claude Opus",
@@ -233,7 +244,7 @@
       "resolved_at": null
     },
     {
-      "id": 9,
+      "id": 10,
       "incident_id": "https://status.claude.com/incidents/2f7kwfs03p6v",
       "provider": "anthropic",
       "title": "Cannot create new conversations on Claude.ai",
@@ -257,7 +268,7 @@
       "resolved_at": null
     },
     {
-      "id": 10,
+      "id": 11,
       "incident_id": "https://status.claude.com/incidents/9x1dk1mmlkd3",
       "provider": "anthropic",
       "title": "Unable to view shared chats on claude.ai",
@@ -268,7 +279,7 @@
       "resolved_at": null
     },
     {
-      "id": 11,
+      "id": 12,
       "incident_id": "https://status.claude.com/incidents/9g6qpr72ttbr",
       "provider": "anthropic",
       "title": "Elevated errors across many models",
@@ -299,14 +310,14 @@
       "status": "resolved",
       "message": "Status: Resolved The affected Github connectors should now be fully restored. Users should be able to use Codex (including code reviews) and ChatGPT with the Github connector without issue.",
       "affected_products": [
-        "Codex",
-        "Connectors"
+        "Connectors",
+        "Codex"
       ],
       "timestamp": "2025-12-12T19:52:11",
       "resolved_at": null
     },
     {
-      "id": 12,
+      "id": 13,
       "incident_id": "https://status.claude.com/incidents/vdvhnlkdx045",
       "provider": "anthropic",
       "title": "Elevated errors on documentation site in Europe",
@@ -317,7 +328,7 @@
       "resolved_at": null
     },
     {
-      "id": 13,
+      "id": 14,
       "incident_id": "https://status.claude.com/incidents/h140lstlzbw7",
       "provider": "anthropic",
       "title": "Unable to start chats on claude.ai",
@@ -328,7 +339,7 @@
       "resolved_at": null
     },
     {
-      "id": 14,
+      "id": 15,
       "incident_id": "https://status.claude.com/incidents/6rrnsb1y0kbn",
       "provider": "anthropic",
       "title": "iOS Subscription Access Issues",
@@ -359,25 +370,25 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Connectors",
-        "File uploads",
-        "GPTs",
+        "Compliance API",
         "Deep Research",
-        "Codex",
+        "Connectors",
         "ChatGPT Atlas",
         "Login",
         "Voice mode",
         "Search",
         "Conversations",
-        "Compliance API",
         "Image Generation",
-        "Agent"
+        "GPTs",
+        "Agent",
+        "Codex",
+        "File uploads"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
     },
     {
-      "id": 15,
+      "id": 16,
       "incident_id": "https://status.claude.com/incidents/fmck9hh84rgf",
       "provider": "anthropic",
       "title": "Research on claude.ai down",
@@ -438,7 +449,7 @@
       "resolved_at": null
     },
     {
-      "id": 16,
+      "id": 17,
       "incident_id": "https://status.claude.com/incidents/h183k7hqb9lk",
       "provider": "anthropic",
       "title": "Claude.ai is unavailable",
@@ -449,7 +460,7 @@
       "resolved_at": null
     },
     {
-      "id": 17,
+      "id": 18,
       "incident_id": "https://status.claude.com/incidents/49cmvxrrk228",
       "provider": "anthropic",
       "title": "Claude.ai is unavailable",
@@ -486,7 +497,7 @@
       "resolved_at": null
     },
     {
-      "id": 18,
+      "id": 19,
       "incident_id": "https://status.claude.com/incidents/s8vj5mn9wvzf",
       "provider": "anthropic",
       "title": "Elevated Error Rates on Claude API Code Execution and Advanced File Analysis Tools",
@@ -497,7 +508,7 @@
       "resolved_at": null
     },
     {
-      "id": 19,
+      "id": 20,
       "incident_id": "https://status.claude.com/incidents/47tkhrwf5pl5",
       "provider": "anthropic",
       "title": "Elevated errors on Claude Haiku 4.5 and Opus 4.5",
@@ -531,17 +542,6 @@
         "Codex"
       ],
       "timestamp": "2025-12-03T01:46:36",
-      "resolved_at": null
-    },
-    {
-      "id": 20,
-      "incident_id": "https://status.claude.com/incidents/qj71q3gqvvlk",
-      "provider": "anthropic",
-      "title": "Elevated errors on claude.ai",
-      "status": "operational",
-      "message": "Dec 2 , 18:07 UTC Resolved - This incident has been resolved. Dec 2 , 17:52 UTC Monitoring - A fix has been implemented and we are monitoring the results. Dec 2 , 17:21 UTC Update - We are continuing to investigate this issue. Dec 2 , 16:34 UTC Investigating - We are currently investigating this issue.",
-      "affected_products": [],
-      "timestamp": "2025-12-02T18:07:12",
       "resolved_at": null
     },
     {
@@ -986,5 +986,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-05T23:14:25.768909"
+  "last_updated": "2026-01-06T01:09:08.386209"
 }
