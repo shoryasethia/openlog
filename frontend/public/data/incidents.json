@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-06T18:21:29.169261",
+      "timestamp": "2026-01-06T19:11:36.749898",
       "resolved_at": null
     },
     {
@@ -47,8 +47,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "GPTs",
-        "Conversations"
+        "Conversations",
+        "GPTs"
       ],
       "timestamp": "2025-12-25T09:41:27",
       "resolved_at": null
@@ -83,19 +83,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
+        "Conversations",
         "Image Generation",
+        "Agent",
+        "Voice mode",
+        "Compliance API",
         "GPTs",
         "Deep Research",
+        "Codex",
         "Connectors",
         "ChatGPT Atlas",
-        "Voice mode",
-        "Search",
-        "Conversations",
-        "Agent",
-        "Codex",
         "Login",
         "File uploads",
-        "Compliance API"
+        "Search"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -323,8 +323,8 @@
       "status": "resolved",
       "message": "Status: Resolved The affected Github connectors should now be fully restored. Users should be able to use Codex (including code reviews) and ChatGPT with the Github connector without issue.",
       "affected_products": [
-        "Codex",
-        "Connectors"
+        "Connectors",
+        "Codex"
       ],
       "timestamp": "2025-12-12T19:52:11",
       "resolved_at": null
@@ -383,19 +383,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
+        "Connectors",
+        "ChatGPT Atlas",
+        "Login",
         "File uploads",
+        "GPTs",
+        "Agent",
+        "Deep Research",
         "Voice mode",
         "Search",
         "Conversations",
         "Compliance API",
-        "Agent",
-        "Deep Research",
-        "ChatGPT Atlas",
-        "Login",
         "Image Generation",
-        "GPTs",
-        "Codex",
-        "Connectors"
+        "Codex"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -986,5 +986,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-06T18:21:38.820757"
+  "last_updated": "2026-01-06T19:11:45.994166"
 }
