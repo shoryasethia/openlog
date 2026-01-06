@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-06T13:32:58.879568",
+      "timestamp": "2026-01-06T14:16:36.879534",
       "resolved_at": null
     },
     {
@@ -85,12 +85,12 @@
       "affected_products": [
         "Login",
         "File uploads",
+        "Voice mode",
         "Search",
         "Conversations",
-        "Compliance API",
         "Agent",
         "Connectors",
-        "Voice mode",
+        "Compliance API",
         "Image Generation",
         "GPTs",
         "Deep Research",
@@ -239,8 +239,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Codex",
-        "Responses"
+        "Responses",
+        "Codex"
       ],
       "timestamp": "2025-12-17T04:12:31",
       "resolved_at": null
@@ -383,19 +383,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "File uploads",
-        "Voice mode",
+        "GPTs",
+        "Deep Research",
+        "Connectors",
+        "Login",
         "Search",
         "Compliance API",
         "Image Generation",
-        "GPTs",
-        "Connectors",
-        "ChatGPT Atlas",
-        "Login",
-        "Conversations",
         "Agent",
-        "Deep Research",
-        "Codex"
+        "Codex",
+        "ChatGPT Atlas",
+        "File uploads",
+        "Voice mode",
+        "Conversations"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -986,5 +986,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-06T13:33:07.331826"
+  "last_updated": "2026-01-06T14:16:47.733995"
 }
