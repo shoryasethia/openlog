@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-06T06:23:56.588193",
+      "timestamp": "2026-01-06T07:20:50.240894",
       "resolved_at": null
     },
     {
@@ -70,19 +70,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
+        "File uploads",
         "Voice mode",
+        "Search",
         "Conversations",
         "Image Generation",
         "GPTs",
         "Agent",
+        "Login",
+        "Compliance API",
         "Deep Research",
         "Codex",
-        "Login",
-        "Search",
-        "Compliance API",
         "Connectors",
-        "ChatGPT Atlas",
-        "File uploads"
+        "ChatGPT Atlas"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -310,8 +310,8 @@
       "status": "resolved",
       "message": "Status: Resolved The affected Github connectors should now be fully restored. Users should be able to use Codex (including code reviews) and ChatGPT with the Github connector without issue.",
       "affected_products": [
-        "Codex",
-        "Connectors"
+        "Connectors",
+        "Codex"
       ],
       "timestamp": "2025-12-12T19:52:11",
       "resolved_at": null
@@ -370,19 +370,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Login",
-        "File uploads",
-        "Search",
-        "Image Generation",
-        "Deep Research",
         "Connectors",
         "ChatGPT Atlas",
+        "File uploads",
         "Voice mode",
+        "Search",
         "Conversations",
         "Compliance API",
-        "GPTs",
         "Agent",
-        "Codex"
+        "Codex",
+        "Login",
+        "Image Generation",
+        "GPTs",
+        "Deep Research"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -986,5 +986,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-06T06:24:05.964876"
+  "last_updated": "2026-01-06T07:20:59.110907"
 }
