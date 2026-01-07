@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-07T09:22:18.695624",
+      "timestamp": "2026-01-07T10:17:24.983162",
       "resolved_at": null
     },
     {
@@ -21,9 +21,9 @@
       "provider": "anthropic",
       "title": "Elevated error rates on Opus 4.5",
       "status": "operational",
-      "message": "Jan 7 , 09:09 UTC Investigating - We are currently investigating this issue.",
+      "message": "Jan 7 , 10:04 UTC Resolved - This incident has been resolved. Jan 7 , 09:28 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jan 7 , 09:22 UTC Identified - The issue has been identified and a fix is being implemented. Jan 7 , 09:09 UTC Investigating - We are currently investigating this issue.",
       "affected_products": [],
-      "timestamp": "2026-01-07T09:09:03",
+      "timestamp": "2026-01-07T10:04:48",
       "resolved_at": null
     },
     {
@@ -34,19 +34,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Agent",
         "Codex",
+        "Voice mode",
+        "Conversations",
+        "Image Generation",
+        "GPTs",
+        "Connectors",
         "ChatGPT Atlas",
         "Login",
         "File uploads",
-        "Voice mode",
         "Search",
         "Compliance API",
-        "GPTs",
-        "Deep Research",
-        "Connectors",
-        "Conversations",
-        "Image Generation"
+        "Agent",
+        "Deep Research"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
@@ -120,18 +120,18 @@
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
         "Compliance API",
-        "GPTs",
+        "Image Generation",
         "Agent",
         "Codex",
-        "File uploads",
-        "Image Generation",
+        "Conversations",
+        "GPTs",
         "Deep Research",
         "Connectors",
         "ChatGPT Atlas",
         "Login",
+        "File uploads",
         "Voice mode",
-        "Search",
-        "Conversations"
+        "Search"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -275,8 +275,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Responses",
-        "Codex"
+        "Codex",
+        "Responses"
       ],
       "timestamp": "2025-12-17T04:12:31",
       "resolved_at": null
@@ -359,8 +359,8 @@
       "status": "resolved",
       "message": "Status: Resolved The affected Github connectors should now be fully restored. Users should be able to use Codex (including code reviews) and ChatGPT with the Github connector without issue.",
       "affected_products": [
-        "Codex",
-        "Connectors"
+        "Connectors",
+        "Codex"
       ],
       "timestamp": "2025-12-12T19:52:11",
       "resolved_at": null
@@ -419,19 +419,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Compliance API",
-        "Image Generation",
-        "Codex",
-        "Connectors",
-        "Login",
-        "Conversations",
-        "GPTs",
-        "Agent",
-        "Deep Research",
-        "ChatGPT Atlas",
         "File uploads",
         "Voice mode",
-        "Search"
+        "Search",
+        "Agent",
+        "Deep Research",
+        "Codex",
+        "ChatGPT Atlas",
+        "Login",
+        "Conversations",
+        "Compliance API",
+        "Image Generation",
+        "GPTs",
+        "Connectors"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -998,5 +998,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-07T09:22:33.164979"
+  "last_updated": "2026-01-07T10:17:36.446493"
 }
