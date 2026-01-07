@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-07T13:35:07.806822",
+      "timestamp": "2026-01-07T14:18:20.626205",
       "resolved_at": null
     },
     {
@@ -34,19 +34,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
+        "File uploads",
+        "Voice mode",
         "Compliance API",
         "Image Generation",
-        "GPTs",
-        "Agent",
         "Deep Research",
         "Codex",
         "Connectors",
         "ChatGPT Atlas",
         "Login",
-        "File uploads",
-        "Voice mode",
         "Search",
-        "Conversations"
+        "Conversations",
+        "GPTs",
+        "Agent"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
@@ -119,19 +119,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
+        "File uploads",
+        "Voice mode",
         "Search",
         "Conversations",
-        "Image Generation",
-        "GPTs",
-        "Agent",
-        "File uploads",
         "Compliance API",
+        "Image Generation",
         "Deep Research",
         "Codex",
-        "Connectors",
-        "ChatGPT Atlas",
         "Login",
-        "Voice mode"
+        "GPTs",
+        "Agent",
+        "Connectors",
+        "ChatGPT Atlas"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -275,8 +275,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Codex",
-        "Responses"
+        "Responses",
+        "Codex"
       ],
       "timestamp": "2025-12-17T04:12:31",
       "resolved_at": null
@@ -359,8 +359,8 @@
       "status": "resolved",
       "message": "Status: Resolved The affected Github connectors should now be fully restored. Users should be able to use Codex (including code reviews) and ChatGPT with the Github connector without issue.",
       "affected_products": [
-        "Codex",
-        "Connectors"
+        "Connectors",
+        "Codex"
       ],
       "timestamp": "2025-12-12T19:52:11",
       "resolved_at": null
@@ -419,19 +419,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Login",
-        "File uploads",
-        "Conversations",
-        "Compliance API",
         "Image Generation",
-        "Deep Research",
-        "Codex",
-        "Voice mode",
-        "Search",
         "GPTs",
         "Agent",
+        "Deep Research",
+        "Codex",
+        "File uploads",
+        "Voice mode",
+        "Conversations",
         "Connectors",
-        "ChatGPT Atlas"
+        "ChatGPT Atlas",
+        "Login",
+        "Search",
+        "Compliance API"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -998,5 +998,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-07T13:35:18.206974"
+  "last_updated": "2026-01-07T14:18:35.627432"
 }
