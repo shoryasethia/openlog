@@ -12,7 +12,18 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-08T04:33:46.333871",
+      "timestamp": "2026-01-08T05:19:17.292985",
+      "resolved_at": null
+    },
+    {
+      "id": 1,
+      "incident_id": "https://status.claude.com/incidents/4hr61fgdzbtc",
+      "provider": "anthropic",
+      "title": "Claude subscription usage limits not visible in Claude.ai and Claude Code",
+      "status": "operational",
+      "message": "Jan 8 , 05:06 UTC Resolved - This incident has been resolved. Jan 7 , 19:20 UTC Update - We are continuing to investigate this issue. Jan 7 , 19:07 UTC Investigating - We are currently investigating this issue.",
+      "affected_products": [],
+      "timestamp": "2026-01-08T05:06:23",
       "resolved_at": null
     },
     {
@@ -55,17 +66,6 @@
       "resolved_at": null
     },
     {
-      "id": 1,
-      "incident_id": "https://status.claude.com/incidents/4hr61fgdzbtc",
-      "provider": "anthropic",
-      "title": "Claude subscription usage limits not visible in Claude.ai and Claude Code",
-      "status": "operational",
-      "message": "Jan 7 , 19:20 UTC Update - We are continuing to investigate this issue. Jan 7 , 19:07 UTC Investigating - We are currently investigating this issue.",
-      "affected_products": [],
-      "timestamp": "2026-01-07T19:58:33",
-      "resolved_at": null
-    },
-    {
       "id": 2,
       "incident_id": "https://status.claude.com/incidents/1y7x01b0ldlj",
       "provider": "anthropic",
@@ -84,19 +84,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Login",
-        "Search",
-        "Conversations",
         "Image Generation",
-        "Deep Research",
+        "GPTs",
         "Codex",
-        "ChatGPT Atlas",
+        "Connectors",
+        "Login",
         "File uploads",
         "Voice mode",
         "Compliance API",
-        "GPTs",
         "Agent",
-        "Connectors"
+        "Deep Research",
+        "ChatGPT Atlas",
+        "Search",
+        "Conversations"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
@@ -169,19 +169,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Agent",
-        "ChatGPT Atlas",
-        "Voice mode",
-        "Search",
-        "Compliance API",
-        "GPTs",
         "Deep Research",
+        "Login",
+        "Voice mode",
+        "Conversations",
+        "Compliance API",
         "Codex",
         "Connectors",
-        "Login",
+        "ChatGPT Atlas",
         "File uploads",
-        "Conversations",
-        "Image Generation"
+        "Search",
+        "Image Generation",
+        "GPTs",
+        "Agent"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -469,19 +469,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Connectors",
         "File uploads",
         "Voice mode",
+        "Search",
         "Compliance API",
-        "GPTs",
+        "Image Generation",
         "Codex",
         "ChatGPT Atlas",
         "Login",
-        "Search",
         "Conversations",
-        "Image Generation",
+        "GPTs",
         "Agent",
-        "Deep Research"
+        "Deep Research",
+        "Connectors"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -998,5 +998,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-08T04:33:57.016009"
+  "last_updated": "2026-01-08T05:19:27.315515"
 }
