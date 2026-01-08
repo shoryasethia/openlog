@@ -12,7 +12,22 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-08T20:17:15.426590",
+      "timestamp": "2026-01-08T21:15:01.315753",
+      "resolved_at": null
+    },
+    {
+      "id": 1,
+      "incident_id": "https://status.openai.com//incidents/01KEFMJWBHC4JBGJWMXNQTSTH6",
+      "provider": "openai",
+      "title": "Increased error rate for ChatGPT and API for prompts with images",
+      "status": "monitoring",
+      "message": "Status: Monitoring We have implemented a fix. Error rates are dropping and we are monitoring for continued improvement.",
+      "affected_products": [
+        "Conversations (Partial outage)",
+        "Chat Completions (Partial outage)",
+        "Responses (Partial outage)"
+      ],
+      "timestamp": "2026-01-08T21:05:04",
       "resolved_at": null
     },
     {
@@ -38,7 +53,7 @@
       "resolved_at": null
     },
     {
-      "id": 1,
+      "id": 2,
       "incident_id": "https://status.openai.com//incidents/01KEDRBQ2A3Y9JJ7G3F3YM4KT3",
       "provider": "openai",
       "title": "High error rate for Dall-e",
@@ -51,7 +66,7 @@
       "resolved_at": null
     },
     {
-      "id": 2,
+      "id": 3,
       "incident_id": "https://status.openai.com//incidents/01KEDP2078ND35EQG75BVDZE5E",
       "provider": "openai",
       "title": "Some Codex cloud tasks are failing",
@@ -64,7 +79,7 @@
       "resolved_at": null
     },
     {
-      "id": 3,
+      "id": 4,
       "incident_id": "https://status.openai.com//incidents/01KEDB9WGPMX6HK8X629AFM907",
       "provider": "openai",
       "title": "Elevated error rates for Responses API",
@@ -88,32 +103,32 @@
       "resolved_at": null
     },
     {
-      "id": 4,
+      "id": 5,
       "incident_id": "https://status.openai.com//incidents/01KEACZ6R02744RQKCMSK1ZG54",
       "provider": "openai",
       "title": "ChatGPT issues while retrieving workspace members",
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "File uploads",
-        "Voice mode",
-        "Search",
-        "Image Generation",
         "GPTs",
         "Agent",
         "Deep Research",
-        "Conversations",
-        "Compliance API",
+        "Login",
+        "Search",
         "Codex",
         "Connectors",
         "ChatGPT Atlas",
-        "Login"
+        "File uploads",
+        "Voice mode",
+        "Conversations",
+        "Compliance API",
+        "Image Generation"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
     },
     {
-      "id": 5,
+      "id": 6,
       "incident_id": "https://status.openai.com//incidents/01KE98V1TQRRQC8T1VAHH18NDC",
       "provider": "openai",
       "title": "GPT-5.1 Codex Max Elevated Error Rate",
@@ -137,7 +152,7 @@
       "resolved_at": null
     },
     {
-      "id": 6,
+      "id": 7,
       "incident_id": "https://status.openai.com//incidents/01KD9TAC2AVM41E7FSGE3X0B9J",
       "provider": "openai",
       "title": "Some User May Experience Issues Loading Conversation History and Downloading Files from Custom GPTs",
@@ -173,26 +188,26 @@
       "resolved_at": null
     },
     {
-      "id": 7,
+      "id": 8,
       "incident_id": "https://status.openai.com//incidents/01KD19S888P8SGB2TFB82DWCW8",
       "provider": "openai",
       "title": "Some Android users are experiencing elevated errors while using ChatGPT.",
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "ChatGPT Atlas",
-        "Voice mode",
-        "Search",
-        "Image Generation",
-        "Agent",
-        "Deep Research",
         "Login",
         "File uploads",
+        "Voice mode",
+        "Image Generation",
+        "Deep Research",
+        "Codex",
+        "Connectors",
+        "ChatGPT Atlas",
+        "Search",
         "Conversations",
         "Compliance API",
         "GPTs",
-        "Codex",
-        "Connectors"
+        "Agent"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -242,7 +257,7 @@
       "resolved_at": null
     },
     {
-      "id": 8,
+      "id": 9,
       "incident_id": "https://status.openai.com//incidents/01KCTM1YZ1AW72M9JVW48TNJES",
       "provider": "openai",
       "title": "Increased error rates for Sora API",
@@ -255,7 +270,7 @@
       "resolved_at": null
     },
     {
-      "id": 9,
+      "id": 10,
       "incident_id": "https://status.openai.com//incidents/01KCT3221DKSNWZ6QABP6V2ZE6",
       "provider": "openai",
       "title": "Degraded latency and increased error rates for Sora API",
@@ -268,7 +283,7 @@
       "resolved_at": null
     },
     {
-      "id": 10,
+      "id": 11,
       "incident_id": "https://status.openai.com//incidents/01KCQ4D84M0KCBPNCENAV6B8GZ",
       "provider": "openai",
       "title": "ChatGPT intermittently not loading successfully after SSO authentication",
@@ -281,7 +296,7 @@
       "resolved_at": null
     },
     {
-      "id": 11,
+      "id": 12,
       "incident_id": "https://status.openai.com//incidents/01KCSQV59E8XZETJ89JTXME2AZ",
       "provider": "openai",
       "title": "Unable to Login on Sora Web",
@@ -305,7 +320,7 @@
       "resolved_at": null
     },
     {
-      "id": 12,
+      "id": 13,
       "incident_id": "https://status.openai.com//incidents/01KCQ5FA8SEDPNZSZEH27V2H5X",
       "provider": "openai",
       "title": "Finetuning jobs are intermittently failing",
@@ -329,7 +344,7 @@
       "resolved_at": null
     },
     {
-      "id": 13,
+      "id": 14,
       "incident_id": "https://status.openai.com//incidents/01KCM7PAMQMCM8KAB6ZCWPKNK1",
       "provider": "openai",
       "title": "Codex & Responses API Experiencing Elevated Errors",
@@ -365,7 +380,7 @@
       "resolved_at": null
     },
     {
-      "id": 14,
+      "id": 15,
       "incident_id": "https://status.openai.com//incidents/01KCJNVGXP42TJC4GXA17GMGXY",
       "provider": "openai",
       "title": "High Error Rate in Image API",
@@ -400,7 +415,7 @@
       "resolved_at": null
     },
     {
-      "id": 15,
+      "id": 16,
       "incident_id": "https://status.openai.com//incidents/01KC2MV5CHD4DX8A76FT4QEZEV",
       "provider": "openai",
       "title": "ChatGPT connectors have disconnected unexpectedly",
@@ -413,7 +428,7 @@
       "resolved_at": null
     },
     {
-      "id": 16,
+      "id": 17,
       "incident_id": "https://status.openai.com//incidents/01KC6WSFM4ECT1Y5XBPF2AMXV9",
       "provider": "openai",
       "title": "Github Connector Errors for ChatGPT Web and Codex",
@@ -460,7 +475,7 @@
       "resolved_at": null
     },
     {
-      "id": 17,
+      "id": 18,
       "incident_id": "https://status.openai.com//incidents/01KC7JXZX3G02HQVS9AHYT86J8",
       "provider": "openai",
       "title": "Elevated error rate for 5.2 Auto and 5.2 Instant",
@@ -473,26 +488,26 @@
       "resolved_at": null
     },
     {
-      "id": 18,
+      "id": 19,
       "incident_id": "https://status.openai.com//incidents/01KC56SP6M152HGWAF6EAFQR2E",
       "provider": "openai",
       "title": "Increased Errors On Android Devices",
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
+        "Connectors",
+        "ChatGPT Atlas",
+        "File uploads",
+        "Voice mode",
         "Search",
-        "Image Generation",
+        "Conversations",
         "GPTs",
         "Agent",
-        "ChatGPT Atlas",
-        "Conversations",
-        "Compliance API",
         "Deep Research",
         "Codex",
-        "Connectors",
         "Login",
-        "File uploads",
-        "Voice mode"
+        "Compliance API",
+        "Image Generation"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -520,7 +535,7 @@
       "resolved_at": null
     },
     {
-      "id": 19,
+      "id": 20,
       "incident_id": "https://status.openai.com//incidents/01KC2CJTQMDW8ZX3S4S4Q8PPNQ",
       "provider": "openai",
       "title": "Issues related to Codex Web, Code Reviews",
@@ -530,19 +545,6 @@
         "Codex"
       ],
       "timestamp": "2025-12-09T21:21:03",
-      "resolved_at": null
-    },
-    {
-      "id": 20,
-      "incident_id": "https://status.openai.com//incidents/01KC29PD396379J8W4GRZ3F185",
-      "provider": "openai",
-      "title": "ChatGPT advanced voice mode issues",
-      "status": "resolved",
-      "message": "Status: Resolved All impacted services have now fully recovered.",
-      "affected_products": [
-        "Voice mode"
-      ],
-      "timestamp": "2025-12-09T20:09:59",
       "resolved_at": null
     },
     {
@@ -998,5 +1000,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-08T20:17:25.923105"
+  "last_updated": "2026-01-08T21:15:10.308915"
 }
