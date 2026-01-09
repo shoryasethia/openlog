@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-09T22:14:37.856943",
+      "timestamp": "2026-01-09T23:14:13.228776",
       "resolved_at": null
     },
     {
@@ -21,9 +21,9 @@
       "provider": "anthropic",
       "title": "New Subscription Activation & Payment Issues",
       "status": "operational",
-      "message": "Jan 9 , 19:59 UTC Identified - The issue has been identified and a fix should be coming soon for new purchases. After the issue is fixed, we will issue refunds for all users who were incorrectly charged and/or properly grant subscription access. The issue began around 10PM PST on 2026-01-08 and affected new subscriptions purchased through web Jan 9 , 19:41 UTC Investigating - We are investigating reports that some new customer subscriptions are charging customers without properly granting subscr",
+      "message": "Jan 9 , 22:52 UTC Update - We are continuing to work on a fix for this issue. Jan 9 , 19:59 UTC Identified - The issue has been identified and a fix should be coming soon for new purchases. After the issue is fixed, we will issue refunds for all users who were incorrectly charged and/or properly grant subscription access. The issue began around 10PM PST on 2026-01-08 and affected new subscriptions purchased through web Jan 9 , 19:41 UTC Investigating - We are investigating reports that some new ",
       "affected_products": [],
-      "timestamp": "2026-01-09T20:00:09",
+      "timestamp": "2026-01-09T22:52:04",
       "resolved_at": null
     },
     {
@@ -121,19 +121,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Voice mode",
         "Search",
+        "Conversations",
         "Compliance API",
         "GPTs",
         "Agent",
+        "Codex",
         "Connectors",
         "Login",
-        "Conversations",
+        "File uploads",
+        "Voice mode",
         "Image Generation",
         "Deep Research",
-        "Codex",
-        "ChatGPT Atlas",
-        "File uploads"
+        "ChatGPT Atlas"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
@@ -170,8 +170,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Conversations",
-        "GPTs"
+        "GPTs",
+        "Conversations"
       ],
       "timestamp": "2025-12-25T09:41:27",
       "resolved_at": null
@@ -206,19 +206,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Login",
         "File uploads",
-        "Voice mode",
         "Search",
         "Compliance API",
         "GPTs",
-        "Agent",
-        "Codex",
-        "Conversations",
-        "Image Generation",
         "Deep Research",
         "Connectors",
-        "ChatGPT Atlas"
+        "ChatGPT Atlas",
+        "Login",
+        "Voice mode",
+        "Conversations",
+        "Image Generation",
+        "Agent",
+        "Codex"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -506,19 +506,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Agent",
-        "Deep Research",
-        "Connectors",
-        "ChatGPT Atlas",
         "Login",
+        "File uploads",
         "Voice mode",
         "Search",
         "Compliance API",
+        "Image Generation",
+        "Agent",
+        "Deep Research",
+        "Conversations",
         "GPTs",
         "Codex",
-        "File uploads",
-        "Conversations",
-        "Image Generation"
+        "Connectors",
+        "ChatGPT Atlas"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -1000,5 +1000,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-09T22:14:46.670488"
+  "last_updated": "2026-01-09T23:14:23.724759"
 }
