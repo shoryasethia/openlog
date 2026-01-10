@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-10T18:20:15.280934",
+      "timestamp": "2026-01-10T19:11:05.252394",
       "resolved_at": null
     },
     {
@@ -67,9 +67,9 @@
       "status": "resolved",
       "message": "Status: Resolved ChatGPT and API functionality should now be fully restored.",
       "affected_products": [
+        "Responses",
         "Conversations",
-        "Chat Completions",
-        "Responses"
+        "Chat Completions"
       ],
       "timestamp": "2026-01-08T21:12:00",
       "resolved_at": null
@@ -143,19 +143,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Image Generation",
         "Agent",
-        "Codex",
-        "File uploads",
-        "Conversations",
-        "GPTs",
         "Deep Research",
-        "Connectors",
-        "ChatGPT Atlas",
+        "Codex",
         "Login",
         "Voice mode",
         "Search",
-        "Compliance API"
+        "Conversations",
+        "Compliance API",
+        "Image Generation",
+        "Connectors",
+        "ChatGPT Atlas",
+        "File uploads",
+        "GPTs"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
@@ -192,8 +192,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "GPTs",
-        "Conversations"
+        "Conversations",
+        "GPTs"
       ],
       "timestamp": "2025-12-25T09:41:27",
       "resolved_at": null
@@ -228,19 +228,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
+        "Image Generation",
+        "GPTs",
+        "Agent",
+        "Conversations",
         "Deep Research",
+        "Codex",
+        "Connectors",
         "ChatGPT Atlas",
         "Login",
         "File uploads",
-        "Search",
-        "Agent",
-        "Codex",
-        "Connectors",
         "Voice mode",
-        "Conversations",
-        "Compliance API",
-        "Image Generation",
-        "GPTs"
+        "Search",
+        "Compliance API"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -517,19 +517,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
+        "File uploads",
         "Voice mode",
-        "Search",
         "Compliance API",
         "Image Generation",
         "Agent",
-        "Login",
+        "Deep Research",
+        "Search",
         "Conversations",
         "GPTs",
-        "Deep Research",
         "Codex",
         "Connectors",
         "ChatGPT Atlas",
-        "File uploads"
+        "Login"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -1000,5 +1000,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-10T18:20:26.113873"
+  "last_updated": "2026-01-10T19:11:14.425274"
 }
