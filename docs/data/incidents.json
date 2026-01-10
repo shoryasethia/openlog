@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-10T16:16:31.979204",
+      "timestamp": "2026-01-10T17:12:04.944866",
       "resolved_at": null
     },
     {
@@ -143,19 +143,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Login",
-        "Voice mode",
-        "Conversations",
-        "Compliance API",
+        "File uploads",
         "Image Generation",
         "Agent",
-        "Codex",
+        "Connectors",
         "ChatGPT Atlas",
-        "File uploads",
+        "Login",
+        "Voice mode",
         "Search",
+        "Conversations",
+        "Compliance API",
         "GPTs",
         "Deep Research",
-        "Connectors"
+        "Codex"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
@@ -228,19 +228,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "GPTs",
+        "Search",
+        "Compliance API",
+        "Image Generation",
+        "Agent",
+        "Deep Research",
         "Codex",
         "ChatGPT Atlas",
         "Login",
         "Voice mode",
-        "Search",
         "Conversations",
-        "Image Generation",
-        "Agent",
-        "Deep Research",
+        "GPTs",
         "Connectors",
-        "File uploads",
-        "Compliance API"
+        "File uploads"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -517,19 +517,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "File uploads",
-        "Conversations",
         "Compliance API",
+        "Image Generation",
         "GPTs",
+        "Agent",
         "Deep Research",
+        "Codex",
         "Connectors",
+        "ChatGPT Atlas",
         "Login",
+        "File uploads",
         "Voice mode",
         "Search",
-        "Image Generation",
-        "Agent",
-        "Codex",
-        "ChatGPT Atlas"
+        "Conversations"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -1000,5 +1000,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-10T16:16:41.661157"
+  "last_updated": "2026-01-10T17:12:15.465028"
 }
