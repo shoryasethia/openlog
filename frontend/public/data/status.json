@@ -9,7 +9,7 @@
       "color": "#10a37f",
       "description": "ChatGPT, GPT-4, DALL-E, Whisper",
       "current_status": "resolved",
-      "last_checked": "2026-01-10T17:12:04.520142",
+      "last_checked": "2026-01-10T18:20:14.747928",
       "total_incidents": 20,
       "last_incident_at": "2026-01-08T21:12:00"
     },
@@ -22,7 +22,7 @@
       "color": "#d4a27f",
       "description": "Claude AI Assistant",
       "current_status": "operational",
-      "last_checked": "2026-01-10T17:12:04.879512",
+      "last_checked": "2026-01-10T18:20:15.180029",
       "total_incidents": 20,
       "last_incident_at": "2026-01-10T15:41:45"
     },
@@ -35,9 +35,9 @@
       "color": "#4285f4",
       "description": "Gemini AI, Google AI Studio",
       "current_status": "operational",
-      "last_checked": "2026-01-10T17:12:04.945144",
+      "last_checked": "2026-01-10T18:20:15.281173",
       "total_incidents": 1,
-      "last_incident_at": "2026-01-10T17:12:04.944866"
+      "last_incident_at": "2026-01-10T18:20:15.280934"
     },
     "groq": {
       "name": "groq",
@@ -48,7 +48,7 @@
       "color": "#f55036",
       "description": "Ultra-fast AI Inference",
       "current_status": "operational",
-      "last_checked": "2026-01-10T17:12:05.743322",
+      "last_checked": "2026-01-10T18:20:16.294407",
       "total_incidents": 0,
       "last_incident_at": null
     },
@@ -61,7 +61,7 @@
       "color": "#39594d",
       "description": "Enterprise AI Platform",
       "current_status": "resolved",
-      "last_checked": "2026-01-10T17:12:06.062476",
+      "last_checked": "2026-01-10T18:20:16.604307",
       "total_incidents": 1,
       "last_incident_at": "2025-10-18T22:23:24"
     },
@@ -74,7 +74,7 @@
       "color": "#20808d",
       "description": "AI-Powered Search",
       "current_status": "operational",
-      "last_checked": "2026-01-10T17:12:06.614514",
+      "last_checked": "2026-01-10T18:20:16.909431",
       "total_incidents": 0,
       "last_incident_at": null
     },
@@ -87,7 +87,7 @@
       "color": "#f2a73b",
       "description": "Open and Portable AI",
       "current_status": "operational",
-      "last_checked": "2026-01-10T17:12:06.860886",
+      "last_checked": "2026-01-10T18:20:17.369757",
       "total_incidents": 0,
       "last_incident_at": null
     },
@@ -100,7 +100,7 @@
       "color": "#7c3aed",
       "description": "Leading Open Source AI",
       "current_status": "operational",
-      "last_checked": "2026-01-10T17:12:11.030379",
+      "last_checked": "2026-01-10T18:20:21.941250",
       "total_incidents": 0,
       "last_incident_at": null
     },
@@ -113,7 +113,7 @@
       "color": "#000000",
       "description": "Grok AI Assistant",
       "current_status": "operational",
-      "last_checked": "2026-01-10T17:12:11.358665",
+      "last_checked": "2026-01-10T18:20:22.196685",
       "total_incidents": 0,
       "last_incident_at": null
     },
@@ -126,7 +126,7 @@
       "color": "#ff3366",
       "description": "Real-time Voice AI",
       "current_status": "operational",
-      "last_checked": "2026-01-10T17:12:11.735776",
+      "last_checked": "2026-01-10T18:20:22.704793",
       "total_incidents": 20,
       "last_incident_at": "2025-12-18T20:10:45"
     },
@@ -139,7 +139,7 @@
       "color": "#38bdf8",
       "description": "Voice AI Platform",
       "current_status": "operational",
-      "last_checked": "2026-01-10T17:12:12.118751",
+      "last_checked": "2026-01-10T18:20:23.071858",
       "total_incidents": 20,
       "last_incident_at": "2025-12-10T20:05:05"
     },
@@ -152,7 +152,7 @@
       "color": "#4c1d95",
       "description": "Stable Diffusion & Audio",
       "current_status": "resolved",
-      "last_checked": "2026-01-10T17:12:12.453229",
+      "last_checked": "2026-01-10T18:20:23.363072",
       "total_incidents": 1,
       "last_incident_at": "2025-11-18T18:15:22"
     },
@@ -165,7 +165,7 @@
       "color": "#fbbf24",
       "description": "The AI Community",
       "current_status": "operational",
-      "last_checked": "2026-01-10T17:12:13.833381",
+      "last_checked": "2026-01-10T18:20:25.143927",
       "total_incidents": 0,
       "last_incident_at": null
     },
@@ -178,11 +178,11 @@
       "color": "#000000",
       "description": "Run AI with an API",
       "current_status": "operational",
-      "last_checked": "2026-01-10T17:12:15.464111",
+      "last_checked": "2026-01-10T18:20:26.112974",
       "total_incidents": 0,
       "last_incident_at": null
     }
   },
   "count": 14,
-  "last_updated": "2026-01-10T17:12:15.464709"
+  "last_updated": "2026-01-10T18:20:26.113515"
 }
