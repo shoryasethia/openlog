@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-10T21:12:44.944367",
+      "timestamp": "2026-01-10T22:13:39.220088",
       "resolved_at": null
     },
     {
@@ -67,9 +67,9 @@
       "status": "resolved",
       "message": "Status: Resolved ChatGPT and API functionality should now be fully restored.",
       "affected_products": [
-        "Conversations",
         "Chat Completions",
-        "Responses"
+        "Responses",
+        "Conversations"
       ],
       "timestamp": "2026-01-08T21:12:00",
       "resolved_at": null
@@ -143,19 +143,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
+        "Codex",
+        "ChatGPT Atlas",
+        "Login",
         "File uploads",
         "Conversations",
-        "Compliance API",
-        "Deep Research",
-        "Codex",
-        "Login",
-        "Voice mode",
-        "Search",
-        "Image Generation",
         "GPTs",
         "Agent",
+        "Deep Research",
         "Connectors",
-        "ChatGPT Atlas"
+        "Voice mode",
+        "Search",
+        "Compliance API",
+        "Image Generation"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
@@ -192,8 +192,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "GPTs",
-        "Conversations"
+        "Conversations",
+        "GPTs"
       ],
       "timestamp": "2025-12-25T09:41:27",
       "resolved_at": null
@@ -228,19 +228,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Voice mode",
-        "Conversations",
-        "Deep Research",
-        "Connectors",
-        "ChatGPT Atlas",
-        "Login",
-        "File uploads",
         "Search",
         "Compliance API",
         "Image Generation",
-        "GPTs",
         "Agent",
-        "Codex"
+        "Codex",
+        "ChatGPT Atlas",
+        "Login",
+        "File uploads",
+        "Voice mode",
+        "Conversations",
+        "GPTs",
+        "Deep Research",
+        "Connectors"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -384,8 +384,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Responses",
-        "Codex"
+        "Codex",
+        "Responses"
       ],
       "timestamp": "2025-12-17T04:12:31",
       "resolved_at": null
@@ -468,8 +468,8 @@
       "status": "resolved",
       "message": "Status: Resolved The affected Github connectors should now be fully restored. Users should be able to use Codex (including code reviews) and ChatGPT with the Github connector without issue.",
       "affected_products": [
-        "Connectors",
-        "Codex"
+        "Codex",
+        "Connectors"
       ],
       "timestamp": "2025-12-12T19:52:11",
       "resolved_at": null
@@ -517,19 +517,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Deep Research",
-        "Codex",
-        "Login",
-        "Voice mode",
-        "Search",
         "Conversations",
+        "Image Generation",
         "GPTs",
-        "Agent",
-        "Connectors",
+        "Deep Research",
         "ChatGPT Atlas",
         "File uploads",
+        "Search",
         "Compliance API",
-        "Image Generation"
+        "Agent",
+        "Codex",
+        "Connectors",
+        "Login",
+        "Voice mode"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -1000,5 +1000,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-10T21:12:56.188341"
+  "last_updated": "2026-01-10T22:13:49.943071"
 }
