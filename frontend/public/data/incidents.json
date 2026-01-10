@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-10T15:13:40.215750",
+      "timestamp": "2026-01-10T16:16:31.979204",
       "resolved_at": null
     },
     {
@@ -21,9 +21,9 @@
       "provider": "anthropic",
       "title": "Elevated error rates on Sonnet 4.5 1M context",
       "status": "operational",
-      "message": "Jan 10 , 15:00 UTC Identified - The issue has been identified and a fix is being implemented. Jan 10 , 14:36 UTC Update - We are continuing to investigate this issue. Jan 10 , 14:33 UTC Investigating - We are currently investigating this issue.",
+      "message": "Jan 10 , 15:41 UTC Resolved - This incident has been resolved. Jan 10 , 15:16 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jan 10 , 15:00 UTC Identified - The issue has been identified and a fix is being implemented. Jan 10 , 14:36 UTC Update - We are continuing to investigate this issue. Jan 10 , 14:33 UTC Investigating - We are currently investigating this issue.",
       "affected_products": [],
-      "timestamp": "2026-01-10T15:00:05",
+      "timestamp": "2026-01-10T15:41:45",
       "resolved_at": null
     },
     {
@@ -146,16 +146,16 @@
         "Login",
         "Voice mode",
         "Conversations",
-        "GPTs",
-        "Deep Research",
-        "Codex",
-        "File uploads",
-        "Search",
         "Compliance API",
         "Image Generation",
         "Agent",
-        "Connectors",
-        "ChatGPT Atlas"
+        "Codex",
+        "ChatGPT Atlas",
+        "File uploads",
+        "Search",
+        "GPTs",
+        "Deep Research",
+        "Connectors"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
@@ -228,19 +228,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Compliance API",
-        "Agent",
+        "GPTs",
         "Codex",
         "ChatGPT Atlas",
-        "File uploads",
+        "Login",
         "Voice mode",
+        "Search",
         "Conversations",
         "Image Generation",
-        "GPTs",
+        "Agent",
         "Deep Research",
         "Connectors",
-        "Login",
-        "Search"
+        "File uploads",
+        "Compliance API"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -384,8 +384,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Codex",
-        "Responses"
+        "Responses",
+        "Codex"
       ],
       "timestamp": "2025-12-17T04:12:31",
       "resolved_at": null
@@ -517,19 +517,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Search",
+        "File uploads",
+        "Conversations",
         "Compliance API",
-        "Agent",
+        "GPTs",
         "Deep Research",
-        "Codex",
+        "Connectors",
         "Login",
         "Voice mode",
-        "Conversations",
+        "Search",
         "Image Generation",
-        "GPTs",
-        "Connectors",
-        "ChatGPT Atlas",
-        "File uploads"
+        "Agent",
+        "Codex",
+        "ChatGPT Atlas"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -1000,5 +1000,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-10T15:13:51.597610"
+  "last_updated": "2026-01-10T16:16:41.661157"
 }
