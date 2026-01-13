@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-13T17:21:45.006124",
+      "timestamp": "2026-01-13T18:23:30.410607",
       "resolved_at": null
     },
     {
@@ -189,19 +189,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
+        "Image Generation",
+        "Deep Research",
+        "Codex",
         "Login",
         "File uploads",
         "Voice mode",
         "Search",
-        "Compliance API",
         "GPTs",
         "Agent",
-        "Deep Research",
-        "Conversations",
-        "Image Generation",
-        "Codex",
         "Connectors",
-        "ChatGPT Atlas"
+        "ChatGPT Atlas",
+        "Conversations",
+        "Compliance API"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
@@ -277,15 +277,15 @@
         "Login",
         "File uploads",
         "Voice mode",
-        "Search",
-        "Conversations",
-        "Compliance API",
         "Image Generation",
         "GPTs",
-        "Agent",
         "Deep Research",
         "Codex",
         "Connectors",
+        "Search",
+        "Conversations",
+        "Compliance API",
+        "Agent",
         "ChatGPT Atlas"
       ],
       "timestamp": "2025-12-21T21:33:27",
@@ -530,19 +530,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
+        "Deep Research",
         "ChatGPT Atlas",
         "Login",
         "File uploads",
         "Conversations",
-        "Compliance API",
+        "Image Generation",
         "GPTs",
+        "Agent",
         "Codex",
+        "Connectors",
         "Voice mode",
         "Search",
-        "Image Generation",
-        "Agent",
-        "Deep Research",
-        "Connectors"
+        "Compliance API"
       ],
       "timestamp": "2025-12-10T23:27:08",
       "resolved_at": null
@@ -1000,5 +1000,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-13T17:21:55.039819"
+  "last_updated": "2026-01-13T18:23:46.596102"
 }
