@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-14T17:22:07.803435",
+      "timestamp": "2026-01-14T18:23:59.852979",
       "resolved_at": null
     },
     {
@@ -137,9 +137,9 @@
       "status": "resolved",
       "message": "Status: Resolved ChatGPT and API functionality should now be fully restored.",
       "affected_products": [
-        "Responses",
         "Conversations",
-        "Chat Completions"
+        "Chat Completions",
+        "Responses"
       ],
       "timestamp": "2026-01-08T21:12:00",
       "resolved_at": null
@@ -218,14 +218,14 @@
         "Conversations",
         "Image Generation",
         "GPTs",
-        "Agent",
         "Deep Research",
-        "ChatGPT Atlas",
-        "Login",
         "Voice mode",
         "Compliance API",
+        "Agent",
         "Codex",
-        "Connectors"
+        "Connectors",
+        "ChatGPT Atlas",
+        "Login"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
@@ -298,19 +298,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "File uploads",
-        "Search",
-        "Conversations",
-        "GPTs",
-        "Agent",
+        "Connectors",
         "ChatGPT Atlas",
-        "Login",
         "Voice mode",
+        "Conversations",
         "Compliance API",
         "Image Generation",
+        "GPTs",
+        "Login",
+        "File uploads",
+        "Search",
+        "Agent",
         "Deep Research",
-        "Codex",
-        "Connectors"
+        "Codex"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -516,8 +516,8 @@
       "status": "resolved",
       "message": "Status: Resolved The affected Github connectors should now be fully restored. Users should be able to use Codex (including code reviews) and ChatGPT with the Github connector without issue.",
       "affected_products": [
-        "Codex",
-        "Connectors"
+        "Connectors",
+        "Codex"
       ],
       "timestamp": "2025-12-12T19:52:11",
       "resolved_at": null
@@ -988,5 +988,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-14T17:22:18.737426"
+  "last_updated": "2026-01-14T18:24:12.288720"
 }
