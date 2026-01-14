@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-14T10:17:53.342847",
+      "timestamp": "2026-01-14T11:15:34.010819",
       "resolved_at": null
     },
     {
@@ -21,9 +21,9 @@
       "provider": "anthropic",
       "title": "Elevated error rates on Opus 4.5 and Sonnet 4.5",
       "status": "operational",
-      "message": "Jan 14 , 10:16 UTC Identified - The issue has been identified and a fix is being implemented. Jan 14 , 09:52 UTC Update - We are continuing to monitor for any further issues. Jan 14 , 09:34 UTC Monitoring - A fix is being rolled out and we are monitoring the results. Jan 14 , 08:45 UTC Identified - The issue has been identified and a fix is being implemented. Jan 14 , 08:34 UTC Investigating - We are currently investigating this issue.",
+      "message": "Jan 14 , 10:46 UTC Update - We are continuing to work on a fix for this issue. Jan 14 , 10:24 UTC Update - We are continuing to work on a fix for this issue. Jan 14 , 10:16 UTC Identified - The issue has been identified and a fix is being implemented. Jan 14 , 09:52 UTC Update - We are continuing to monitor for any further issues. Jan 14 , 09:34 UTC Monitoring - A fix is being rolled out and we are monitoring the results. Jan 14 , 08:45 UTC Identified - The issue has been identified and a fix is",
       "affected_products": [],
-      "timestamp": "2026-01-14T10:16:09",
+      "timestamp": "2026-01-14T10:46:29",
       "resolved_at": null
     },
     {
@@ -213,18 +213,18 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Search",
-        "Compliance API",
-        "GPTs",
-        "Deep Research",
-        "Codex",
-        "Connectors",
-        "Login",
         "File uploads",
         "Voice mode",
+        "Search",
+        "GPTs",
+        "Codex",
+        "Login",
         "Conversations",
+        "Compliance API",
         "Image Generation",
         "Agent",
+        "Deep Research",
+        "Connectors",
         "ChatGPT Atlas"
       ],
       "timestamp": "2026-01-06T21:00:00",
@@ -262,8 +262,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Conversations",
-        "GPTs"
+        "GPTs",
+        "Conversations"
       ],
       "timestamp": "2025-12-25T09:41:27",
       "resolved_at": null
@@ -298,19 +298,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Search",
-        "Conversations",
-        "Compliance API",
-        "Deep Research",
-        "ChatGPT Atlas",
         "Image Generation",
-        "GPTs",
         "Agent",
+        "Deep Research",
         "Codex",
+        "Voice mode",
+        "Conversations",
+        "GPTs",
         "Connectors",
+        "ChatGPT Atlas",
         "Login",
         "File uploads",
-        "Voice mode"
+        "Search",
+        "Compliance API"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -454,8 +454,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Responses",
-        "Codex"
+        "Codex",
+        "Responses"
       ],
       "timestamp": "2025-12-17T04:12:31",
       "resolved_at": null
@@ -988,5 +988,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-14T10:18:04.613205"
+  "last_updated": "2026-01-14T11:15:45.526687"
 }
