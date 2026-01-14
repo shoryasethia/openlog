@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-14T16:21:28.012970",
+      "timestamp": "2026-01-14T17:22:07.803435",
       "resolved_at": null
     },
     {
@@ -137,9 +137,9 @@
       "status": "resolved",
       "message": "Status: Resolved ChatGPT and API functionality should now be fully restored.",
       "affected_products": [
+        "Responses",
         "Conversations",
-        "Chat Completions",
-        "Responses"
+        "Chat Completions"
       ],
       "timestamp": "2026-01-08T21:12:00",
       "resolved_at": null
@@ -213,19 +213,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
+        "File uploads",
         "Search",
         "Conversations",
-        "Compliance API",
         "Image Generation",
         "GPTs",
-        "Codex",
+        "Agent",
+        "Deep Research",
         "ChatGPT Atlas",
         "Login",
         "Voice mode",
-        "Agent",
-        "Deep Research",
-        "Connectors",
-        "File uploads"
+        "Compliance API",
+        "Codex",
+        "Connectors"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
@@ -298,19 +298,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "GPTs",
-        "Deep Research",
-        "ChatGPT Atlas",
         "File uploads",
+        "Search",
         "Conversations",
-        "Compliance API",
-        "Image Generation",
+        "GPTs",
         "Agent",
-        "Codex",
-        "Connectors",
+        "ChatGPT Atlas",
         "Login",
         "Voice mode",
-        "Search"
+        "Compliance API",
+        "Image Generation",
+        "Deep Research",
+        "Codex",
+        "Connectors"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -988,5 +988,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-14T16:21:38.095363"
+  "last_updated": "2026-01-14T17:22:18.737426"
 }
