@@ -4,8 +4,8 @@
       "period_days": 7,
       "incident_counts": {
         "google": 1,
+        "anthropic": 10,
         "openai": 6,
-        "anthropic": 9,
         "groq": 0,
         "cohere": 0,
         "perplexity": 0,
@@ -24,8 +24,8 @@
           "incident_count": 6
         },
         "anthropic": {
-          "uptime_percentage": 94.64,
-          "incident_count": 9
+          "uptime_percentage": 94.05,
+          "incident_count": 10
         },
         "google": {
           "uptime_percentage": 99.4,
@@ -82,8 +82,8 @@
       "period_days": 30,
       "incident_counts": {
         "google": 1,
-        "openai": 17,
         "anthropic": 20,
+        "openai": 17,
         "cartesia": 1,
         "groq": 0,
         "cohere": 0,
@@ -160,8 +160,8 @@
       "period_days": 90,
       "incident_counts": {
         "google": 1,
-        "openai": 20,
         "anthropic": 20,
+        "openai": 20,
         "cartesia": 5,
         "deepgram": 8,
         "stability": 1,
@@ -235,5 +235,5 @@
       "mttr": {}
     }
   },
-  "last_updated": "2026-01-14T08:21:29.597837"
+  "last_updated": "2026-01-14T09:22:50.080379"
 }
