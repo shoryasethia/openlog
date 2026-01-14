@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-14T12:30:52.995445",
+      "timestamp": "2026-01-14T13:35:52.194289",
       "resolved_at": null
     },
     {
@@ -21,9 +21,9 @@
       "provider": "anthropic",
       "title": "Elevated error rates on Opus 4.5 and Sonnet 4.5",
       "status": "operational",
-      "message": "Jan 14 , 11:22 UTC Update - We are continuing to work on a fix for this issue. Jan 14 , 10:46 UTC Update - We are continuing to work on a fix for this issue. Jan 14 , 10:24 UTC Update - We are continuing to work on a fix for this issue. Jan 14 , 10:16 UTC Identified - The issue has been identified and a fix is being implemented. Jan 14 , 09:52 UTC Update - We are continuing to monitor for any further issues. Jan 14 , 09:34 UTC Monitoring - A fix is being rolled out and we are monitoring the resu",
+      "message": "Jan 14 , 13:31 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jan 14 , 12:41 UTC Update - We are continuing to work on a fix for this issue. Jan 14 , 11:22 UTC Update - We are continuing to work on a fix for this issue. Jan 14 , 10:46 UTC Update - We are continuing to work on a fix for this issue. Jan 14 , 10:24 UTC Update - We are continuing to work on a fix for this issue. Jan 14 , 10:16 UTC Identified - The issue has been identified and a fix is being implement",
       "affected_products": [],
-      "timestamp": "2026-01-14T11:22:55",
+      "timestamp": "2026-01-14T13:31:39",
       "resolved_at": null
     },
     {
@@ -213,19 +213,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Login",
-        "File uploads",
         "Search",
         "Conversations",
-        "Agent",
-        "Codex",
-        "ChatGPT Atlas",
-        "Voice mode",
-        "Compliance API",
         "Image Generation",
-        "GPTs",
+        "Agent",
         "Deep Research",
-        "Connectors"
+        "Codex",
+        "Connectors",
+        "Login",
+        "File uploads",
+        "Compliance API",
+        "GPTs",
+        "ChatGPT Atlas",
+        "Voice mode"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
@@ -298,19 +298,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Conversations",
-        "Image Generation",
-        "Deep Research",
         "Codex",
-        "Connectors",
         "ChatGPT Atlas",
         "Login",
-        "File uploads",
         "Voice mode",
+        "Search",
+        "Conversations",
+        "Connectors",
+        "File uploads",
         "Compliance API",
+        "Image Generation",
         "GPTs",
         "Agent",
-        "Search"
+        "Deep Research"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -988,5 +988,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-14T12:31:04.135634"
+  "last_updated": "2026-01-14T13:36:05.119798"
 }
