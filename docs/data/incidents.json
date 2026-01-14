@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-14T03:41:41.141864",
+      "timestamp": "2026-01-14T04:41:12.613894",
       "resolved_at": null
     },
     {
@@ -203,18 +203,18 @@
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
         "File uploads",
-        "Search",
         "Conversations",
+        "GPTs",
+        "Connectors",
+        "ChatGPT Atlas",
+        "Voice mode",
+        "Search",
         "Compliance API",
         "Image Generation",
         "Agent",
-        "Codex",
-        "Connectors",
-        "Login",
-        "Voice mode",
-        "GPTs",
         "Deep Research",
-        "ChatGPT Atlas"
+        "Codex",
+        "Login"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
@@ -290,16 +290,16 @@
         "Deep Research",
         "Codex",
         "ChatGPT Atlas",
-        "Login",
-        "File uploads",
+        "Voice mode",
         "Search",
+        "Conversations",
         "Compliance API",
+        "Image Generation",
         "GPTs",
         "Agent",
         "Connectors",
-        "Voice mode",
-        "Conversations",
-        "Image Generation"
+        "Login",
+        "File uploads"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -516,8 +516,8 @@
       "status": "resolved",
       "message": "Status: Resolved The affected Github connectors should now be fully restored. Users should be able to use Codex (including code reviews) and ChatGPT with the Github connector without issue.",
       "affected_products": [
-        "Connectors",
-        "Codex"
+        "Codex",
+        "Connectors"
       ],
       "timestamp": "2025-12-12T19:52:11",
       "resolved_at": null
@@ -988,5 +988,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-14T03:41:52.645617"
+  "last_updated": "2026-01-14T04:41:25.085299"
 }
