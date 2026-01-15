@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-15T20:17:39.790846",
+      "timestamp": "2026-01-15T21:15:11.895467",
       "resolved_at": null
     },
     {
@@ -148,9 +148,9 @@
       "status": "resolved",
       "message": "Status: Resolved ChatGPT and API functionality should now be fully restored.",
       "affected_products": [
+        "Conversations",
         "Chat Completions",
-        "Responses",
-        "Conversations"
+        "Responses"
       ],
       "timestamp": "2026-01-08T21:12:00",
       "resolved_at": null
@@ -224,19 +224,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Search",
-        "Conversations",
-        "Image Generation",
+        "Compliance API",
         "GPTs",
+        "Codex",
+        "Image Generation",
         "Agent",
         "Deep Research",
-        "Codex",
         "Connectors",
+        "ChatGPT Atlas",
         "Login",
         "File uploads",
         "Voice mode",
-        "Compliance API",
-        "ChatGPT Atlas"
+        "Search",
+        "Conversations"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
@@ -312,16 +312,16 @@
         "Agent",
         "Deep Research",
         "Connectors",
-        "File uploads",
-        "Conversations",
-        "GPTs",
-        "Codex",
         "ChatGPT Atlas",
         "Login",
         "Voice mode",
         "Search",
+        "Image Generation",
+        "Codex",
+        "File uploads",
+        "Conversations",
         "Compliance API",
-        "Image Generation"
+        "GPTs"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -988,5 +988,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-15T20:17:50.692352"
+  "last_updated": "2026-01-15T21:15:21.504581"
 }
