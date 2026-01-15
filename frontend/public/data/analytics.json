@@ -4,7 +4,7 @@
       "period_days": 7,
       "incident_counts": {
         "google": 1,
-        "anthropic": 8,
+        "anthropic": 9,
         "openai": 3,
         "groq": 0,
         "cohere": 0,
@@ -24,8 +24,8 @@
           "incident_count": 3
         },
         "anthropic": {
-          "uptime_percentage": 95.24,
-          "incident_count": 8
+          "uptime_percentage": 94.64,
+          "incident_count": 9
         },
         "google": {
           "uptime_percentage": 99.4,
@@ -235,5 +235,5 @@
       "mttr": {}
     }
   },
-  "last_updated": "2026-01-15T07:20:43.780219"
+  "last_updated": "2026-01-15T08:22:41.834256"
 }
