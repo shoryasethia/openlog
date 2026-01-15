@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-15T08:22:29.606325",
+      "timestamp": "2026-01-15T09:21:40.510132",
       "resolved_at": null
     },
     {
@@ -148,9 +148,9 @@
       "status": "resolved",
       "message": "Status: Resolved ChatGPT and API functionality should now be fully restored.",
       "affected_products": [
+        "Responses",
         "Conversations",
-        "Chat Completions",
-        "Responses"
+        "Chat Completions"
       ],
       "timestamp": "2026-01-08T21:12:00",
       "resolved_at": null
@@ -224,19 +224,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "ChatGPT Atlas",
+        "Connectors",
         "Login",
-        "File uploads",
-        "Conversations",
-        "Compliance API",
-        "Agent",
-        "Voice mode",
         "Search",
-        "Image Generation",
-        "GPTs",
         "Deep Research",
         "Codex",
-        "Connectors"
+        "ChatGPT Atlas",
+        "File uploads",
+        "Voice mode",
+        "Conversations",
+        "Compliance API",
+        "Image Generation",
+        "GPTs",
+        "Agent"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
@@ -310,18 +310,18 @@
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
         "Login",
-        "Voice mode",
+        "File uploads",
+        "Search",
         "Conversations",
         "Compliance API",
         "Image Generation",
         "Codex",
         "Connectors",
-        "ChatGPT Atlas",
-        "File uploads",
-        "Search",
+        "Voice mode",
         "GPTs",
         "Agent",
-        "Deep Research"
+        "Deep Research",
+        "ChatGPT Atlas"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -988,5 +988,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-15T08:22:41.833096"
+  "last_updated": "2026-01-15T09:21:50.282164"
 }
