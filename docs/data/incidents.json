@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-16T05:20:19.459173",
+      "timestamp": "2026-01-16T06:24:11.381843",
       "resolved_at": null
     },
     {
@@ -224,19 +224,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "File uploads",
-        "Search",
-        "Compliance API",
         "Agent",
         "Deep Research",
+        "Codex",
         "Connectors",
-        "Login",
         "Voice mode",
         "Conversations",
-        "Image Generation",
+        "Compliance API",
         "GPTs",
-        "Codex",
-        "ChatGPT Atlas"
+        "ChatGPT Atlas",
+        "Login",
+        "File uploads",
+        "Search",
+        "Image Generation"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
@@ -309,19 +309,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
+        "Login",
         "File uploads",
-        "Voice mode",
         "Search",
-        "Compliance API",
-        "Image Generation",
+        "Conversations",
         "GPTs",
         "Agent",
-        "ChatGPT Atlas",
-        "Login",
-        "Conversations",
         "Deep Research",
         "Codex",
-        "Connectors"
+        "Voice mode",
+        "Compliance API",
+        "Image Generation",
+        "Connectors",
+        "ChatGPT Atlas"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -516,8 +516,8 @@
       "status": "resolved",
       "message": "Status: Resolved The affected Github connectors should now be fully restored. Users should be able to use Codex (including code reviews) and ChatGPT with the Github connector without issue.",
       "affected_products": [
-        "Connectors",
-        "Codex"
+        "Codex",
+        "Connectors"
       ],
       "timestamp": "2025-12-12T19:52:11",
       "resolved_at": null
@@ -988,5 +988,5 @@
     }
   ],
   "count": 83,
-  "last_updated": "2026-01-16T05:20:31.451730"
+  "last_updated": "2026-01-16T06:24:22.626739"
 }
