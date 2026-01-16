@@ -165,8 +165,8 @@
         "cartesia": 5,
         "deepgram": 7,
         "stability": 1,
-        "cohere": 1,
         "groq": 0,
+        "cohere": 0,
         "perplexity": 0,
         "mistral": 0,
         "together": 0,
@@ -192,8 +192,8 @@
           "incident_count": 0
         },
         "cohere": {
-          "uptime_percentage": 99.95,
-          "incident_count": 1
+          "uptime_percentage": 100.0,
+          "incident_count": 0
         },
         "perplexity": {
           "uptime_percentage": 100.0,
@@ -235,5 +235,5 @@
       "mttr": {}
     }
   },
-  "last_updated": "2026-01-16T22:14:54.889668"
+  "last_updated": "2026-01-16T23:14:25.252194"
 }
