@@ -83,7 +83,7 @@
       "incident_counts": {
         "google": 1,
         "anthropic": 18,
-        "openai": 14,
+        "openai": 12,
         "groq": 0,
         "cohere": 0,
         "perplexity": 0,
@@ -98,8 +98,8 @@
       },
       "uptime": {
         "openai": {
-          "uptime_percentage": 98.06,
-          "incident_count": 14
+          "uptime_percentage": 98.33,
+          "incident_count": 12
         },
         "anthropic": {
           "uptime_percentage": 97.5,
@@ -235,5 +235,5 @@
       "mttr": {}
     }
   },
-  "last_updated": "2026-01-17T22:13:52.331407"
+  "last_updated": "2026-01-17T23:13:51.590033"
 }
