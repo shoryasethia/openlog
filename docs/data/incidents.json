@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-16T23:14:14.469221",
+      "timestamp": "2026-01-17T01:07:13.507489",
       "resolved_at": null
     },
     {
@@ -224,19 +224,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
+        "Conversations",
+        "Compliance API",
+        "ChatGPT Atlas",
         "File uploads",
-        "Search",
+        "Voice mode",
         "Image Generation",
+        "GPTs",
         "Agent",
         "Deep Research",
         "Codex",
         "Connectors",
-        "ChatGPT Atlas",
         "Login",
-        "Voice mode",
-        "Conversations",
-        "Compliance API",
-        "GPTs"
+        "Search"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
@@ -309,19 +309,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Login",
         "File uploads",
+        "Search",
+        "Compliance API",
+        "Image Generation",
+        "ChatGPT Atlas",
+        "Login",
         "Voice mode",
         "Conversations",
-        "Compliance API",
         "GPTs",
+        "Agent",
         "Deep Research",
         "Codex",
-        "Search",
-        "Image Generation",
-        "Agent",
-        "Connectors",
-        "ChatGPT Atlas"
+        "Connectors"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -668,17 +668,6 @@
       "resolved_at": null
     },
     {
-      "id": 1,
-      "incident_id": "https://status.cohere.com//incidents/01K7WMKZTGGPADA69MEAE9P4TY",
-      "provider": "cohere",
-      "title": "Chat models return 503 service error when /v1/chat requests omit message and chat_history while providing tool_results",
-      "status": "resolved",
-      "message": "Status: Resolved \ud83c\udf89 The issue has been resolved and we are back to normal.",
-      "affected_products": [],
-      "timestamp": "2025-10-18T22:23:24",
-      "resolved_at": null
-    },
-    {
       "id": 8,
       "incident_id": "https://status.deepgram.com/incidents/8x1c7pgsjj3n",
       "provider": "deepgram",
@@ -987,6 +976,6 @@
       "resolved_at": null
     }
   ],
-  "count": 83,
-  "last_updated": "2026-01-16T23:14:25.251004"
+  "count": 82,
+  "last_updated": "2026-01-17T01:07:24.942618"
 }
