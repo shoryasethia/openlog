@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-17T04:27:06.428674",
+      "timestamp": "2026-01-17T05:15:16.524106",
       "resolved_at": null
     },
     {
@@ -148,9 +148,9 @@
       "status": "resolved",
       "message": "Status: Resolved ChatGPT and API functionality should now be fully restored.",
       "affected_products": [
-        "Responses",
         "Conversations",
-        "Chat Completions"
+        "Chat Completions",
+        "Responses"
       ],
       "timestamp": "2026-01-08T21:12:00",
       "resolved_at": null
@@ -224,19 +224,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "Search",
-        "Agent",
-        "Deep Research",
-        "Codex",
-        "ChatGPT Atlas",
-        "Voice mode",
+        "Connectors",
         "Conversations",
         "Compliance API",
-        "Image Generation",
         "GPTs",
-        "Connectors",
+        "Codex",
+        "ChatGPT Atlas",
         "Login",
-        "File uploads"
+        "File uploads",
+        "Voice mode",
+        "Search",
+        "Image Generation",
+        "Agent",
+        "Deep Research"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
@@ -273,8 +273,8 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "GPTs",
-        "Conversations"
+        "Conversations",
+        "GPTs"
       ],
       "timestamp": "2025-12-25T09:41:27",
       "resolved_at": null
@@ -309,19 +309,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "File uploads",
-        "Search",
-        "Compliance API",
         "GPTs",
-        "Deep Research",
-        "ChatGPT Atlas",
-        "Login",
-        "Voice mode",
-        "Conversations",
-        "Image Generation",
         "Agent",
         "Codex",
-        "Connectors"
+        "Connectors",
+        "ChatGPT Atlas",
+        "File uploads",
+        "Voice mode",
+        "Search",
+        "Compliance API",
+        "Image Generation",
+        "Deep Research",
+        "Login",
+        "Conversations"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -977,5 +977,5 @@
     }
   ],
   "count": 82,
-  "last_updated": "2026-01-17T04:27:16.544533"
+  "last_updated": "2026-01-17T05:15:27.743215"
 }
