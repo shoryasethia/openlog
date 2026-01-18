@@ -12,7 +12,7 @@
         "Strengthen safety controls for hardware upgrade workflows by end of Q3 2025.",
         "Design and implement a mechanism to prevent control plane partitioning in case of dual failure of upstream routers by end of Q4 2025."
       ],
-      "timestamp": "2026-01-18T08:18:45.935122",
+      "timestamp": "2026-01-18T09:14:48.739843",
       "resolved_at": null
     },
     {
@@ -148,9 +148,9 @@
       "status": "resolved",
       "message": "Status: Resolved ChatGPT and API functionality should now be fully restored.",
       "affected_products": [
+        "Responses",
         "Conversations",
-        "Chat Completions",
-        "Responses"
+        "Chat Completions"
       ],
       "timestamp": "2026-01-08T21:12:00",
       "resolved_at": null
@@ -224,19 +224,19 @@
       "status": "resolved",
       "message": "Status: Resolved All impacted services have now fully recovered.",
       "affected_products": [
-        "ChatGPT Atlas",
-        "File uploads",
-        "Voice mode",
-        "Conversations",
-        "Compliance API",
         "GPTs",
+        "Codex",
         "Connectors",
         "Login",
-        "Search",
-        "Image Generation",
+        "File uploads",
+        "Voice mode",
         "Agent",
         "Deep Research",
-        "Codex"
+        "ChatGPT Atlas",
+        "Search",
+        "Conversations",
+        "Compliance API",
+        "Image Generation"
       ],
       "timestamp": "2026-01-06T21:00:00",
       "resolved_at": null
@@ -311,17 +311,17 @@
       "affected_products": [
         "ChatGPT Atlas",
         "File uploads",
-        "Search",
-        "Compliance API",
-        "Image Generation",
-        "GPTs",
-        "Agent",
-        "Deep Research",
-        "Codex",
-        "Login",
         "Voice mode",
         "Conversations",
-        "Connectors"
+        "Compliance API",
+        "Agent",
+        "Codex",
+        "Connectors",
+        "Login",
+        "Search",
+        "Image Generation",
+        "GPTs",
+        "Deep Research"
       ],
       "timestamp": "2025-12-21T21:33:27",
       "resolved_at": null
@@ -977,5 +977,5 @@
     }
   ],
   "count": 82,
-  "last_updated": "2026-01-18T08:19:10.157405"
+  "last_updated": "2026-01-18T09:15:00.572761"
 }
